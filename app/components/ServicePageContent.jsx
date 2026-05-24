@@ -259,7 +259,7 @@ export default function ServicePageContent({ service }) {
               <Phone className="w-5 h-5" aria-hidden />
               {SITE_PHONE_DISPLAY}
             </Button>
-            <Button href="/reservation" variant="reservation" size="lg" className="gap-2 font-bold">
+            <Button href="/reservation" variant="soft" size="xl" className="gap-2 font-bold">
               <CalendarCheck className="w-5 h-5" aria-hidden />
               Réserver en ligne
             </Button>

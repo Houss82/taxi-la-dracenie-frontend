@@ -7,8 +7,10 @@ import {
   SITE_PHONE_TEL,
   SITE_WHATSAPP_URL,
 } from "@/app/lib/contact";
-import { ALL_CITY_SLUGS } from "@/app/lib/site";
-import { cities } from "@/app/lib/cities";
+import {
+  getAllCityNavLinks,
+  getAllServiceNavLinks,
+} from "@/app/lib/navigation";
 
 export default function Footer() {
   return (
@@ -31,10 +33,10 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Villes</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              {ALL_CITY_SLUGS.slice(0, 6).map((slug) => (
-                <li key={slug}>
-                  <Link href={`/${slug}`} className="hover:text-accent transition-colors">
-                    Taxi {cities[slug].name}
+              {getAllCityNavLinks().map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="hover:text-accent transition-colors">
+                    {link.label}
                   </Link>
                 </li>
               ))}
@@ -44,21 +46,13 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Services</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>
-                <Link href="/taxi-conventionne-dracenie" className="hover:text-accent">
-                  Taxi conventionné
-                </Link>
-              </li>
-              <li>
-                <Link href="/taxi-aeroport-nice-dracenie" className="hover:text-accent">
-                  Aéroport Nice
-                </Link>
-              </li>
-              <li>
-                <Link href="/taxi-gare-les-arcs-draguignan" className="hover:text-accent">
-                  Gare Les Arcs
-                </Link>
-              </li>
+              {getAllServiceNavLinks().map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="hover:text-accent transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
               <li>
                 <Link href="/reservation" className="hover:text-accent">
                   Réservation

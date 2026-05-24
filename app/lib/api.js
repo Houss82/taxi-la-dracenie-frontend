@@ -15,7 +15,7 @@ export async function createReservation(reservationData) {
     });
   } catch {
     throw new Error(
-      "Impossible de joindre le serveur de réservation. En local, lancez l'API backend (port 3001) ou appelez le 04 22 46 04 62."
+      "Impossible de joindre le serveur de réservation. Réessayez dans un instant ou appelez le 04 22 46 04 62."
     );
   }
 
