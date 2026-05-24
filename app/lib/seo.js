@@ -1,5 +1,5 @@
 import { SITE_PHONE_DISPLAY, SITE_PHONE_E164, SITE_EMAIL } from "./contact";
-import { SITE_NAME, SITE_URL } from "./site";
+import { SITE_NAME, SITE_URL, SITE_LOGO_URL } from "./site";
 
 export function buildPageMetadata({
   title,
@@ -78,7 +78,7 @@ export function buildLocalBusinessJsonLd({ name, url, areaServed = [] }) {
     url,
     telephone: SITE_PHONE_E164,
     email: SITE_EMAIL,
-    image: `${SITE_URL}/logo.svg`,
+    image: SITE_LOGO_URL,
     areaServed,
     address: {
       "@type": "PostalAddress",

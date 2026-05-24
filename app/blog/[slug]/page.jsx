@@ -5,7 +5,7 @@ import {
   SITE_PHONE_E164,
   SITE_PHONE_TEL,
 } from "@/app/lib/contact";
-import { SITE_NAME, SITE_URL } from "@/app/lib/site";
+import { SITE_NAME, SITE_URL, SITE_LOGO_URL } from "@/app/lib/site";
 import { getAllPosts, getAllPostSlugs, getPostBySlug } from "@/lib/blog";
 import Image from "next/image";
 import Link from "next/link";
@@ -127,7 +127,7 @@ export default async function BlogPostPage({ params }) {
                   name: SITE_NAME,
                   logo: {
                     "@type": "ImageObject",
-                    url: `${SITE_URL}/logo.svg`,
+                    url: SITE_LOGO_URL,
                   },
                 },
                 description: post.excerpt,

@@ -20,6 +20,7 @@ import {
   SITE_PHONE_DISPLAY,
   SITE_PHONE_TEL,
 } from "@/app/lib/contact";
+import { SITE_LOGO, SITE_NAME } from "@/app/lib/site";
 import { useMobileMenu } from "./MobileMenuContext";
 
 function hasSubmenu(item) {
@@ -137,8 +138,8 @@ export default function HeaderClient({ navItems, children }) {
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-3 min-w-0">
                   <Image
-                    src="/logo.svg"
-                    alt="Taxis La Dracénie"
+                    src={SITE_LOGO}
+                    alt={SITE_NAME}
                     width={48}
                     height={48}
                     className="h-12 w-12 object-contain shrink-0 shadow-lg rounded-xl"

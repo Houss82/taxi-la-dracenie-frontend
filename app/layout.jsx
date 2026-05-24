@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import MobileScrollCTA from "./components/client/MobileScrollCTA";
 import { Providers } from "./providers";
 import "./globals.css";
-import { SITE_NAME, SITE_URL } from "./lib/site";
+import { SITE_NAME, SITE_URL, SITE_LOGO, SITE_LOGO_URL } from "./lib/site";
 import { SITE_PHONE_DISPLAY } from "./lib/contact";
 
 const inter = Inter({
@@ -30,6 +30,11 @@ export const metadata = {
     "taxi gare Les Arcs Draguignan",
   ],
   alternates: { canonical: "/" },
+  icons: {
+    icon: [{ url: SITE_LOGO, sizes: "500x500", type: "image/png" }],
+    apple: [{ url: SITE_LOGO, sizes: "500x500", type: "image/png" }],
+    shortcut: SITE_LOGO,
+  },
   openGraph: {
     title: "Taxi en Dracénie – Taxis La Dracénie",
     description:
@@ -38,6 +43,14 @@ export const metadata = {
     siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: SITE_LOGO_URL,
+        width: 500,
+        height: 500,
+        alt: SITE_NAME,
+      },
+    ],
   },
   robots: { index: true, follow: true },
 };

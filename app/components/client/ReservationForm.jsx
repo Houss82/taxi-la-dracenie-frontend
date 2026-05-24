@@ -1,12 +1,39 @@
 "use client";
 
+import { AlertCircle } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { createReservation } from "@/app/lib/api";
-import { SITE_PHONE_DISPLAY, SITE_PHONE_TEL } from "@/app/lib/contact";
 import Button from "@/app/components/ui/Button";
 import Card from "@/app/components/ui/Card";
+import { createReservation } from "@/app/lib/api";
+import { FORMSPREE_RESERVATION_URL } from "@/app/lib/formspree";
+import { setReservationConfirmationFlag } from "@/app/lib/reservation-confirmation";
+
+function extractCountryCode(raw) {
+  const phone = (raw || "").trim();
+  if (!phone) return { indicatifPays: "+33", telephone: "" };
+
+  const digits = phone.replace(/\D/g, "");
+
+  if (digits.startsWith("33") && digits.length >= 10) {
+    let national = digits.slice(2);
+    if (national.startsWith("0")) national = national.slice(1);
+    return { indicatifPays: "+33", telephone: national };
+  }
+
+  if (digits.length >= 10 && digits.startsWith("0")) {
+    return { indicatifPays: "+33", telephone: digits.slice(1) };
+  }
+
+  if (digits.startsWith("0")) {
+    return { indicatifPays: "+33", telephone: digits.slice(1) };
+  }
+
+  return { indicatifPays: "+33", telephone: digits };
+}
 
 export default function ReservationForm() {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -19,7 +46,6 @@ export default function ReservationForm() {
     luggage: "0",
     notes: "",
   });
-  const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -33,60 +59,83 @@ export default function ReservationForm() {
     setLoading(true);
 
     try {
-      const cleanedPhone = formData.phone.replace(/\s/g, "").replace(/^0/, "");
-      await createReservation({
+      const { indicatifPays, telephone } = extractCountryCode(formData.phone);
+
+      if (!/^\d{8,15}$/.test(telephone)) {
+        setError(
+          "Numéro invalide : saisissez 8 à 15 chiffres (ex. 06 12 34 56 78 ou +33 6 12 34 56 78)."
+        );
+        setLoading(false);
+        return;
+      }
+
+      const reservationData = {
         nom: formData.name,
-        indicatifPays: "+33",
-        telephone: cleanedPhone,
+        indicatifPays,
+        telephone,
         email: formData.email || undefined,
         date: formData.date,
         heure: formData.time,
         adresseDepart: formData.from,
         adresseArrivee: formData.to,
-        nombreBagages: formData.luggage,
-        nombrePassagers: formData.passengers,
+        nombreBagages: formData.luggage.toString(),
+        nombrePassagers: formData.passengers.toString(),
         commentaires: formData.notes || undefined,
-      });
-      setSubmitted(true);
+      };
+
+      const result = await createReservation(reservationData);
+
+      if (result.result) {
+        try {
+          await fetch(FORMSPREE_RESERVATION_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              type: "Réservation Taxis La Dracénie",
+              name: formData.name,
+              phone: `${indicatifPays} ${telephone}`,
+              email: formData.email || "Non renseigné",
+              from: formData.from,
+              to: formData.to,
+              date: formData.date,
+              time: formData.time,
+              passengers: formData.passengers,
+              luggage: formData.luggage,
+              notes: formData.notes || "Aucune note",
+            }),
+          });
+        } catch (formspreeError) {
+          console.warn("Erreur Formspree (non bloquant):", formspreeError);
+        }
+
+        const flagOk = setReservationConfirmationFlag();
+        if (flagOk) {
+          router.push("/merci");
+        } else {
+          setError(
+            "Impossible de finaliser la redirection depuis ce navigateur. Votre réservation a bien été enregistrée — appelez-nous si besoin."
+          );
+        }
+      }
     } catch (err) {
-      setError(err.message || "Erreur lors de l'envoi");
+      setError(err.message || "Une erreur est survenue. Veuillez réessayer.");
+      console.error("Erreur lors de la soumission:", err);
     } finally {
       setLoading(false);
     }
   };
 
-  if (submitted) {
-    return (
-      <Card className="p-8 md:p-10 text-center border-brand-border bg-brand-subtle/80">
-        <p className="text-xl font-bold text-brand-darker mb-3">
-          Demande de réservation bien reçue
-        </p>
-        <p className="text-gray-700 leading-relaxed max-w-md mx-auto">
-          Merci pour votre confiance. Nous avons enregistré votre trajet et
-          étudions votre demande.{" "}
-          <strong className="text-brand-darker">
-            D&apos;ici une heure, nous vous contacterons
-          </strong>{" "}
-          par téléphone ou par email pour confirmer l&apos;horaire, le véhicule
-          adapté et le tarif de votre course en Dracénie.
-        </p>
-        <p className="mt-4 text-sm text-gray-600">
-          Besoin d&apos;une course immédiate ? Appelez le{" "}
-          <a href={SITE_PHONE_TEL} className="font-semibold text-brand-dark hover:underline">
-            {SITE_PHONE_DISPLAY}
-          </a>
-          .
-        </p>
-      </Card>
-    );
-  }
-
   return (
     <Card centered={false} className="p-6 md:p-8">
+      {error && (
+        <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-3">
+          <AlertCircle className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
+          <p className="text-sm font-medium text-red-700">{error}</p>
+        </div>
+      )}
       <form onSubmit={handleSubmit} className="space-y-4">
-        {error && (
-          <p className="text-sm text-red-600 bg-red-50 p-3 rounded-lg">{error}</p>
-        )}
         <div className="grid sm:grid-cols-2 gap-4">
           <label className="block">
             <span className="text-sm font-medium">Nom *</span>
@@ -104,6 +153,7 @@ export default function ReservationForm() {
               required
               name="phone"
               type="tel"
+              placeholder="+33 6 12 34 56 78"
               value={formData.phone}
               onChange={handleChange}
               className="mt-1 w-full rounded-lg border px-3 py-2"
@@ -164,6 +214,38 @@ export default function ReservationForm() {
             />
           </label>
         </div>
+        <div className="grid sm:grid-cols-2 gap-4">
+          <label className="block">
+            <span className="text-sm font-medium">Passagers</span>
+            <select
+              name="passengers"
+              value={formData.passengers}
+              onChange={handleChange}
+              className="mt-1 w-full rounded-lg border px-3 py-2"
+            >
+              {[1, 2, 3, 4, 5, 6, 7, 8].map((n) => (
+                <option key={n} value={n}>
+                  {n} passager{n > 1 ? "s" : ""}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="block">
+            <span className="text-sm font-medium">Bagages</span>
+            <select
+              name="luggage"
+              value={formData.luggage}
+              onChange={handleChange}
+              className="mt-1 w-full rounded-lg border px-3 py-2"
+            >
+              {[0, 1, 2, 3, 4, 5, 6, 7].map((n) => (
+                <option key={n} value={n}>
+                  {n} bagage{n > 1 ? "s" : ""}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
         <label className="block">
           <span className="text-sm font-medium">Commentaires</span>
           <textarea
@@ -174,8 +256,14 @@ export default function ReservationForm() {
             className="mt-1 w-full rounded-lg border px-3 py-2"
           />
         </label>
-        <Button type="submit" variant="call" size="lg" className="w-full font-bold" disabled={loading}>
-          {loading ? "Envoi…" : "Envoyer la demande"}
+        <Button
+          type="submit"
+          variant="call"
+          size="lg"
+          className="w-full font-bold disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled={loading}
+        >
+          {loading ? "Envoi en cours…" : "Confirmer la réservation"}
         </Button>
       </form>
     </Card>

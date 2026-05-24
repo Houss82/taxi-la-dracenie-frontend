@@ -1,5 +1,7 @@
 export const SITE_NAME = "Taxis La Dracénie";
 export const SITE_URL = "https://taxis-la-dracenie.fr";
+export const SITE_LOGO = "/logo-definitif.png";
+export const SITE_LOGO_URL = `${SITE_URL}${SITE_LOGO}`;
 export const SITE_TAGLINE = "Transport privé et conventionné CPAM";
 export const SITE_REGION = "Dracénie, Var";
 export const SITE_LOCALITY = "Vidauban";
