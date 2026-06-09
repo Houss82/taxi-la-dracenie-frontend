@@ -31,6 +31,15 @@ const rawCities = {
     ],
     realTransfersText:
       "Nous effectuons régulièrement des transferts entre Vidauban et la gare Les Arcs-Draguignan pour les départs matinaux, ainsi que des trajets vers l'aéroport Nice Côte d'Azur depuis le centre ou les lotissements. Les courses médicales vers le CHD Draguignan et les spécialistes du Var sont organisées chaque semaine pour les habitants de Vidauban.",
+    longSeoText:
+      "À Vidauban, les demandes portent surtout sur la gare Les Arcs-Draguignan, le CHD Draguignan, l'aéroport de Nice et les courses locales entre centre-ville et lotissements. Habitants, patients, familles et voyageurs matinaux : nous adaptons l'horaire de prise en charge au trafic et à votre rendez-vous.",
+    popularNeeds: [
+      "Taxi Vidauban → gare Les Arcs-Draguignan (TGV et TER)",
+      "Taxi Vidauban → aéroport Nice Côte d'Azur",
+      "Taxi pour rendez-vous médical au CHD Draguignan",
+      "Taxi conventionné CPAM depuis Vidauban",
+      "Taxi Vidauban → Draguignan, Le Muy ou Les Arcs",
+    ],
     whyChooseUs: [
       {
         title: "Disponible 24h/24",
@@ -125,6 +134,18 @@ const rawCities = {
         aText:
           "Oui, vers Nice ou Marseille. Nous confirmons l'horaire de prise en charge selon votre vol.",
       },
+      {
+        q: "Combien coûte un taxi Vidauban → aéroport Nice ?",
+        a: "Le tarif dépend de l'heure, du trafic et du point de départ exact à Vidauban. Appelez le 04 22 46 04 62 pour un prix annoncé avant confirmation — pas de surprise sur le trajet défini.",
+        aText:
+          "Tarif annoncé au téléphone selon heure, trafic et point de départ à Vidauban.",
+      },
+      {
+        q: "Peut-on réserver un taxi tôt le matin depuis Vidauban ?",
+        a: "Oui, les départs matinaux sont possibles sur réservation — notamment pour la gare Les Arcs-Draguignan, le CHD Draguignan ou l'aéroport de Nice. Indiquez l'heure d'arrivée souhaitée à destination.",
+        aText:
+          "Oui, départs matinaux sur réservation pour gare, CHD ou aéroport.",
+      },
     ],
   },
 
@@ -156,7 +177,16 @@ const rawCities = {
       "Aéroport Marseille Provence",
     ],
     realTransfersText:
-      "Nous effectuons régulièrement des transferts entre Draguignan et l'aéroport de Nice Côte d'Azur pour les départs matinaux, ainsi que des trajets médicaux quotidiens vers le CHD et les cabinets du centre-ville. Les liaisons Draguignan → gare Les Arcs et Draguignan → Les Selves ou Saint-Hermentaire sont parmi nos courses les plus fréquentes.",
+      "Nous effectuons régulièrement des transferts Draguignan → aéroport Nice pour les départs matinaux, des trajets médicaux quotidiens vers le CHD et les cabinets du centre-ville, ainsi que les liaisons vers la gare Les Arcs-Draguignan depuis Les Selves, Malpassé ou Saint-Hermentaire.",
+    longSeoText:
+      "À Draguignan, capitale hospitalière de la Dracénie, les demandes concernent le CHD, la gare Les Arcs, les rendez-vous médicaux, les aéroports Nice et Marseille, et les courses entre quartiers. Patients, familles et voyageurs en gare sollicitent aussi le taxi conventionné CPAM — l'éligibilité se vérifie au téléphone.",
+    popularNeeds: [
+      "Taxi pour rendez-vous médical au CHD Draguignan",
+      "Taxi Draguignan → gare Les Arcs-Draguignan",
+      "Taxi depuis Draguignan vers l'aéroport de Nice",
+      "Taxi pour consultation, imagerie ou hospitalisation de jour",
+      "Taxi conventionné CPAM à Draguignan",
+    ],
     whyChooseUs: [
       {
         title: "Disponible 24h/24",
@@ -250,6 +280,18 @@ const rawCities = {
         a: "Environ 10 à 20 minutes selon le quartier de départ et la circulation.",
         aText: "Environ 10 à 20 minutes selon le quartier de départ et la circulation.",
       },
+      {
+        q: "Peut-on réserver un taxi à Draguignan pour un départ tôt le matin ?",
+        a: "Oui, les départs matinaux sont possibles sur réservation, notamment pour la gare Les Arcs-Draguignan, le CHD ou les aéroports de Nice et Marseille. Précisez l'heure d'arrivée souhaitée à destination.",
+        aText:
+          "Oui, départs matinaux sur réservation pour gare, CHD ou aéroports.",
+      },
+      {
+        q: "Proposez-vous un taxi Draguignan → aéroport Nice ?",
+        a: "Oui, transfert direct avec horaire calé sur votre vol. Comptez environ 1h15 selon le trafic sur l'A8. Tarif annoncé au 04 22 46 04 62 avant confirmation.",
+        aText:
+          "Oui, transfert direct vers Nice — environ 1h15, tarif annoncé au téléphone.",
+      },
     ],
   },
 
@@ -267,7 +309,16 @@ const rawCities = {
       "Position stratégique entre Draguignan, Les Arcs et l'axe Fréjus–Draguignan : nous enchaînons régulièrement Le Muy → gare TGV, CHD ou aéroport Nice pour les résidents et visiteurs.",
     landmarks: ["Centre Le Muy", "Zone commerciale", "Draguignan", "Les Arcs", "Fréjus"],
     realTransfersText:
-      "Au Muy, nous enchaînons souvent des trajets vers la gare Les Arcs-Draguignan le matin et des retours le soir, ainsi que des transferts vers Draguignan CHD ou l'aéroport Nice pour les résidents de la zone commerciale et des hameaux. Le Muy → Marseille Provence est également demandé pour les vols long-courrier.",
+      "Au Muy, nous enchaînons chaque semaine des trajets matinaux vers la gare Les Arcs-Draguignan et des retours le soir, des transferts vers le CHD Draguignan ou l'aéroport Nice depuis la zone commerciale et les hameaux, ainsi que des courses Le Muy → Marseille Provence pour les vols long-courrier.",
+    longSeoText:
+      "Au Muy, porte est de la Dracénie, les demandes concernent Draguignan, le CHD, la gare Les Arcs, les aéroports Nice et Marseille, et les courses locales entre centre-bourg et zone commerciale. Résidents et actifs en déplacement : rendez-vous médicaux conventionnés CPAM sur vérification d'éligibilité au téléphone.",
+    popularNeeds: [
+      "Taxi Le Muy → gare Les Arcs-Draguignan (TGV et TER)",
+      "Taxi Le Muy → Draguignan ou CHD",
+      "Taxi Le Muy → aéroport Nice Côte d'Azur",
+      "Taxi pour rendez-vous médical au CHD depuis Le Muy",
+      "Taxi Le Muy → Les Arcs, Vidauban ou communes voisines",
+    ],
     whyChooseUs: [
       {
         title: "Réactivité locale",
@@ -332,6 +383,24 @@ const rawCities = {
         a: "Oui, trajet direct vers Draguignan. Transport médical conventionné sur demande.",
         aText: "Oui, trajet direct vers Draguignan avec option transport médical conventionné.",
       },
+      {
+        q: "Combien de temps entre Le Muy et la gare Les Arcs en taxi ?",
+        a: "Comptez environ 15 à 25 minutes selon le trafic et votre point de départ au Muy (centre-bourg, zone commerciale ou hameau).",
+        aText:
+          "Environ 15 à 25 minutes selon trafic et point de départ au Muy.",
+      },
+      {
+        q: "Proposez-vous un taxi Le Muy → aéroport Nice ?",
+        a: "Oui, transfert planifié avec horaire adapté à votre vol. Tarif annoncé au 04 22 46 04 62 avant confirmation — comptez environ 1h à 1h20 selon l'heure et le trafic sur l'A8.",
+        aText:
+          "Oui, transfert planifié vers Nice — tarif annoncé au téléphone avant confirmation.",
+      },
+      {
+        q: "Existe-t-il un taxi conventionné au Muy ?",
+        a: "Oui, sous conditions d'éligibilité CPAM et selon prescription médicale. Indiquez votre situation au téléphone avant de réserver un trajet vers le CHD ou un spécialiste à Draguignan.",
+        aText:
+          "Oui, taxi conventionné CPAM sous conditions d'éligibilité — vérifiez au téléphone.",
+      },
     ],
   },
 
@@ -359,7 +428,16 @@ const rawCities = {
       "Le Muy",
     ],
     realTransfersText:
-      "Aux Arcs, notre cœur de métier reste la gare Les Arcs-Draguignan : accueil TGV et TER, correspondances vers Draguignan, Vidauban ou Le Muy, et transferts aéroport Nice pour les voyageurs en correspondance. Nous effectuons aussi des trajets quotidiens centre-ville Les Arcs → CHD Draguignan.",
+      "Aux Arcs, notre cœur de métier reste la gare Les Arcs-Draguignan : accueil TGV et TER, correspondances vers Draguignan, Vidauban ou Le Muy, transferts aéroport Nice pour les voyageurs en correspondance train–avion, et trajets quotidiens centre-ville → CHD Draguignan.",
+    longSeoText:
+      "Aux Arcs, la gare concentre l'essentiel des demandes : sortie de train, correspondances locales, transferts Nice et courses depuis le centre-ville ou les lotissements. Voyageurs, résidents et professionnels : point de rendez-vous clair à la gare, réservation conseillée en haute saison.",
+    popularNeeds: [
+      "Taxi gare Les Arcs TGV — accueil à la sortie du train",
+      "Taxi Les Arcs → Draguignan ou CHD",
+      "Taxi gare Les Arcs → aéroport Nice Côte d'Azur",
+      "Taxi Les Arcs → Vidauban, Le Muy ou communes voisines",
+      "Taxi pour correspondance train–avion depuis Les Arcs",
+    ],
     whyChooseUs: [
       {
         title: "Spécialiste gare TGV",
@@ -425,6 +503,24 @@ const rawCities = {
         a: "Recommandé pour les TGV, surtout en haute saison. Appelez dès que vous connaissez votre horaire.",
         aText:
           "Réservation à l'avance recommandée pour les TGV, surtout en haute saison.",
+      },
+      {
+        q: "Combien de temps entre la gare Les Arcs et Draguignan en taxi ?",
+        a: "Comptez environ 10 à 20 minutes selon le trafic et votre destination exacte à Draguignan (centre-ville, CHD, quartiers périphériques).",
+        aText:
+          "Environ 10 à 20 minutes selon trafic et destination à Draguignan.",
+      },
+      {
+        q: "Peut-on prendre un taxi Les Arcs → aéroport Nice ?",
+        a: "Oui, départ depuis la gare, votre hébergement ou le centre-ville. Horaire adapté à votre vol, tarif annoncé au 04 22 46 04 62.",
+        aText:
+          "Oui, départ gare ou domicile — horaire adapté au vol, tarif annoncé au téléphone.",
+      },
+      {
+        q: "Y a-t-il un taxi disponible la nuit à la gare Les Arcs ?",
+        a: "Oui, service 24h/24. Pour les derniers TGV ou arrivées tardives, réservez à l'avance pour garantir la prise en charge à la sortie du train.",
+        aText:
+          "Oui 24h/24 — réservation conseillée pour les derniers TGV et arrivées tardives.",
       },
     ],
   },
@@ -519,7 +615,16 @@ const rawCities = {
       "Nous connaissons les accès du centre historique, des domaines viticoles et des résidences secondaires. Trajets réguliers vers la gare TGV et les consultations médicales à Draguignan.",
     landmarks: ["Centre Lorgues", "Draguignan", "Taradeau", "Gare Les Arcs"],
     realTransfersText:
-      "À Lorgues, nous organisons des transferts vers la gare Les Arcs-Draguignan pour les départs professionnels, des trajets Draguignan CHD pour le médical, et des courses aéroport Nice pour les séjours estivaux. Lorgues → Taradeau reste un trajet court mais très demandé en semaine.",
+      "À Lorgues, nous organisons des transferts vers la gare Les Arcs-Draguignan pour les départs professionnels, des trajets Draguignan CHD pour le médical, des courses aéroport Nice pour les séjours estivaux, et des liaisons courtes Lorgues → Taradeau très demandées en semaine.",
+    longSeoText:
+      "À Lorgues, les demandes concernent le centre viticole, Draguignan et le CHD, la gare Les Arcs, Taradeau, les domaines alentour et l'aéroport de Nice en haute saison. Résidents, viticulteurs et touristes : nous connaissons les accès du bourg historique et des lotissements périphériques.",
+    popularNeeds: [
+      "Taxi Lorgues → aéroport Nice Côte d'Azur",
+      "Taxi Lorgues → gare Les Arcs-Draguignan",
+      "Taxi Lorgues → Draguignan ou CHD",
+      "Taxi Lorgues → Taradeau ou communes voisines",
+      "Taxi pour rendez-vous médical depuis Lorgues",
+    ],
     whyChooseUs: [
       {
         title: "Centre viticole couvert",
@@ -578,6 +683,30 @@ const rawCities = {
         q: "Taxi Lorgues le dimanche : disponible ?",
         a: "Oui, 24h/24 et 7j/7 sur réservation ou appel direct.",
         aText: "Oui, service 24h/24 et 7j/7 sur réservation ou appel direct.",
+      },
+      {
+        q: "Combien de temps entre Lorgues et la gare Les Arcs en taxi ?",
+        a: "Comptez environ 25 à 40 minutes selon le trafic et votre point de départ à Lorgues (centre-ville, domaine ou lotissement).",
+        aText:
+          "Environ 25 à 40 minutes selon trafic et point de départ à Lorgues.",
+      },
+      {
+        q: "Proposez-vous un taxi Lorgues → aéroport Nice ?",
+        a: "Oui, transfert direct pour les séjours estivaux ou les départs professionnels. Horaire calé sur votre vol, tarif annoncé au 04 22 46 04 62 avant confirmation.",
+        aText:
+          "Oui, transfert direct vers Nice — horaire adapté au vol, tarif annoncé au téléphone.",
+      },
+      {
+        q: "Peut-on réserver un taxi Lorgues → Draguignan pour le CHD ?",
+        a: "Oui, trajet régulier vers le Centre Hospitalier de la Dracénie pour consultations, imagerie ou hospitalisation de jour. Option taxi conventionné CPAM selon éligibilité.",
+        aText:
+          "Oui, trajet vers le CHD — taxi conventionné CPAM selon éligibilité.",
+      },
+      {
+        q: "Faites-vous Lorgues → Taradeau en taxi ?",
+        a: "Oui, trajet court et fréquent entre les deux communes voisines — idéal pour un rendez-vous, un dépôt en gare ou une course locale.",
+        aText:
+          "Oui, trajet court et fréquent entre Lorgues et Taradeau.",
       },
     ],
   },

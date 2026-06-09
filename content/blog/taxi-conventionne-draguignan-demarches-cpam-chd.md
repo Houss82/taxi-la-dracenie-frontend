@@ -1,6 +1,6 @@
 ---
 title: "Taxi conventionné Draguignan : démarches CPAM et trajets CHD"
-date: "2026-05-22"
+date: "2026-06-09"
 excerpt: "Comment réserver un taxi conventionné à Draguignan ? Prescription, bon de transport, ALD, prise en charge CPAM et trajets vers le CHD — guide pratique Taxis La Dracénie."
 image: "/heroes/taxi-conventionne-dracenie.jpg"
 category: "Transport médical"
@@ -126,9 +126,10 @@ Pour un rendez-vous matinal au CHD, indiquez l'**heure d'arrivée souhaitée** �
 Nous effectuons quotidiennement des courses en **[transport assis professionnalisé](/transport-medical-conventionne-dracenie)** vers le CHD et les cabinets de la région :
 
 - **Consultations externes** et **consultation spécialisée** (cardiologie, oncologie, gériatrie…)
-- **Hospitalisation de jour** et retours après séjour
+- **Hospitalisation de jour**, **hospitalisation** et retours après séjour
 - **Imagerie** (IRM, scanner, échographie)
-- **Dialyse**, **kinésithérapie** et rendez-vous récurrents
+- **Dialyse**, **kinésithérapie** et **suivi médical** régulier
+- Trajets vers le **centre anticancéreux** du CHD : **chimiothérapie**, **radiothérapie** et rendez-vous récurrents
 
 Les quartiers les plus demandés à Draguignan : **Les Selves**, **Malpassé**, **Saint-Hermentaire** et le **centre-ville**. Depuis les communes voisines, le **[taxi conventionné Dracénie](/taxi-conventionne-dracenie)** couvre l'ensemble du secteur sous prescription médicale.
 
@@ -152,7 +153,20 @@ Chaque trajet est organisé depuis notre base **[taxi Draguignan](/taxi-draguign
 
 ---
 
-## 6. Course classique ou taxi conventionné ?
+## 6. Pourquoi choisir un taxi conventionné plutôt qu'un transport classique ?
+
+Au-delà de la comparaison tarifaire, le **taxi conventionné** répond à des besoins que le transport classique ne couvre pas toujours :
+
+- **prise en charge adaptée** aux rendez-vous médicaux (horaire d'arrivée, retour, attente si besoin) ;
+- **accompagnement jusqu'à l'établissement** — accueil à domicile, dépose devant le service concerné au CHD ;
+- **organisation des trajets réguliers** : dialyse, kinésithérapie, **chimiothérapie** ou **consultation spécialisée** hebdomadaire ;
+- **possibilité de prise en charge CPAM** selon votre situation, sous réserve d'éligibilité et de prescription.
+
+Pour un **suivi médical** sur plusieurs semaines, nous planifions l'ensemble des créneaux en un seul appel — voir la FAQ ci-dessous.
+
+---
+
+## 7. Course classique ou taxi conventionné ?
 
 <div class="content-box content-box--table" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
   <table class="blog-table">
@@ -204,6 +218,10 @@ Oui, sous conditions d'éligibilité et selon la prescription. Nous couvrons tou
 ### Comment réserver rapidement ?
 
 Appelez le **04 22 46 04 62** — c'est le canal le plus fiable pour cadrer éligibilité, horaire, accès CHD et type de rendez-vous (consultation, hospitalisation, imagerie).
+
+### Peut-on réserver plusieurs trajets à l'avance ?
+
+**Oui** — notamment pour les **traitements réguliers** (dialyse, **radiothérapie**, kinésithérapie) ou les **consultations récurrentes**. Indiquez-nous le nombre de séances et les créneaux souhaités ; nous organisons chaque aller-retour depuis votre domicile dans la Dracénie.
 
 ---
 
