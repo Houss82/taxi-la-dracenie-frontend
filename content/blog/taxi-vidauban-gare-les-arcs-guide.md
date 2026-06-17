@@ -13,6 +13,8 @@ keywords:
   - taxi Les Arcs Vidauban
   - gare Les Arcs-Draguignan
   - correspondance TGV Vidauban
+  - gare SNCF Les Arcs Draguignan
+  - TGV Paris Lyon depuis Les Arcs
 ---
 
 # Taxi entre Vidauban et la gare Les Arcs — guide complet
@@ -110,7 +112,21 @@ Page service complète : **[taxi gare Les Arcs-Draguignan](/taxi-gare-les-arcs-d
 
 ---
 
-## 4. Prise en charge à la gare (retour Les Arcs → Vidauban)
+## 4. Où peut-on rejoindre la gare Les Arcs-Draguignan ?
+
+La **gare Les Arcs-Draguignan** (ligne Marseille–Nice, au sud de **[Draguignan](/taxi-draguignan)**) constitue l'une des principales portes d'entrée ferroviaires du **Var**. Depuis cette gare, les voyageurs en **TGV** ou **TER** peuvent rejoindre notamment :
+
+- **Paris Gare de Lyon**
+- **Lyon Part-Dieu**
+- **Marseille Saint-Charles**
+- **Toulon**
+- **Nice Ville**
+
+C'est pourquoi tant de résidents de **[Vidauban](/taxi-vidauban)**, du **[Muy](/taxi-le-muy)** ou des **[Arcs](/taxi-les-arcs)** anticipent leur **[taxi gare Les Arcs](/taxi-gare-les-arcs-draguignan)** — surtout pour les départs matinaux vers Paris ou Lyon.
+
+---
+
+## 5. Prise en charge à la gare (retour Les Arcs → Vidauban)
 
 À votre **retour**, le taxi vous attend au point convenu :
 
@@ -122,7 +138,20 @@ Communiquez votre **numéro de train** si possible : nous ajustons en cas de ret
 
 ---
 
-## 5. Tarif, forfait et réservation
+## 6. Voyage avec bagages ou valises
+
+Nous prenons régulièrement en charge des voyageurs avec **valises, sacs à roulettes ou bagages volumineux** — situation fréquente pour :
+
+- **départs TGV** vers Paris, Lyon ou Marseille
+- **familles en vacances** (poussettes, valises multiples)
+- **déplacements professionnels** avec bagage cabine ou mallette
+- **correspondances gare ↔ [aéroport Nice](/taxi-aeroport-vidauban)** le même jour
+
+Indiquez simplement le **nombre de bagages** et le type de véhicule souhaité lors de votre réservation au **04 22 46 04 62** — nous adaptons la prise en charge à domicile à Vidauban.
+
+---
+
+## 7. Tarif, forfait et réservation
 
 Le **tarif est annoncé au téléphone** avant confirmation — pas de surprise si le trajet est défini (adresse exacte + destination gare).
 
@@ -136,7 +165,7 @@ Formulaire en ligne : [/reservation](/reservation) — pour les courses classiqu
 
 ---
 
-## 6. Zones de prise en charge autour de Vidauban
+## 8. Zones de prise en charge autour de Vidauban
 
 Nous intervenons notamment depuis :
 
@@ -170,6 +199,10 @@ Uniquement si le trajet entre dans un **parcours médical éligible** — ce n'e
 ### Le prix Vidauban → Les Arcs est-il fixe ?
 
 Oui, **forfait communiqué au téléphone** avant validation, selon adresse exacte et horaire (jour/nuit).
+
+### Peut-on réserver un taxi plusieurs jours à l'avance ?
+
+**Oui** — les réservations peuvent être effectuées **plusieurs jours ou semaines** avant votre départ afin de sécuriser votre transfert vers la gare Les Arcs-Draguignan. Idéal pour les TGV matinaux, les vacances scolaires ou les départs professionnels récurrents.
 
 ---
 
