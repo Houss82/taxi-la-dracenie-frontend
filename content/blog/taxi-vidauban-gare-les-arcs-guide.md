@@ -1,6 +1,6 @@
 ---
 title: "Taxi entre Vidauban et la gare Les Arcs — guide complet"
-date: "2026-05-18"
+date: "2026-06-17"
 excerpt: "TGV, TER, durée, horaires et réservation pour un taxi Vidauban → gare Les Arcs-Draguignan. Forfait annoncé, prise en charge domicile — Taxis La Dracénie 24h/24."
 image: "/heroes/taxi-gare-les-arcs-draguignan.jpg"
 category: "Transferts & Déplacements"
