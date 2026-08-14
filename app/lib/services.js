@@ -195,25 +195,117 @@ const rawServices = {
     type: "service",
     h1: "Taxi aéroport Nice depuis la Dracénie",
     title:
-      "Taxi aéroport Nice Dracénie | Vidauban, Draguignan, Les Arcs — prix fixe",
+      "Taxi Aéroport Nice Dracénie | Vidauban, Draguignan, Les Arcs & Le Muy",
     description:
-      "Transfert taxi aéroport Nice Côte d'Azur depuis Vidauban, Draguignan, Les Arcs et toute la Dracénie. Prix annoncé, suivi de vol — 04 22 46 04 62.",
+      "Taxi vers l'aéroport Nice Côte d'Azur depuis Vidauban, Draguignan, Les Arcs, Le Muy et toute la Dracénie. Départ 24h/24, tarif communiqué à l'avance, suivi de vol — 04 22 46 04 62.",
     keywords: [
       "taxi aéroport Nice Dracénie",
       "taxi Nice Vidauban",
       "taxi Nice Draguignan",
+      "taxi Les Arcs aéroport Nice",
+      "taxi Le Muy aéroport Nice",
       "transfert aéroport Nice Var",
+      "taxi Dracénie Nice Airport",
     ],
     intro:
-      "Depuis la Dracénie, l'aéroport Nice Côte d'Azur est la porte aérienne la plus pratique. Taxis La Dracénie proposent des transferts depuis Vidauban, Draguignan, Les Arcs ou Le Muy avec horaire calé sur votre vol et tarif communiqué à l'avance.",
+      "Vous devez rejoindre l'aéroport Nice Côte d'Azur depuis Vidauban, Draguignan, Les Arcs, Le Muy ou une autre commune de la Dracénie ? Taxis La Dracénie organise vos transferts vers les terminaux 1 et 2 avec prise en charge à domicile, horaire adapté à votre vol et tarif communiqué avant confirmation. Les départs tôt le matin, les retours de voyage et les transferts avec bagages peuvent être réservés à l'avance.",
+    realTransfersTitle: "Transferts réels vers Nice Côte d'Azur",
+    realTransfersText:
+      "Les transferts vers Nice Côte d'Azur font partie des longues distances les plus demandées depuis la Dracénie. Nous organisons notamment des départs depuis Vidauban, Draguignan, Les Arcs et Le Muy pour les vols matinaux, ainsi que des retours depuis les terminaux 1 et 2 vers les domiciles, hôtels, domaines et villages du secteur. Le numéro de vol permet d'organiser plus précisément la prise en charge au retour.",
     sections: [
       {
-        title: "Durée indicative",
-        body: "Comptez environ 1h à 1h30 depuis Draguignan ou Vidauban selon trafic sur l'A8 et la Moyenne Corniche. Nous partons avec une marge de sécurité.",
+        title: "Taxi vers Nice Airport depuis toute la Dracénie",
+        body: "Notre service dessert Vidauban, Draguignan, Les Arcs, Le Muy, Lorgues, Taradeau, Flayosc, Figanières et Trans-en-Provence. La prise en charge peut être organisée depuis votre domicile, un hôtel, une résidence secondaire ou un point de rendez-vous défini lors de la réservation. Pour les départs importants, nous recommandons de réserver dès que l'horaire du vol est connu.",
       },
       {
-        title: "Arrivée à Nice",
-        body: "Prise en charge au terminal avec pancarte nominative sur demande. Aide bagages incluse.",
+        title: "Combien de temps prévoir pour rejoindre l'aéroport de Nice ?",
+        body: "Selon votre commune et les conditions de circulation, comptez généralement environ 1 h à 1 h 30 de trajet depuis la Dracénie. Le temps réel dépend notamment de l'heure de départ, du trafic sur l'A8, de la saison et du terminal. Pour un vol, nous ajoutons une marge de sécurité afin de ne pas calculer le départ uniquement sur le temps théorique de conduite.",
+      },
+      {
+        title: "Départs tôt le matin et vols matinaux",
+        body: "Les vols décollant tôt à Nice nécessitent souvent une prise en charge de nuit depuis Vidauban ou Draguignan. Le service fonctionne sur réservation 24h/24. Lors de votre appel, communiquez l'heure du vol, le terminal et votre adresse exacte : nous déterminons avec vous un horaire de départ adapté.",
+      },
+      {
+        title: "Terminal 1 ou Terminal 2 à Nice Côte d'Azur",
+        body: "L'aéroport Nice Côte d'Azur dispose de deux terminaux. Si vous connaissez votre terminal, indiquez-le lors de la réservation. Sinon, communiquez votre compagnie ou votre numéro de vol afin de préparer le transfert. À l'arrivée, la prise en charge est organisée au point de rendez-vous convenu au terminal.",
+      },
+      {
+        title: "Retour depuis l'aéroport Nice vers la Dracénie",
+        body: "Nous assurons également les trajets retour Nice Airport → Dracénie. En communiquant votre numéro de vol, la prise en charge peut être ajustée en cas de modification de l'horaire d'arrivée. Une pancarte nominative peut être prévue sur demande pour faciliter la rencontre avec le chauffeur.",
+      },
+      {
+        title: "Bagages, familles et déplacements professionnels",
+        body: "Lors de la réservation, indiquez le nombre de passagers et de bagages afin d'adapter le véhicule à la course. Les transferts aéroport concernent aussi bien les voyageurs d'affaires que les familles, couples, touristes ou résidents de la Dracénie. Signalez également les équipements particuliers ou besoins spécifiques avant confirmation.",
+      },
+      {
+        title: "Tarif communiqué avant le transfert",
+        body: "Pour un trajet défini entre la Dracénie et l'aéroport de Nice, le tarif est communiqué avant confirmation de la réservation. Le montant dépend notamment du lieu exact de prise en charge, de l'horaire et des caractéristiques de la course. Appelez le 04 22 46 04 62 avec votre adresse et les informations de vol pour obtenir le tarif correspondant.",
+      },
+    ],
+    whyChooseTitle: "Pourquoi réserver avec Taxis La Dracénie ?",
+    whyChooseUs: [
+      {
+        title: "Disponible 24h/24",
+        desc: "Départs de nuit et vols matinaux depuis Vidauban, Draguignan ou Les Arcs — un seul numéro.",
+      },
+      {
+        title: "Tarif annoncé",
+        desc: "Prix communiqué avant confirmation pour un trajet défini vers Nice Côte d'Azur.",
+      },
+      {
+        title: "Terminaux T1 et T2",
+        desc: "Prise en charge et dépose au terminal correspondant à votre vol.",
+      },
+      {
+        title: "Suivi de vol",
+        desc: "Numéro de vol au retour : horaire ajusté, pancarte nominative sur demande.",
+      },
+      {
+        title: "Prise en charge à domicile",
+        desc: "Centre-ville, lotissement, hôtel, domaine ou village — aide aux bagages.",
+      },
+      {
+        title: "Chauffeurs locaux",
+        desc: "Connaissance de l'A8 et des temps réels Dracénie → Nice, sans détour inutile.",
+      },
+    ],
+    serviceAreas: [
+      "Vidauban",
+      "Draguignan",
+      "Les Arcs",
+      "Le Muy",
+      "Lorgues",
+      "Taradeau",
+      "Flayosc",
+      "Figanières",
+      "Trans-en-Provence",
+      "Terminaux 1 et 2 — Nice Côte d'Azur",
+    ],
+    frequentRoutes: [
+      {
+        title: "Vidauban → aéroport Nice",
+        desc: "Transfert direct depuis le centre, domicile ou quartiers périphériques.",
+        href: "/taxi-aeroport-vidauban",
+      },
+      {
+        title: "Draguignan → aéroport Nice",
+        desc: "Départs privés ou professionnels vers les terminaux 1 et 2.",
+        href: "/taxi-aeroport-draguignan",
+      },
+      {
+        title: "Les Arcs → aéroport Nice",
+        desc: "Transfert depuis le centre ou après une arrivée en gare TGV.",
+        href: "/taxi-les-arcs",
+      },
+      {
+        title: "Le Muy → aéroport Nice",
+        desc: "Trajet planifié vers Nice Côte d'Azur depuis Le Muy.",
+        href: "/taxi-le-muy",
+      },
+      {
+        title: "Lorgues → aéroport Nice",
+        desc: "Transferts depuis le centre, domaines et résidences du secteur.",
+        href: "/taxi-lorgues",
       },
     ],
     relatedCities: [
@@ -221,17 +313,45 @@ const rawServices = {
       { label: "Taxi aéroport Draguignan", href: "/taxi-aeroport-draguignan" },
       { label: "Taxi Vidauban", href: "/taxi-vidauban" },
       { label: "Taxi Draguignan", href: "/taxi-draguignan" },
+      { label: "Taxi Les Arcs", href: "/taxi-les-arcs" },
+      { label: "Taxi Le Muy", href: "/taxi-le-muy" },
+      { label: "Taxi Lorgues", href: "/taxi-lorgues" },
     ],
     faq: [
       {
-        q: "Quel prix pour un taxi Draguignan → Nice aéroport ?",
-        a: "Le tarif dépend de l'heure et du trafic. Nous annonçons un prix fixe avant confirmation — appelez le 04 22 46 04 62.",
-        aText: "Prix fixe annoncé par téléphone avant confirmation de la réservation.",
+        q: "Quel prix pour un taxi Draguignan → aéroport Nice ?",
+        a: "Le tarif dépend de l'adresse exacte, de l'horaire et des caractéristiques du trajet. Nous communiquons le prix avant confirmation au 04 22 46 04 62.",
+        aText:
+          "Le tarif est communiqué avant confirmation selon l'adresse, l'horaire et le trajet.",
       },
       {
-        q: "Suivez-vous les retards de vol ?",
-        a: "Oui, communiquez-nous votre numéro de vol pour ajuster la prise en charge.",
-        aText: "Oui, avec le numéro de vol pour ajuster la prise en charge.",
+        q: "Combien de temps faut-il entre la Dracénie et l'aéroport de Nice ?",
+        a: "Prévoyez généralement environ 1 h à 1 h 30 selon votre commune, le trafic sur l'A8, la saison et le terminal.",
+        aText:
+          "Environ 1 h à 1 h 30 selon la commune, le trafic et la saison.",
+      },
+      {
+        q: "Peut-on réserver un taxi pour un vol très tôt le matin ?",
+        a: "Oui. Les départs de nuit ou très tôt le matin sont possibles sur réservation. Communiquez votre heure de vol afin de déterminer l'heure de prise en charge.",
+        aText:
+          "Oui, les départs tôt le matin sont possibles sur réservation.",
+      },
+      {
+        q: "Suivez-vous les retards de vol au retour ?",
+        a: "Communiquez votre numéro de vol lors de la réservation afin d'organiser la prise en charge à Nice en fonction de votre arrivée.",
+        aText:
+          "Oui, le numéro de vol permet d'organiser la prise en charge selon l'arrivée.",
+      },
+      {
+        q: "Desserviez-vous les terminaux 1 et 2 de Nice Côte d'Azur ?",
+        a: "Oui. Les transferts sont organisés vers le terminal correspondant à votre vol, depuis les principales communes de la Dracénie.",
+        aText: "Oui, les transferts desservent les terminaux 1 et 2.",
+      },
+      {
+        q: "Peut-on réserver un taxi depuis Les Arcs ou Le Muy vers Nice Airport ?",
+        a: "Oui. Nous organisons des transferts depuis Les Arcs, Le Muy, Vidauban, Draguignan, Lorgues et les autres communes desservies en Dracénie.",
+        aText:
+          "Oui, les transferts sont possibles depuis Les Arcs, Le Muy et les principales communes de la Dracénie.",
       },
     ],
   },
@@ -286,7 +406,7 @@ const rawServices = {
       "taxi gare Draguignan",
     ],
     intro:
-      "La gare Les Arcs-Draguignan est le hub ferroviaire de la Dracénie. Taxis La Dracénie accueillent les voyageurs à quai ou au parking, avec suivi des retards SNCF et correspondances vers Draguignan, Vidauban, Le Muy ou les aéroports.",
+      "La gare Les Arcs-Draguignan est le hub ferroviaire de la Dracénie. Taxis La Dracénie accueillent les voyageurs à quai ou au parking, avec suivi des retards SNCF et correspondances vers Draguignan, Vidauban, Le Muy ou un [transfert vers l'aéroport de Nice](/taxi-aeroport-nice-dracenie).",
     sections: [
       {
         title: "Prise en charge à la gare",
@@ -294,14 +414,16 @@ const rawServices = {
       },
       {
         title: "Depuis la gare vers la Dracénie",
-        body: "Draguignan centre, CHD, Vidauban, Lorgues : tarif annoncé selon destination exacte.",
+        body: "Draguignan centre, CHD, Vidauban, Lorgues : tarif annoncé selon destination exacte. Pour la seule liaison [Draguignan ↔ gare Les Arcs](/taxi-draguignan-gare-les-arcs), une page dédiée détaille les quartiers et les deux sens. Cette page reste le point d'entrée pour toute la Dracénie.",
       },
     ],
     relatedCities: [
       { label: "Taxi Les Arcs", href: "/taxi-les-arcs" },
       { label: "Taxi Draguignan", href: "/taxi-draguignan" },
+      { label: "Taxi Draguignan ↔ gare Les Arcs", href: "/taxi-draguignan-gare-les-arcs" },
       { label: "Taxi Vidauban", href: "/taxi-vidauban" },
       { label: "Taxi Le Muy", href: "/taxi-le-muy" },
+      { label: "Transfert vers Nice Airport", href: "/taxi-aeroport-nice-dracenie" },
     ],
     faq: [
       {
@@ -491,26 +613,139 @@ const rawServices = {
     h1: "Taxi aéroport depuis Vidauban — Nice & Marseille",
     title: "Taxi aéroport Vidauban | Transfert Nice & Marseille Provence",
     description:
-      "Taxi aéroport depuis Vidauban vers Nice ou Marseille. Prix fixe, prise en charge domicile — Taxis La Dracénie 04 22 46 04 62.",
-    keywords: ["taxi aéroport Vidauban", "transfert Nice Vidauban", "taxi Vidauban aéroport"],
+      "Taxi aéroport depuis Vidauban vers Nice Côte d'Azur ou Marseille Provence. Prise en charge à domicile, horaire calé sur votre vol, tarif annoncé — 04 22 46 04 62.",
+    keywords: [
+      "taxi aéroport Vidauban",
+      "transfert Nice Vidauban",
+      "taxi Vidauban aéroport",
+      "taxi Vidauban Nice Côte d'Azur",
+      "Vidauban Marseille Provence taxi",
+    ],
     intro:
-      "Vidauban est idéalement située pour rejoindre Nice ou Marseille sans stress. Taxis La Dracénie partent de votre domicile avec l'horaire adapté à votre vol et un tarif confirmé par téléphone.",
+      "Depuis Vidauban, Taxis La Dracénie organise vos transferts vers l'aéroport Nice Côte d'Azur (terminaux 1 et 2) et, si votre vol le justifie, vers Marseille Provence. Prise en charge au centre, en lotissement ou dans un hameau, horaire adapté à votre vol et tarif communiqué avant confirmation.",
+    realTransfersTitle: "Transferts aéroport depuis Vidauban",
+    realTransfersText:
+      "Les départs matinaux Vidauban → Nice Côte d'Azur font partie des courses longues les plus demandées depuis le centre et les lotissements. Nous organisons aussi des retours depuis les terminaux 1 et 2 vers Vidauban, ainsi que des correspondances après une arrivée en gare Les Arcs-Draguignan. Le numéro de vol permet d'ajuster la prise en charge au retour.",
     sections: [
       {
-        title: "Nice ou Marseille ?",
-        body: "Nice est souvent plus rapide (~1h15). Marseille convient à certains vols long-courrier — nous vous aidons à choisir selon votre itinerary.",
+        title: "Combien de temps entre Vidauban et Nice Airport ?",
+        body: "Comptez généralement environ 1 h à 1 h 20 selon l'heure, le trafic sur l'A8 et votre adresse exacte à Vidauban. Ce n'est pas un temps garanti : nous ajoutons une marge pour l'enregistrement et les contrôles, surtout en juillet–août.",
+      },
+      {
+        title: "Départs tôt le matin depuis Vidauban",
+        body: "Un vol entre 6 h et 8 h à Nice implique souvent une prise en charge de nuit depuis Vidauban. Le service fonctionne sur réservation 24h/24. Indiquez l'heure du vol, le terminal et l'adresse : nous calculons l'horaire de départ.",
+      },
+      {
+        title: "Nice ou Marseille depuis Vidauban ?",
+        body: "Nice est en général plus rapide depuis Vidauban. Marseille Provence convient surtout aux vols non proposés à Nice ou à certains long-courriers. Pour un transfert depuis une autre commune, voir le [taxi vers Nice depuis la Dracénie](/taxi-aeroport-nice-dracenie).",
+      },
+      {
+        title: "Retour Nice Airport → Vidauban",
+        body: "Communiquez votre numéro de vol : la prise en charge peut être ajustée en cas de retard. Pancarte nominative possible. Dépose au domicile, au centre-ville ou, si besoin, vers la gare Les Arcs-Draguignan.",
+      },
+      {
+        title: "Bagages et prise en charge à domicile",
+        body: "Précisez le nombre de passagers et de valises. Nous intervenons au centre de Vidauban, en lotissement ou vers Le Luc / Le Cannet (secteur). Aide aux bagages incluse dans l'organisation de la course.",
+      },
+      {
+        title: "Tarif annoncé avant confirmation",
+        body: "Pour un trajet défini Vidauban → aéroport, le tarif est communiqué au 04 22 46 04 62 avant validation. Il dépend de l'adresse, de l'horaire et des caractéristiques de la course — aucun montant n'est inventé sur cette page.",
+      },
+    ],
+    whyChooseTitle: "Pourquoi un taxi aéroport depuis Vidauban ?",
+    whyChooseUs: [
+      {
+        title: "Départ de chez vous",
+        desc: "Centre, lotissement ou hameau — pas de parking aéroport à gérer.",
+      },
+      {
+        title: "Horaire calé sur le vol",
+        desc: "Marge A8 et enregistrement : nous partons à l'heure utile, y compris de nuit.",
+      },
+      {
+        title: "Nice et Marseille",
+        desc: "Nice en priorité ; Marseille lorsque le billet l'impose.",
+      },
+      {
+        title: "Suivi de vol au retour",
+        desc: "Numéro de vol + pancarte sur demande à la sortie du terminal.",
+      },
+      {
+        title: "Tarif avant de partir",
+        desc: "Prix annoncé au téléphone pour un trajet défini.",
+      },
+      {
+        title: "Correspondance gare",
+        desc: "Enchaînement possible gare Les Arcs-Draguignan puis aéroport, sur deux courses planifiées.",
+      },
+    ],
+    serviceAreas: [
+      "Centre-ville de Vidauban",
+      "Lotissements et hameaux",
+      "Secteur Le Luc / Le Cannet",
+      "Terminaux 1 et 2 — Nice Côte d'Azur",
+      "Aéroport Marseille Provence",
+    ],
+    frequentRoutes: [
+      {
+        title: "Vidauban → Nice Côte d'Azur",
+        desc: "Transfert direct, T1 ou T2 selon votre vol.",
+        href: "/taxi-aeroport-nice-dracenie",
+      },
+      {
+        title: "Vidauban → Marseille Provence",
+        desc: "Alternative long-courrier, horaire planifié.",
+        href: "/taxi-aeroport-marseille-dracenie",
+      },
+      {
+        title: "Vidauban → gare Les Arcs",
+        desc: "TGV / TER avant une correspondance avion.",
+        href: "/taxi-gare-les-arcs-draguignan",
+      },
+      {
+        title: "Taxi à Vidauban",
+        desc: "Courses locales et autres trajets depuis la commune.",
+        href: "/taxi-vidauban",
       },
     ],
     relatedCities: [
       { label: "Taxi Vidauban", href: "/taxi-vidauban" },
-      { label: "Taxi aéroport Nice Dracénie", href: "/taxi-aeroport-nice-dracenie" },
+      { label: "Taxi vers Nice depuis la Dracénie", href: "/taxi-aeroport-nice-dracenie" },
       { label: "Taxi aéroport Marseille", href: "/taxi-aeroport-marseille-dracenie" },
+      { label: "Taxi aéroport Draguignan", href: "/taxi-aeroport-draguignan" },
     ],
     faq: [
       {
         q: "Départ Vidauban aéroport Nice : quelle heure ?",
-        a: "Nous recommandons de partir 2h30 à 3h avant l'enregistrement en été, 2h en basse saison.",
-        aText: "2h30 à 3h avant enregistrement en été, 2h en basse saison.",
+        a: "Nous recommandons de partir 2h30 à 3h avant l'enregistrement en été, davantage de marge en cas de vol long-courrier. L'horaire exact se calcule au téléphone selon votre adresse à Vidauban.",
+        aText:
+          "2h30 à 3h avant enregistrement en été ; l'horaire se calcule selon l'adresse à Vidauban.",
+      },
+      {
+        q: "Combien de temps faut-il entre Vidauban et Nice Airport ?",
+        a: "Environ 1 h à 1 h 20 selon le trafic A8 et le point de départ. Ce n'est pas un temps garanti.",
+        aText: "Environ 1 h à 1 h 20 selon trafic et adresse, sans garantie.",
+      },
+      {
+        q: "Le prix Vidauban → Nice est-il annoncé à l'avance ?",
+        a: "Oui, pour un trajet défini. Appelez le 04 22 46 04 62 : le tarif est communiqué avant confirmation.",
+        aText: "Oui, tarif communiqué au téléphone avant confirmation.",
+      },
+      {
+        q: "Peut-on partir très tôt le matin depuis Vidauban ?",
+        a: "Oui, sur réservation. Les vols matinaux à Nice impliquent souvent un départ de nuit.",
+        aText: "Oui, départs de nuit sur réservation pour les vols matinaux.",
+      },
+      {
+        q: "Suivez-vous les retards au retour vers Vidauban ?",
+        a: "Communiquez le numéro de vol : nous ajustons la prise en charge à Nice.",
+        aText: "Oui, avec le numéro de vol pour ajuster l'arrivée à Nice.",
+      },
+      {
+        q: "Faut-il passer par la page Dracénie ou rester sur Vidauban ?",
+        a: "Cette page concerne les départs depuis Vidauban. Pour une autre commune, utilisez le service régional vers Nice Côte d'Azur.",
+        aText:
+          "Cette page est dédiée à Vidauban ; les autres communes passent par le service régional.",
       },
     ],
   },
@@ -522,26 +757,292 @@ const rawServices = {
     h1: "Taxi aéroport depuis Draguignan — Nice & Marseille",
     title: "Taxi aéroport Draguignan | Nice Côte d'Azur & Marseille Provence",
     description:
-      "Transfert aéroport depuis Draguignan : Nice et Marseille, prix fixe, suivi de vol. Taxis La Dracénie — 04 22 46 04 62.",
-    keywords: ["taxi aéroport Draguignan", "transfert Nice Draguignan", "taxi Draguignan Nice"],
+      "Taxi aéroport depuis Draguignan vers Nice Côte d'Azur ou Marseille. Les Selves, Malpassé, centre-ville : horaire A8, terminal T1/T2, tarif annoncé — 04 22 46 04 62.",
+    keywords: [
+      "taxi aéroport Draguignan",
+      "transfert Nice Draguignan",
+      "taxi Draguignan Nice",
+      "taxi Draguignan Nice Côte d'Azur",
+      "Draguignan Marseille Provence taxi",
+    ],
     intro:
-      "Depuis Draguignan centre ou périphérie, évitez le stress du vol : Taxis La Dracénie calculent l'heure de départ selon le trafic A8 et votre terminal.",
+      "Depuis Draguignan (centre, Les Selves, Malpassé, Saint-Hermentaire ou périphérie), Taxis La Dracénie calcule l'heure de départ selon le trafic A8 et votre terminal à Nice Côte d'Azur. Marseille Provence reste possible lorsque le vol n'existe pas à Nice. Tarif communiqué avant confirmation.",
+    realTransfersTitle: "Transferts aéroport depuis Draguignan",
+    realTransfersText:
+      "Nous organisons régulièrement des départs matinaux Draguignan → Nice Côte d'Azur, des retours vers les quartiers dracénois, et des correspondances vers la gare Les Arcs-Draguignan si vous enchaînez un train. Ce n'est pas un trajet médical : pour le CHD ou le Centre Antoine Lacassagne, d'autres pages s'appliquent.",
     sections: [
       {
-        title: "Retour aéroport → Draguignan",
-        body: "Accueil avec pancarte, suivi des retards. Trajet direct vers votre domicile ou la gare Les Arcs si correspondance.",
+        title: "Combien de temps entre Draguignan et Nice Airport ?",
+        body: "Comptez généralement environ 1 h à 1 h 30 selon le quartier de départ, l'heure et le trafic sur l'A8. En haute saison, prévoyez une marge supplémentaire. L'horaire de prise en charge se calcule à partir de l'heure d'arrivée souhaitée au terminal, pas seulement de la durée théorique.",
+      },
+      {
+        title: "Départs matinaux depuis Draguignan",
+        body: "Les vols tôt à Nice demandent souvent un départ avant 6 h depuis Draguignan. Service sur réservation 24h/24. Indiquez l'heure du vol, le terminal (T1 ou T2) et l'adresse exacte.",
+      },
+      {
+        title: "Terminal 1 ou 2 depuis Draguignan",
+        body: "Vérifiez le terminal sur votre billet. En cas de doute, communiquez le numéro de vol au 04 22 46 04 62. Une erreur de terminal allonge l'arrivée à Nice.",
+      },
+      {
+        title: "Retour Nice Airport → Draguignan",
+        body: "Accueil avec pancarte sur demande, suivi des retards via le numéro de vol. Trajet direct vers votre domicile ou, si correspondance, vers la gare Les Arcs-Draguignan.",
+      },
+      {
+        title: "Nice, Marseille ou trajet médical ?",
+        body: "Cette page concerne uniquement les vols. Pour un transfert depuis une autre commune, utilisez le [service de taxi vers Nice Côte d'Azur](/taxi-aeroport-nice-dracenie). Marseille : page dédiée. Un rendez-vous hospitalier à Nice n'est pas le même trajet qu'un vol.",
+      },
+      {
+        title: "Tarif Draguignan → aéroport",
+        body: "Le montant est annoncé au téléphone avant confirmation, selon adresse, horaire (jour/nuit) et bagages. Aucun prix n'est affiché ici en dur.",
+      },
+    ],
+    whyChooseTitle: "Pourquoi réserver un taxi aéroport à Draguignan ?",
+    whyChooseUs: [
+      {
+        title: "Quartiers connus",
+        desc: "Les Selves, Malpassé, Saint-Hermentaire, centre : prise en charge à l'adresse.",
+      },
+      {
+        title: "Marge A8",
+        desc: "Départ calé sur le vol, pas sur un temps théorique.",
+      },
+      {
+        title: "T1 et T2",
+        desc: "Dépose et retour au terminal de votre compagnie.",
+      },
+      {
+        title: "Retour suivi",
+        desc: "Numéro de vol, retard, pancarte — reprise à Nice vers Draguignan.",
+      },
+      {
+        title: "Tarif annoncé",
+        desc: "Prix communiqué avant de valider la course.",
+      },
+      {
+        title: "Gare si besoin",
+        desc: "Correspondance possible vers Les Arcs-Draguignan, en course séparée.",
+      },
+    ],
+    serviceAreas: [
+      "Centre-ville Draguignan",
+      "Les Selves",
+      "Malpassé",
+      "Saint-Hermentaire",
+      "Terminaux 1 et 2 — Nice Côte d'Azur",
+      "Aéroport Marseille Provence",
+    ],
+    frequentRoutes: [
+      {
+        title: "Draguignan → Nice Côte d'Azur",
+        desc: "Transfert vol, T1 ou T2.",
+        href: "/taxi-aeroport-nice-dracenie",
+      },
+      {
+        title: "Draguignan → Marseille Provence",
+        desc: "Lorsque le vol part de Marignane.",
+        href: "/taxi-aeroport-marseille-dracenie",
+      },
+      {
+        title: "Draguignan → gare Les Arcs",
+        desc: "Correspondance TGV / TER.",
+        href: "/taxi-draguignan-gare-les-arcs",
+      },
+      {
+        title: "Taxi à Draguignan",
+        desc: "Courses locales, CHD et autres trajets.",
+        href: "/taxi-draguignan",
       },
     ],
     relatedCities: [
       { label: "Taxi Draguignan", href: "/taxi-draguignan" },
-      { label: "Taxi aéroport Nice Dracénie", href: "/taxi-aeroport-nice-dracenie" },
+      { label: "Service de taxi vers Nice Côte d'Azur", href: "/taxi-aeroport-nice-dracenie" },
       { label: "Taxi gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
+      { label: "Taxi aéroport Vidauban", href: "/taxi-aeroport-vidauban" },
     ],
     faq: [
       {
         q: "Combien coûte un taxi Draguignan → Nice ?",
-        a: "Forfait annoncé au téléphone selon destination exacte et horaire (jour/nuit).",
+        a: "Forfait annoncé au téléphone selon destination exacte et horaire (jour/nuit). Appelez le 04 22 46 04 62.",
         aText: "Forfait annoncé par téléphone selon destination et horaire.",
+      },
+      {
+        q: "Combien de temps entre Draguignan et l'aéroport de Nice ?",
+        a: "Environ 1 h à 1 h 30 selon le quartier et le trafic A8. Ce n'est pas un temps garanti.",
+        aText: "Environ 1 h à 1 h 30 selon quartier et trafic, sans garantie.",
+      },
+      {
+        q: "Peut-on réserver un départ très tôt depuis Draguignan ?",
+        a: "Oui, sur réservation. Les vols matinaux impliquent souvent une prise en charge avant 6 h.",
+        aText: "Oui, départs avant 6 h possibles sur réservation.",
+      },
+      {
+        q: "Suivez-vous les retards de vol au retour ?",
+        a: "Oui, avec le numéro de vol. Pancarte nominative possible à Nice.",
+        aText: "Oui, numéro de vol et pancarte possible au retour.",
+      },
+      {
+        q: "Est-ce le même trajet que le CHD ou le Centre Antoine Lacassagne ?",
+        a: "Non. Cette page concerne les vols. Un rendez-vous médical à Nice ou au CHD se réserve à part.",
+        aText: "Non : vols uniquement, distinct du médical CHD ou Lacassagne.",
+      },
+      {
+        q: "Et si je pars d'une autre commune que Draguignan ?",
+        a: "Utilisez le service régional vers Nice Côte d'Azur, ou la page Vidauban si vous partez de Vidauban.",
+        aText: "Autre commune : service régional Nice, ou page Vidauban si départ Vidauban.",
+      },
+    ],
+  },
+
+  "taxi-draguignan-gare-les-arcs": {
+    slug: "taxi-draguignan-gare-les-arcs",
+    type: "combo",
+    cityName: "Draguignan",
+    h1: "Taxi Draguignan ↔ gare Les Arcs — TGV & TER",
+    title:
+      "Taxi Draguignan gare Les Arcs | Liaison TGV & TER sur réservation",
+    description:
+      "Taxi Draguignan ↔ gare Les Arcs-Draguignan : centre-ville, Les Selves, Malpassé, Saint-Hermentaire. TGV, TER, départs matinaux et retours tardifs sur réservation — 04 22 46 04 62.",
+    keywords: [
+      "taxi Draguignan gare Les Arcs",
+      "taxi Draguignan gare TGV",
+      "taxi gare Les Arcs depuis Draguignan",
+      "taxi Les Selves gare Les Arcs",
+      "taxi Malpassé gare TGV",
+    ],
+    intro:
+      "Draguignan n'a pas de gare en ville : les TGV et TER partent de Les Arcs-Draguignan. Taxis La Dracénie organise, sur réservation, la liaison dans les deux sens — prise en charge à Draguignan (centre, Les Selves, Malpassé, Saint-Hermentaire) ou reprise à la sortie du train. Pour une autre commune, utilisez le [taxi gare Les Arcs en Dracénie](/taxi-gare-les-arcs-draguignan).",
+    realTransfersTitle: "Draguignan ↔ gare Les Arcs-Draguignan",
+    realTransfersText:
+      "Les demandes les plus fréquentes : un départ matinal depuis le centre ou Les Selves pour un TGV Paris / Lyon, un retour tardif vers Malpassé ou Saint-Hermentaire, et des TER de semaine avec valises. Le numéro de train permet d'ajuster l'horaire si le train est annoncé en retard. Ce n'est pas une page taxi généraliste : les courses CHD, aéroport ou intra-muros se réservent à part.",
+    sections: [
+      {
+        title: "Départ depuis Draguignan vers la gare",
+        body: "Indiquez l'adresse exacte à Draguignan, l'heure du train et, si possible, le numéro. Nous calculons l'horaire de prise en charge avec une marge pour le trafic et l'accès aux quais — surtout pour un TGV tôt le matin. Ce n'est pas un temps de trajet garanti : depuis le centre, comptez souvent de l'ordre d'une quinzaine de minutes, davantage aux heures de pointe ou depuis un quartier plus éloigné.",
+      },
+      {
+        title: "Retour gare → Draguignan",
+        body: "À l'arrivée, communiquez le numéro de train : le point de rendez-vous (sortie principale ou parking) est confirmé par appel. En cas de retard SNCF, la reprise peut être décalée. Dépose au domicile, au centre-ville, aux Selves, à Malpassé ou à Saint-Hermentaire — précisez l'étage ou le code d'accès si besoin.",
+      },
+      {
+        title: "TGV, TER et départs matinaux",
+        body: "Les TGV vers Paris, Lyon ou Marseille se jouent souvent à quelques minutes. Un TER de semaine demande moins de marge, mais un départ avant 7 h depuis Draguignan se réserve à l'avance. Service 24h/24 sur réservation : derniers trains et arrivées tardives compris.",
+      },
+      {
+        title: "Centre-ville, Les Selves, Malpassé, Saint-Hermentaire",
+        body: "La prise en charge se fait à l'adresse, sur réservation — pas de station de taxi revendiquée dans chaque quartier. Les Selves et le centre sont les départs les plus demandés vers la gare ; Malpassé et Saint-Hermentaire reviennent surtout au retour, avec bagages. Adresse complète + horaire du train suffisent pour caler la course.",
+      },
+      {
+        title: "Bagages, retards et correspondances",
+        body: "Précisez le nombre de passagers et de valises. Un retard de train se gère avec le numéro communiqué. Une correspondance vers l'aéroport de Nice ou un rendez-vous au CHD n'est pas le même trajet : ce sont deux courses à planifier, chacune avec son horaire.",
+      },
+      {
+        title: "Réserver à l'avance — tarif annoncé",
+        body: "Pour un TGV, réservez dès que l'horaire est connu, surtout en vacances scolaires. Le tarif de la liaison Draguignan ↔ gare est communiqué au 04 22 46 04 62 avant confirmation, selon l'adresse, l'horaire (jour/nuit) et les bagages. Aucun montant n'est affiché ici en dur.",
+      },
+    ],
+    whyChooseTitle: "Pourquoi réserver cette liaison ?",
+    whyChooseUs: [
+      {
+        title: "Les deux sens",
+        desc: "Draguignan → gare pour le départ, gare → Draguignan au retour, sur le même numéro.",
+      },
+      {
+        title: "Quartiers nommés",
+        desc: "Centre, Les Selves, Malpassé, Saint-Hermentaire : prise en charge à l'adresse.",
+      },
+      {
+        title: "Numéro de train",
+        desc: "Horaire calé sur le TGV ou le TER, y compris en cas de retard annoncé.",
+      },
+      {
+        title: "Matin et nuit",
+        desc: "Départs avant 7 h et derniers trains : service sur réservation 24h/24.",
+      },
+      {
+        title: "Bagages inclus",
+        desc: "Aide aux valises à l'adresse et à la gare, selon le véhicule convenu.",
+      },
+      {
+        title: "Tarif avant de partir",
+        desc: "Prix annoncé au téléphone pour un trajet Draguignan ↔ gare défini.",
+      },
+    ],
+    serviceAreas: [
+      "Centre-ville de Draguignan",
+      "Les Selves",
+      "Malpassé",
+      "Saint-Hermentaire",
+      "Gare Les Arcs-Draguignan",
+    ],
+    frequentRoutes: [
+      {
+        title: "Taxi gare Les Arcs (Dracénie)",
+        desc: "Hub régional : toutes les communes vers la gare.",
+        href: "/taxi-gare-les-arcs-draguignan",
+      },
+      {
+        title: "Taxi à Draguignan",
+        desc: "Courses locales, CHD et autres trajets en ville.",
+        href: "/taxi-draguignan",
+      },
+      {
+        title: "Taxi aux Arcs",
+        desc: "Gare, centre-ville et correspondances depuis Les Arcs.",
+        href: "/taxi-les-arcs",
+      },
+      {
+        title: "Draguignan → aéroport Nice",
+        desc: "Transfert vol, distinct de la liaison ferroviaire.",
+        href: "/taxi-aeroport-draguignan",
+      },
+    ],
+    relatedCities: [
+      { label: "Taxi gare Les Arcs (Dracénie)", href: "/taxi-gare-les-arcs-draguignan" },
+      { label: "Taxi Draguignan", href: "/taxi-draguignan" },
+      { label: "Taxi Les Arcs", href: "/taxi-les-arcs" },
+      { label: "Taxi aéroport Draguignan", href: "/taxi-aeroport-draguignan" },
+    ],
+    faq: [
+      {
+        q: "Combien de temps entre Draguignan et la gare Les Arcs ?",
+        a: "Souvent de l'ordre d'une quinzaine de minutes depuis le centre-ville, davantage depuis certains quartiers ou en heure de pointe. Ce n'est pas un temps garanti : l'horaire de prise en charge se calcule au téléphone selon l'adresse et l'heure du train.",
+        aText:
+          "Souvent une quinzaine de minutes depuis le centre, davantage selon quartier et trafic — sans garantie.",
+      },
+      {
+        q: "Faut-il réserver à l'avance un taxi Draguignan → gare ?",
+        a: "Oui, surtout pour un TGV matinal, un dernier train ou les vacances scolaires. Appelez le 04 22 46 04 62 dès que vous connaissez l'horaire. La prise en charge à Draguignan se fait sur réservation.",
+        aText:
+          "Oui, surtout TGV matinaux et derniers trains — prise en charge sur réservation.",
+      },
+      {
+        q: "Suivez-vous les retards de train au retour vers Draguignan ?",
+        a: "Communiquez le numéro de train : si la SNCF annonce un retard, la reprise à la gare peut être ajustée. Le point exact (sortie ou parking) est confirmé à l'arrivée.",
+        aText:
+          "Oui, avec le numéro de train : la reprise à la gare peut être ajustée en cas de retard.",
+      },
+      {
+        q: "Prenez-vous en charge Les Selves, Malpassé ou Saint-Hermentaire ?",
+        a: "Oui, sur réservation à l'adresse indiquée. Ce n'est pas une station de taxi dans chaque quartier : nous organisons la course depuis ou vers ces secteurs de Draguignan.",
+        aText:
+          "Oui, prise en charge sur réservation à l'adresse — Les Selves, Malpassé, Saint-Hermentaire ou centre.",
+      },
+      {
+        q: "Peut-on partir très tôt le matin depuis Draguignan vers la gare ?",
+        a: "Oui. Un TGV avant 8 h implique souvent une prise en charge avant 7 h. Le service fonctionne 24h/24 sur réservation.",
+        aText: "Oui, départs avant 7 h possibles sur réservation pour les TGV matinaux.",
+      },
+      {
+        q: "Que faire en cas d'arrivée tardive à la gare Les Arcs ?",
+        a: "Réservez le retour gare → Draguignan en indiquant le numéro du train. Nous confirmons le point de rendez-vous à l'arrivée, y compris en soirée ou de nuit.",
+        aText:
+          "Réservez le retour avec le numéro de train ; rendez-vous confirmé à l'arrivée, y compris de nuit.",
+      },
+      {
+        q: "Quelle différence avec la page taxi Draguignan ou le hub gare ?",
+        a: "Cette page concerne uniquement Draguignan ↔ gare Les Arcs. La page taxi Draguignan couvre CHD, aéroport et courses locales. Le hub gare sert toute la Dracénie (Vidauban, Le Muy, Lorgues…).",
+        aText:
+          "Ici : liaison Draguignan ↔ gare. Taxi Draguignan = général. Hub gare = toute la Dracénie.",
       },
     ],
   },

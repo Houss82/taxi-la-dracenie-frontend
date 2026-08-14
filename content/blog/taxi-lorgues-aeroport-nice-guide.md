@@ -17,7 +17,7 @@ keywords:
 
 # Taxi Lorgues → aéroport Nice : guide complet
 
-**Lorgues**, au cœur des coteaux varois, génère chaque semaine des transferts vers l'**aéroport Nice Côte d'Azur** — vacances estivales, vols Europe ou départs professionnels. Un **[taxi Lorgues](/taxi-lorgues)** avec **forfait annoncé** et **horaire calé sur votre vol** évite le stress du trafic **A8** et des départs très matinaux depuis le centre historique ou les **domaines viticoles**.
+**Lorgues**, au cœur des coteaux varois, génère chaque semaine des transferts vers l'**[aéroport Nice Côte d'Azur](/taxi-aeroport-nice-dracenie)** — vacances estivales, vols Europe ou départs professionnels. Un **[taxi Lorgues](/taxi-lorgues)** avec **forfait annoncé** et **horaire calé sur votre vol** évite le stress du trafic **A8** et des départs très matinaux depuis le centre historique ou les **domaines viticoles**.
 
 > **Pages utiles** : [taxi Lorgues](/taxi-lorgues) · [taxi aéroport Nice Dracénie](/taxi-aeroport-nice-dracenie) · [taxi Taradeau](/taxi-taradeau)
 

@@ -12,6 +12,7 @@ const SERVICE_NAV_LABELS = {
   "taxi-aeroport-vidauban": "Nice depuis Vidauban",
   "taxi-aeroport-draguignan": "Nice depuis Draguignan",
   "taxi-gare-les-arcs-draguignan": "Gare Les Arcs",
+  "taxi-draguignan-gare-les-arcs": "Draguignan ↔ gare",
 };
 
 const CITY_GROUPS = [
@@ -57,7 +58,10 @@ const SERVICE_GROUPS = [
   },
   {
     title: "Gare & transferts",
-    slugs: ["taxi-gare-les-arcs-draguignan"],
+    slugs: [
+      "taxi-gare-les-arcs-draguignan",
+      "taxi-draguignan-gare-les-arcs",
+    ],
   },
 ];
 

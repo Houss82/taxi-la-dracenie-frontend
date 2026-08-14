@@ -1083,6 +1083,12 @@ main section:not(.hero-section) h3 {
   text-align: center;
 }
 
+main section.text-left-headings h2,
+main section.text-left-headings h3,
+main section .card-heading-left {
+  text-align: left;
+}
+
 .site-card h3 {
   text-align: center;
 }

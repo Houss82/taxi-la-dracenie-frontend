@@ -230,7 +230,7 @@ const rawCities = {
       {
         title: "Draguignan → gare Les Arcs",
         desc: "Correspondance train sans retard, bagages pris en charge.",
-        href: "/taxi-gare-les-arcs-draguignan",
+        href: "/taxi-draguignan-gare-les-arcs",
       },
       {
         title: "Draguignan → aéroport Nice",
@@ -252,7 +252,7 @@ const rawCities = {
       { label: "Taxi conventionné Draguignan", href: "/taxi-conventionne-draguignan" },
       { label: "Transport médical CHD", href: "/transport-medical-conventionne-dracenie" },
       { label: "Aéroport Nice", href: "/taxi-aeroport-draguignan" },
-      { label: "Gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
+      { label: "Gare Les Arcs", href: "/taxi-draguignan-gare-les-arcs" },
     ],
     showCpam: true,
     showAirport: true,
@@ -480,6 +480,7 @@ const rawCities = {
     ],
     services: [
       { label: "Taxi gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
+      { label: "Draguignan ↔ gare", href: "/taxi-draguignan-gare-les-arcs" },
       { label: "Aéroport Nice", href: "/taxi-aeroport-nice-dracenie" },
       { label: "Taxi conventionné", href: "/taxi-conventionne-dracenie" },
     ],

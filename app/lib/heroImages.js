@@ -28,6 +28,8 @@ export const serviceHeroImages = {
   "taxi-conventionne-vidauban": "/heroes/taxi-conventionne-vidauban.jpg",
   "taxi-aeroport-vidauban": "/heroes/taxi-aeroport-vidauban.jpg",
   "taxi-aeroport-draguignan": "/heroes/taxi-aeroport-draguignan.jpg",
+  "taxi-draguignan-gare-les-arcs":
+    "/heroes/taxi-draguignan-gare-les-arcs.jpg",
 };
 
 export function getCityHeroImage(slug) {
