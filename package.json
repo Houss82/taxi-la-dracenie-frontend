@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/dev.cjs",
-    "dev:fast": "next dev -p 3003 -H 0.0.0.0",
-    "dev:clean": "rm -rf .next && next dev -p 3003 -H 0.0.0.0",
-    "dev:reset": "rm -rf .next node_modules/.cache && next dev -p 3003 -H 0.0.0.0",
+    "dev:fast": "next dev -p 3004 -H 0.0.0.0",
+    "dev:clean": "rm -rf .next && next dev -p 3004 -H 0.0.0.0",
+    "dev:reset": "rm -rf .next node_modules/.cache && next dev -p 3004 -H 0.0.0.0",
     "build": "next build",
     "build:clean": "rm -rf .next && next build",
     "start": "next start",

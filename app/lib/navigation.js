@@ -13,6 +13,7 @@ const SERVICE_NAV_LABELS = {
   "taxi-aeroport-draguignan": "Nice depuis Draguignan",
   "taxi-gare-les-arcs-draguignan": "Gare Les Arcs",
   "taxi-draguignan-gare-les-arcs": "Draguignan ↔ gare",
+  "taxi-le-muy-gare-les-arcs": "Le Muy ↔ gare",
 };
 
 const CITY_GROUPS = [
@@ -61,6 +62,7 @@ const SERVICE_GROUPS = [
     slugs: [
       "taxi-gare-les-arcs-draguignan",
       "taxi-draguignan-gare-les-arcs",
+      "taxi-le-muy-gare-les-arcs",
     ],
   },
 ];

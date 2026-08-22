@@ -23,7 +23,7 @@ console.log("Cache .next nettoye — demarrage Next.js…\n");
 
 const child = spawn(
   "next",
-  ["dev", "-p", "3003", "-H", "0.0.0.0"],
+  ["dev", "-p", "3004", "-H", "0.0.0.0"],
   { stdio: "inherit", shell: true, cwd: root },
 );
 

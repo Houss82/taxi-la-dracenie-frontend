@@ -30,6 +30,8 @@ export const serviceHeroImages = {
   "taxi-aeroport-draguignan": "/heroes/taxi-aeroport-draguignan.jpg",
   "taxi-draguignan-gare-les-arcs":
     "/heroes/taxi-draguignan-gare-les-arcs.jpg",
+  "taxi-le-muy-gare-les-arcs":
+    "/heroes/taxi-le-muy-gare-les-arcs.jpg",
 };
 
 export function getCityHeroImage(slug) {

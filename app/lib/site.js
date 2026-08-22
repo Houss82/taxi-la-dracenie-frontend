@@ -29,6 +29,7 @@ export const ALL_SERVICE_SLUGS = [
   "taxi-aeroport-vidauban",
   "taxi-aeroport-draguignan",
   "taxi-draguignan-gare-les-arcs",
+  "taxi-le-muy-gare-les-arcs",
 ];
 
 export const ALL_PAGE_SLUGS = [...ALL_CITY_SLUGS, ...ALL_SERVICE_SLUGS];

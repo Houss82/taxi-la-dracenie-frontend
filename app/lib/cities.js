@@ -355,13 +355,13 @@ const rawCities = {
     ],
     frequentRoutes: [
       { title: "Le Muy → Draguignan", desc: "Centre-ville ou CHD.", href: "/taxi-draguignan" },
-      { title: "Le Muy → gare Les Arcs", desc: "Départ domicile, arrivée quai.", href: "/taxi-gare-les-arcs-draguignan" },
+      { title: "Le Muy → gare Les Arcs", desc: "Départ domicile, arrivée quai.", href: "/taxi-le-muy-gare-les-arcs" },
       { title: "Le Muy → Les Arcs centre", desc: "Quartiers et commerces.", href: "/taxi-les-arcs" },
       { title: "Le Muy → aéroport Nice", desc: "Transfert longue distance planifié.", href: "/taxi-aeroport-nice-dracenie" },
     ],
     services: [
       { label: "Taxi conventionné", href: "/taxi-conventionne-dracenie" },
-      { label: "Gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
+      { label: "Gare Les Arcs", href: "/taxi-le-muy-gare-les-arcs" },
       { label: "Aéroport Nice", href: "/taxi-aeroport-nice-dracenie" },
     ],
     showCpam: true,
