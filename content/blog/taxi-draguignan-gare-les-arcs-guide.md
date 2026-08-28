@@ -34,6 +34,8 @@ La gare **Les Arcs-Draguignan** concentre les liaisons ferroviaires du Var inté
 
 Ce n'est **pas** le même sujet qu'un taxi « général » à Draguignan (CHD, courses locales, aéroport) : ici, l'intention est **uniquement** la liaison ferroviaire.
 
+Si Marseille est votre destination finale et que vous hésitez entre un trajet direct et une correspondance, notre [guide Dracénie → Marseille](/blog/taxi-dracenie-marseille-saint-charles-guide) détaille les points d'arrivée, les bagages et l'organisation du retour. Cette page reste consacrée au seul tronçon Draguignan ↔ gare Les Arcs.
+
 ---
 
 ## 2. Combien de temps prévoir jusqu'à la gare ?

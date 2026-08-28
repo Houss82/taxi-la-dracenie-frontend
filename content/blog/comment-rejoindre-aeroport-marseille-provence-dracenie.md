@@ -21,6 +21,8 @@ Depuis **Draguignan**, **Vidauban** ou **Les Arcs**, l'**aéroport Marseille Pro
 
 Si vous cherchez surtout à **réserver** un transfert, commencez par la page **[taxi aéroport Marseille Dracénie](/taxi-aeroport-marseille-dracenie)**. Cet article répond aux questions pratiques : combien de temps prévoir, quand partir, que communiquer, et dans quels cas Marseille est plus pertinent que Nice.
 
+Si votre destination est plutôt **Saint-Charles ou une adresse du centre-ville**, consultez aussi notre guide sur l'[organisation d'un trajet Dracénie → Marseille](/blog/taxi-dracenie-marseille-saint-charles-guide). Il traite les correspondances et les arrivées en ville, qui ne se préparent pas comme un transfert vers un terminal.
+
 > **Pages utiles** : [taxi aéroport Marseille Dracénie](/taxi-aeroport-marseille-dracenie) · [taxi aéroport Nice Dracénie](/taxi-aeroport-nice-dracenie) · [taxi Draguignan](/taxi-draguignan)
 
 ---

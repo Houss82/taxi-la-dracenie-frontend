@@ -21,6 +21,8 @@ keywords:
 
 La **gare Les Arcs-Draguignan** concentre les **TGV** (Paris, Lyon, Marseille) et les **TER** du Var intérieur. Depuis **[Vidauban](/taxi-vidauban)**, un **[taxi gare Les Arcs](/taxi-gare-les-arcs-draguignan)** avec **forfait annoncé à l'avance** évite le stationnement, le stress des trains matinaux et les retards de dernière minute.
 
+Pour préparer la suite du voyage lorsque Marseille est la destination finale, voyez également le [guide des trajets Dracénie → Marseille](/blog/taxi-dracenie-marseille-saint-charles-guide). Il aide à comparer l'arrivée à Saint-Charles, une adresse du centre et une correspondance depuis la gare.
+
 > **Pages utiles** : [taxi Vidauban](/taxi-vidauban) · [taxi gare Les Arcs-Draguignan](/taxi-gare-les-arcs-draguignan) · [taxi Les Arcs](/taxi-les-arcs)
 
 ---
