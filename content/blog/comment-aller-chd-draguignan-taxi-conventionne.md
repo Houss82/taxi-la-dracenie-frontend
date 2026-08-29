@@ -43,7 +43,7 @@ Nous intervenons régulièrement depuis :
 - **Les Arcs**, **Le Muy**, **Trans-en-Provence**, **Flayosc**, **Figanières**
 - **Lorgues**, **Taradeau** et villages alentour
 
-Les patients venant de **Vidauban**, **Le Muy**, **Taradeau** ou **Lorgues** réservent souvent un taxi conventionné pour leurs **consultations au CHD Draguignan**, leurs séances de **radiothérapie** ou leurs rendez-vous d'**hospitalisation de jour**. Nous couvrons l'ensemble de la Dracénie depuis [taxi Draguignan](/taxi-draguignan) et [taxi Vidauban](/taxi-vidauban).
+Les patients venant de **[Vidauban](/taxi-vidauban)** (voir aussi [taxi conventionné Vidauban](/taxi-conventionne-vidauban)), **Le Muy**, **Taradeau** ou **Lorgues** réservent souvent un taxi conventionné pour leurs **consultations au CHD Draguignan**, leurs séances de **radiothérapie** ou leurs rendez-vous d'**hospitalisation de jour**. Nous couvrons l'ensemble de la Dracénie depuis [taxi Draguignan](/taxi-draguignan) et [taxi Vidauban](/taxi-vidauban).
 
 Chaque commune dispose d'une page dédiée : [taxi Les Arcs](/taxi-les-arcs), [taxi gare Les Arcs](/taxi-gare-les-arcs-draguignan).
 

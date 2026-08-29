@@ -19,34 +19,147 @@ const rawServices = {
       "transport médical conventionné Dracénie",
     ],
     intro:
-      "Taxis La Dracénie accompagnent vos trajets médicaux conventionnés sur tout le territoire dracénois : Vidauban, Draguignan, Les Arcs, Le Muy et communes voisines. L'éligibilité CPAM se vérifie toujours au téléphone avant le départ.",
+      "Vous cherchez un taxi conventionné CPAM en Dracénie ? Cette page est le point d'entrée commercial pour trouver et réserver un transport médical assis depuis Vidauban, Draguignan, Les Arcs, Le Muy ou les villages alentour. L'éligibilité se vérifie toujours au 04 22 46 04 62 avant le départ — sans promesse de remboursement que seule votre caisse peut confirmer. Pour comprendre l'organisation du transport médical (types de rendez-vous, démarches CPAM), consultez la page [transport médical conventionné Dracénie](/transport-medical-conventionne-dracenie).",
+    realTransfersTitle: "Où réserver un taxi conventionné en Dracénie ?",
+    realTransfersText:
+      "Les réservations partent le plus souvent de Vidauban, Draguignan centre, Les Arcs, Le Muy, Lorgues ou des villages du nord (Trans-en-Provence, Flayosc, Figanières, Taradeau) vers le Centre Hospitalier de la Dracénie ou des cabinets à Draguignan. Selon votre commune de départ, une landing locale peut être plus pertinente : [taxi conventionné Vidauban](/taxi-conventionne-vidauban) pour un trajet depuis Vidauban, [taxi conventionné Draguignan](/taxi-conventionne-draguignan) pour un départ dracénois. Cette page hub reste utile si vous ne savez pas quelle URL choisir ou si votre commune n'a pas encore de page dédiée.",
     sections: [
       {
-        title: "Qui peut bénéficier d'un taxi conventionné ?",
-        body: "La prise en charge dépend de votre situation médicale, de la prescription et des règles de votre caisse. Nous vous orientons clairement au 04 22 46 04 62 — sans promesse de remboursement que nous ne pouvons pas garantir à votre place.",
+        title: "Trouver le bon taxi conventionné selon votre commune",
+        body: "Chaque intention locale a sa page : [taxi conventionné Vidauban](/taxi-conventionne-vidauban) pour un départ depuis Vidauban, [taxi conventionné Draguignan](/taxi-conventionne-draguignan) pour Draguignan et ses quartiers (Les Selves, Saint-Hermentaire). Pour un taxi général (gare, aéroport, course locale), utilisez plutôt [taxi Vidauban](/taxi-vidauban) ou [taxi Draguignan](/taxi-draguignan). Cette page hub sert surtout à centraliser la réservation lorsque vous ne connaissez pas la landing exacte.",
       },
       {
-        title: "Établissements desservis",
-        body: "Centre Hospitalier de la Dracénie (Draguignan), cabinets spécialistes, imagerie, dialyse, consultations de ville : précisez l'adresse exacte et l'horaire du rendez-vous.",
+        title: "Comment réserver un taxi conventionné en Dracénie",
+        body: "Appelez le 04 22 46 04 62 avec votre adresse complète, la destination médicale (CHD, cabinet, service hospitalier), l'heure du rendez-vous et, si vous l'avez, votre prescription ou numéro de sécurité sociale. Pour un rendez-vous programmé, réservez de préférence 24 à 48 h à l'avance. Les séances récurrentes (dialyse, imagerie, kiné) se planifient dès le premier appel pour caler des créneaux réguliers.",
+      },
+      {
+        title: "Zone couverte : Dracénie et communes voisines",
+        body: "Nous organisons des trajets conventionnés depuis Vidauban, Draguignan, Les Arcs, Le Muy, Lorgues, Trans-en-Provence, Flayosc, Figanières, Taradeau et les hameaux alentour, selon disponibilité et éligibilité CPAM. Précisez toujours l'adresse exacte de prise en charge : lotissement, hameau ou repère si l'accès est difficile.",
+      },
+      {
+        title: "CHD Draguignan : destination la plus demandée",
+        body: "Le Centre Hospitalier de la Dracénie concentre la majorité des rendez-vous hospitaliers du secteur. Indiquez le service visé (consultation externe, imagerie, urgences non vitales, hospitalisation de jour) et l'heure du rendez-vous. Pour le détail des types de trajets (dialyse, radiothérapie, retour d'hospitalisation), la page [transport médical conventionné Dracénie](/transport-medical-conventionne-dracenie) complète cette hub sans remplacer la réservation ici.",
+      },
+      {
+        title: "CPAM : ce qu'il faut préparer avant l'appel",
+        body: "La prise en charge dépend de votre situation médicale, de la prescription et des règles de votre caisse — nous ne pouvons pas garantir un remboursement à votre place. En revanche, nous clarifions au téléphone ce qu'il est utile d'avoir sous la main : prescription médicale de transport, bon de transport si applicable, numéro de sécurité sociale. Le tarif de la course est annoncé avant confirmation.",
+      },
+      {
+        title: "Taxi conventionné ou page transport médical : quelle différence ?",
+        body: "La page commerciale du taxi conventionné Dracénie sert à trouver et réserver un taxi CPAM dans le secteur. La page [transport médical conventionné Dracénie](/transport-medical-conventionne-dracenie) explique comment s'organise le transport médical (CHD, spécialistes, formalités, types de rendez-vous). Les deux se complètent : l'une oriente vers la réservation, l'autre vers la compréhension du dispositif.",
+      },
+    ],
+    whyChooseTitle: "Pourquoi passer par Taxis La Dracénie ?",
+    whyChooseUs: [
+      {
+        title: "Un numéro, toute la Dracénie",
+        desc: "04 22 46 04 62 — réservation depuis Vidauban, Draguignan, Les Arcs, Le Muy et villages voisins.",
+      },
+      {
+        title: "Landings locales",
+        desc: "Pages dédiées Vidauban et Draguignan pour un départ précis — ce hub pour le reste.",
+      },
+      {
+        title: "CPAM transparente",
+        desc: "Vérification d'éligibilité au téléphone, sans fausse promesse de remboursement.",
+      },
+      {
+        title: "CHD au quotidien",
+        desc: "Trajets fréquents vers le Centre Hospitalier de la Dracénie — entrées et flux habituels.",
+      },
+      {
+        title: "Créneaux récurrents",
+        desc: "Dialyse, imagerie ou suivi régulier : séries planifiées avec le même interlocuteur.",
+      },
+      {
+        title: "Disponibilité 24h/24",
+        desc: "Consultations matinales, retours tardifs ou sortie d'hospitalisation sur réservation.",
+      },
+    ],
+    serviceAreas: [
+      "Vidauban — centre, lotissements et hameaux",
+      "Draguignan — tous quartiers et CHD",
+      "Les Arcs & Le Muy",
+      "Lorgues, Taradeau & Trans-en-Provence",
+      "Flayosc & Figanières",
+      "CHD Draguignan — toutes entrées",
+    ],
+    frequentRoutes: [
+      {
+        title: "Vidauban → CHD Draguignan",
+        desc: "Landing locale — trajet médical le plus demandé depuis Vidauban.",
+        href: "/taxi-conventionne-vidauban",
+      },
+      {
+        title: "Draguignan → CHD / imagerie",
+        desc: "Landing locale — quartiers dracénois et rendez-vous hospitaliers.",
+        href: "/taxi-conventionne-draguignan",
+      },
+      {
+        title: "Les Arcs → CHD",
+        desc: "Depuis le centre ou la gare — selon prescription et éligibilité.",
+        href: "/taxi-les-arcs",
+      },
+      {
+        title: "Le Muy → Draguignan médical",
+        desc: "Consultations et examens au CHD ou en ville.",
+        href: "/taxi-le-muy",
+      },
+      {
+        title: "Villages nord → CHD",
+        desc: "Trans-en-Provence, Flayosc, Figanières — liaison hospitalière.",
+        href: "/taxi-trans-en-provence",
       },
     ],
     relatedCities: [
       { label: "Taxi conventionné Vidauban", href: "/taxi-conventionne-vidauban" },
       { label: "Taxi conventionné Draguignan", href: "/taxi-conventionne-draguignan" },
+      { label: "Transport médical Dracénie", href: "/transport-medical-conventionne-dracenie" },
       { label: "Taxi Vidauban", href: "/taxi-vidauban" },
       { label: "Taxi Draguignan", href: "/taxi-draguignan" },
+      { label: "Taxi Les Arcs", href: "/taxi-les-arcs" },
     ],
     faq: [
       {
         q: "Comment réserver un taxi conventionné en Dracénie ?",
-        a: "Appelez le 04 22 46 04 62 en indiquant votre adresse, la destination médicale et votre numéro de sécurité sociale si pertinent.",
+        a: "Appelez le 04 22 46 04 62 en indiquant votre adresse, la destination médicale, l'heure du rendez-vous et votre numéro de sécurité sociale si pertinent. Réservez 24 à 48 h à l'avance si possible.",
         aText:
-          "Appelez en indiquant adresse, destination médicale et informations CPAM utiles.",
+          "Appelez avec adresse, destination, horaire et informations CPAM — 24 à 48 h à l'avance recommandé.",
       },
       {
         q: "Le taxi conventionné couvre-t-il toute la Dracénie ?",
-        a: "Oui, Vidauban, Draguignan, Les Arcs, Le Muy, Lorgues et villages alentour selon disponibilité.",
-        aText: "Oui, sur l'ensemble de la Dracénie selon disponibilité des véhicules.",
+        a: "Oui, Vidauban, Draguignan, Les Arcs, Le Muy, Lorgues, Trans-en-Provence, Flayosc, Figanières et villages alentour selon disponibilité et éligibilité CPAM.",
+        aText: "Oui, sur l'ensemble de la Dracénie selon disponibilité et éligibilité CPAM.",
+      },
+      {
+        q: "Quelle page utiliser : hub Dracénie, Vidauban ou Draguignan ?",
+        a: "Depuis Vidauban → page taxi conventionné Vidauban. Depuis Draguignan → page taxi conventionné Draguignan. Ce hub sert si vous ne savez pas quelle landing choisir ou si votre commune n'a pas de page dédiée.",
+        aText:
+          "Landing locale si Vidauban ou Draguignan — ce hub pour les autres communes ou l'orientation.",
+      },
+      {
+        q: "Différence entre cette page et transport médical Dracénie ?",
+        a: "Cette page sert à trouver et réserver un taxi conventionné. La page transport médical explique l'organisation des trajets (types de rendez-vous, CHD, formalités CPAM) sans remplacer la réservation.",
+        aText:
+          "Cette page = réservation ; transport médical = explications sur l'organisation des trajets.",
+      },
+      {
+        q: "Faut-il une prescription pour réserver ?",
+        a: "En général oui pour une prise en charge CPAM. Vérifiez avec votre médecin et appelez-nous pour confirmer les documents à préparer avant le départ.",
+        aText:
+          "Prescription généralement requise pour CPAM — confirmation des documents au téléphone.",
+      },
+      {
+        q: "Peut-on planifier des trajets récurrents (dialyse, kiné) ?",
+        a: "Oui, communiquez la fréquence de vos séances dès le premier appel. Nous calons des créneaux réguliers lorsque c'est possible, avec le même interlocuteur.",
+        aText:
+          "Oui — indiquez la fréquence dès le premier appel pour planifier des créneaux réguliers.",
+      },
+      {
+        q: "Taxi conventionné ou ambulance / VSL ?",
+        a: "Le taxi assis convient aux patients autonomes ou semi-autonomes. Pour les urgences vitales ou le transport allongé, contactez le 15 ou un VSL/ambulance adapté.",
+        aText:
+          "Taxi assis pour patients autonomes ; urgences vitales → 15 ou VSL/ambulance adapté.",
       },
     ],
   },
@@ -68,10 +181,10 @@ const rawServices = {
       "taxi hospitalisation Draguignan",
     ],
     intro:
-      "Pour vos rendez-vous au Centre Hospitalier de la Dracénie (CHD), en radiothérapie, dialyse ou consultation spécialisée, Taxis La Dracénie organisent un transport médical assis dans le respect des conditions CPAM. Chaque dossier est unique : appelez avant de monter en voiture pour vérifier votre éligibilité.",
+      "Pour vos rendez-vous au Centre Hospitalier de la Dracénie (CHD), en radiothérapie, dialyse ou consultation spécialisée, Taxis La Dracénie organisent un transport médical assis dans le respect des conditions CPAM. Chaque dossier est unique : appelez avant de monter en voiture pour vérifier votre éligibilité. Pour réserver un taxi conventionné, le hub [taxi conventionné Dracénie](/taxi-conventionne-dracenie) centralise la prise de contact.",
     realTransfersTitle: "Trajets médicaux réels en Dracénie",
     realTransfersText:
-      "Nous effectuons quotidiennement des trajets Vidauban → CHD Draguignan, Draguignan → imagerie ou cardiologie, Les Arcs → consultations hospitalières, et des transferts vers Toulon (Hôpital Sainte-Musse) ou Nice pour la radiothérapie et l'oncologie lorsque la prescription le prévoit. Les retours d'hospitalisation et les rendez-vous récurrents (dialyse, kinésithérapie) sont planifiés avec ponctualité.",
+      "Nous effectuons quotidiennement des trajets Vidauban → CHD Draguignan, Draguignan → imagerie ou cardiologie, Les Arcs → consultations hospitalières, et des transferts vers Toulon (Hôpital Sainte-Musse) ou Nice pour la radiothérapie et l'oncologie lorsque la prescription le prévoit. Les retours d'hospitalisation et les rendez-vous récurrents (dialyse, kinésithérapie) sont planifiés avec ponctualité. Pour un départ depuis Vidauban, la page [taxi conventionné Vidauban](/taxi-conventionne-vidauban) détaille l'organisation locale.",
     sections: [
       {
         title: "CHD Draguignan — notre destination principale",
@@ -838,25 +951,149 @@ const rawServices = {
     title: "Taxi conventionné Vidauban | Transport médical Dracénie & CPAM",
     description:
       "Taxi conventionné à Vidauban : trajets médicaux vers Draguignan, CHD et spécialistes. CPAM selon éligibilité — 04 22 46 04 62.",
-    keywords: ["taxi conventionné Vidauban", "taxi CPAM Vidauban", "transport médical Vidauban"],
+    keywords: [
+      "taxi conventionné Vidauban",
+      "taxi CPAM Vidauban",
+      "transport médical Vidauban",
+      "taxi CHD depuis Vidauban",
+      "transport assis CPAM Vidauban",
+    ],
     intro:
-      "Depuis Vidauban, base de Taxis La Dracénie, nous organisons vos trajets médicaux conventionnés vers Draguignan, le CHD ou les praticiens du Var. Transparence sur l'éligibilité CPAM dès le premier appel.",
+      "Depuis Vidauban, Taxis La Dracénie organisent vos trajets médicaux conventionnés vers le CHD Draguignan ou les cabinets du centre-ville de Draguignan. Chaque dossier CPAM se vérifie au téléphone avant le départ — sans promesse de remboursement que seule votre caisse peut confirmer. Pour les autres besoins depuis Vidauban (gare, aéroport, courses locales), la page [taxi Vidauban](/taxi-vidauban) reste le point d'entrée général.",
+    realTransfersTitle: "Trajets conventionnés fréquents depuis Vidauban",
+    realTransfersText:
+      "Les courses les plus demandées partent du centre-ville, des lotissements ou des hameaux de Vidauban vers le Centre Hospitalier de la Dracénie : consultations, imagerie, dialyse, hospitalisation de jour ou retour après sortie. Nous organisons aussi des trajets vers des cabinets à Draguignan centre et, sur prescription et éligibilité CPAM, des départs vers Toulon ou Nice pour certains spécialistes. Lorsqu'un rendez-vous impose un train, le trajet Vidauban → [gare Les Arcs-Draguignan](/taxi-gare-les-arcs-draguignan) peut être organisé, mais la prise en charge CPAM n'est jamais automatique : elle dépend de la prescription, du motif médical et des règles applicables au transport concerné. Les séances récurrentes se planifient à l'avance avec le même interlocuteur lorsque c'est possible.",
     sections: [
       {
-        title: "Depuis Vidauban",
-        body: "Prise en charge au centre, en lotissement ou hameau. Trajets réguliers vers la gare Les Arcs pour les correspondances médicales hors Dracénie.",
+        title: "Vidauban → CHD Draguignan : la liaison médicale principale",
+        body: "Vidauban ne dispose pas d'hôpital de plein exercice : la plupart des rendez-vous hospitaliers se font au Centre Hospitalier de la Dracénie, à Draguignan. Indiquez le service visé (consultation externe, imagerie, urgences non vitales, hospitalisation de jour), l'heure du rendez-vous et votre adresse exacte à Vidauban. Nous prévoyons une marge pour le stationnement et l'accès piéton — ce n'est pas un temps de trajet garanti.",
+      },
+      {
+        title: "Prise en charge au centre, en lotissement ou hameau",
+        body: "La course peut démarrer au centre-ville, dans un lotissement périphérique, un domaine ou un hameau du secteur Vidauban. Précisez l'étage, le code d'accès ou un repère si l'adresse est difficile à trouver. Pour les patients à mobilité réduite sans besoin d'ambulance, le transport assis en taxi peut convenir — à valider selon votre prescription et votre éligibilité CPAM.",
+      },
+      {
+        title: "Consultations, imagerie et rendez-vous récurrents",
+        body: "IRM, scanner, dialyse, kinésithérapie ou suivi régulier : ces trajets se réservent de préférence 24 à 48 h à l'avance. Pour une série de séances, communiquez la fréquence dès le premier appel afin de caler des créneaux cohéents. Le hub [transport médical conventionné Dracénie](/transport-medical-conventionne-dracenie) détaille les grands types de trajets. Pour préparer un rendez-vous au CHD, consultez aussi le [guide pour aller au CHD en taxi conventionné](/blog/comment-aller-chd-draguignan-taxi-conventionne) ; cette page reste centrée sur un départ depuis Vidauban.",
+      },
+      {
+        title: "Correspondance gare Les Arcs : ce n'est pas automatiquement CPAM",
+        body: "Un rendez-vous médical peut parfois impliquer un train depuis la [gare Les Arcs-Draguignan](/taxi-gare-les-arcs-draguignan). Le taxi Vidauban → gare se réserve comme une course distincte, avec son horaire propre. La prise en charge CPAM n'est pas automatique pour un trajet vers une gare : elle dépend de votre prescription, du motif du transport et des règles de votre caisse. Le train et la suite du parcours se planifient séparément. Communiquez l'heure à laquelle vous devez être à la gare, pas seulement l'heure du train.",
+      },
+      {
+        title: "Départ depuis une autre commune de la Dracénie",
+        body: "Cette page concerne un trajet médical conventionné avec prise en charge à Vidauban. Pour un départ depuis Draguignan, Les Arcs, Le Muy ou un village voisin, utilisez la landing correspondante ou le hub [taxi conventionné Dracénie](/taxi-conventionne-dracenie). L'éligibilité CPAM reste à vérifier au 04 22 46 04 62.",
+      },
+      {
+        title: "Formalités CPAM et transparence avant le départ",
+        body: "Nous ne remplaçons ni votre médecin ni votre caisse. En revanche, nous vous indiquons ce qu'il est utile de préparer : prescription médicale de transport, bon de transport si applicable, numéro de sécurité sociale. Le tarif de la course est annoncé avant confirmation ; la part éventuellement prise en charge par la CPAM dépend de votre dossier, pas de Taxis La Dracénie.",
+      },
+    ],
+    whyChooseTitle: "Pourquoi réserver un taxi conventionné depuis Vidauban ?",
+    whyChooseUs: [
+      {
+        title: "Base locale à Vidauban",
+        desc: "Organisation depuis la commune, avec connaissance des accès centre, lotissements et axes vers Draguignan.",
+      },
+      {
+        title: "CHD au quotidien",
+        desc: "Trajets fréquents vers le Centre Hospitalier de la Dracénie — entrées et flux hospitaliers habituels.",
+      },
+      {
+        title: "CPAM clarifiée",
+        desc: "Vérification d'éligibilité au téléphone, sans promesse de remboursement.",
+      },
+      {
+        title: "Créneaux récurrents",
+        desc: "Dialyse, imagerie ou suivi régulier : séries de trajets planifiées à l'avance.",
+      },
+      {
+        title: "Gare si besoin",
+        desc: "Course Vidauban → Les Arcs possible — éligibilité CPAM à vérifier selon prescription.",
+      },
+      {
+        title: "Disponibilité 24h/24",
+        desc: "Consultations matinales, retours tardifs ou sortie d'hospitalisation sur réservation.",
+      },
+    ],
+    serviceAreas: [
+      "Centre-ville de Vidauban",
+      "Lotissements et hameaux",
+      "CHD Draguignan — toutes entrées",
+      "Draguignan centre — cabinets et spécialistes",
+      "Gare Les Arcs-Draguignan (sur prescription, si éligible)",
+    ],
+    frequentRoutes: [
+      {
+        title: "Vidauban → CHD Draguignan",
+        desc: "Consultation, imagerie, dialyse ou hospitalisation de jour.",
+        href: "/transport-medical-conventionne-dracenie",
+      },
+      {
+        title: "Vidauban → Draguignan centre",
+        desc: "Cabinets, laboratoires et spécialistes en ville.",
+        href: "/taxi-draguignan",
+      },
+      {
+        title: "Vidauban → gare Les Arcs",
+        desc: "Sur prescription — éligibilité CPAM à confirmer avant le départ.",
+        href: "/taxi-gare-les-arcs-draguignan",
+      },
+      {
+        title: "Vidauban → spécialiste hors Dracénie",
+        desc: "Sur prescription et éligibilité CPAM — Toulon ou Nice selon dossier.",
+        href: "/transport-medical-conventionne-dracenie",
       },
     ],
     relatedCities: [
       { label: "Taxi Vidauban", href: "/taxi-vidauban" },
       { label: "Taxi conventionné Draguignan", href: "/taxi-conventionne-draguignan" },
+      { label: "Transport médical Dracénie", href: "/transport-medical-conventionne-dracenie" },
       { label: "Taxi conventionné Dracénie", href: "/taxi-conventionne-dracenie" },
+      { label: "Gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
     ],
     faq: [
       {
         q: "Peut-on aller au CHD en taxi conventionné depuis Vidauban ?",
-        a: "Oui, sous conditions CPAM. Précisez le service hospitalier visé lors de l'appel.",
-        aText: "Oui sous conditions CPAM, en précisant le service hospitalier.",
+        a: "Oui, sous conditions CPAM et selon votre prescription. Indiquez le service hospitalier visé, l'heure du rendez-vous et votre adresse à Vidauban lors de l'appel.",
+        aText:
+          "Oui sous conditions CPAM — précisez service, horaire et adresse à Vidauban.",
+      },
+      {
+        q: "Faut-il une prescription pour un taxi conventionné à Vidauban ?",
+        a: "En général oui pour une prise en charge CPAM. Vérifiez avec votre médecin traitant et appelez le 04 22 46 04 62 pour confirmer les documents à préparer.",
+        aText:
+          "Une prescription est généralement requise — confirmation des documents au téléphone.",
+      },
+      {
+        q: "Combien de temps prévoir entre Vidauban et le CHD ?",
+        a: "Comptez souvent environ 20 à 30 minutes selon votre adresse à Vidauban, l'heure et la circulation. Ce n'est pas un temps garanti : réservez avec une marge avant le rendez-vous.",
+        aText:
+          "Environ 20 à 30 minutes selon adresse et trafic — sans garantie.",
+      },
+      {
+        q: "Peut-on réserver une série de trajets médicaux ?",
+        a: "Oui pour la dialyse, l'imagerie ou un suivi régulier. Communiquez la fréquence des séances dès le premier appel pour planifier les créneaux.",
+        aText:
+          "Oui — indiquez la fréquence des séances pour planifier les créneaux.",
+      },
+      {
+        q: "Le taxi conventionné couvre-t-il les lotissements et hameaux ?",
+        a: "Oui, la prise en charge se fait à l'adresse exacte communiquée — centre, lotissement ou hameau — sous réserve d'éligibilité CPAM pour le trajet demandé.",
+        aText:
+          "Oui, prise en charge à l'adresse exacte selon éligibilité CPAM.",
+      },
+      {
+        q: "Différence entre taxi conventionné et ambulance ?",
+        a: "Le taxi assis convient aux patients autonomes ou semi-autonomes. Pour une urgence vitale ou un transport allongé, contactez le 15 ou un transport sanitaire adapté (VSL/ambulance).",
+        aText:
+          "Taxi assis pour patients autonomes ; urgence vitale → 15 ou VSL/ambulance.",
+      },
+      {
+        q: "Peut-on combiner trajet médical et gare Les Arcs ?",
+        a: "Oui, en courses distinctes : Vidauban → gare puis train, ou l'inverse. Chaque tronçon se réserve avec son horaire. La prise en charge CPAM du trajet taxi vers la gare n'est pas automatique : elle dépend de votre prescription et des règles applicables — à vérifier au 04 22 46 04 62.",
+        aText:
+          "Oui en courses séparées — éligibilité CPAM du trajet taxi à vérifier selon prescription.",
       },
     ],
   },

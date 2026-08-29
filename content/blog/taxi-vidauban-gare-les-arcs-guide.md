@@ -180,7 +180,7 @@ Trajets associés fréquents depuis Vidauban :
 
 - **Vidauban → gare Les Arcs** — TGV Paris, Lyon, Marseille
 - **Vidauban → aéroport Nice** — [taxi aéroport Vidauban](/taxi-aeroport-vidauban) · [guide transfert Nice](/blog/transfert-aeroport-nice-dracenie-guide)
-- **Vidauban → CHD Draguignan** — [transport médical conventionné](/transport-medical-conventionne-dracenie) · [démarches CPAM](/blog/taxi-conventionne-draguignan-demarches-cpam-chd)
+- **Vidauban → CHD Draguignan** — [taxi conventionné depuis Vidauban](/taxi-conventionne-vidauban) · [transport médical conventionné](/transport-medical-conventionne-dracenie) · [démarches CPAM](/blog/taxi-conventionne-draguignan-demarches-cpam-chd)
 
 ---
 

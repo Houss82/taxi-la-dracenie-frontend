@@ -6,13 +6,6 @@ image: "/heroes/taxi-marseille-aeroport.jpeg"
 category: "Guides pratiques"
 author: "Taxis La Dracénie"
 language: "fr"
-keywords:
-  - taxi Draguignan Marseille
-  - taxi Dracénie Marseille
-  - gare Marseille Saint-Charles depuis Draguignan
-  - trajet Vidauban Marseille
-  - taxi Le Muy Marseille
-  - transfert vers Marseille centre-ville
 ---
 
 Rejoindre Marseille depuis la Dracénie ne répond pas toujours au même besoin : arrivée à la gare Saint-Charles, rendez-vous dans le centre, correspondance avec un train ou déplacement professionnel. Le point de départ, l'horaire et les bagages changent la façon de préparer la course.
