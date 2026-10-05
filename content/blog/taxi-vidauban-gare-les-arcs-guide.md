@@ -124,7 +124,7 @@ La **gare Les Arcs-Draguignan** (ligne Marseille–Nice, au sud de **[Draguignan
 - **Toulon**
 - **Nice Ville**
 
-C'est pourquoi tant de résidents de **[Vidauban](/taxi-vidauban)**, du **[Muy](/taxi-le-muy)** ou des **[Arcs](/taxi-les-arcs)** anticipent leur **[taxi gare Les Arcs](/taxi-gare-les-arcs-draguignan)** — surtout pour les départs matinaux vers Paris ou Lyon.
+C'est pourquoi tant de résidents de **[Vidauban](/taxi-vidauban)**, du **[Muy](/taxi-le-muy)** ou des **[Arcs](/taxi-les-arcs)** anticipent leur **[taxi gare Les Arcs](/taxi-gare-les-arcs-draguignan)** — surtout pour les départs matinaux vers Paris ou Lyon. Depuis Le Muy, un [guide dédié durée et marge TGV](/blog/taxi-le-muy-gare-les-arcs-guide) détaille la préparation du trajet.
 
 ---
 

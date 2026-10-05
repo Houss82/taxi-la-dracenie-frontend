@@ -102,7 +102,7 @@ const rawCities = {
       },
     ],
     services: [
-      { label: "Courses locales", href: "/taxi-vidauban" },
+      { label: "Transport médical CHD", href: "/transport-medical-conventionne-dracenie" },
       { label: "Taxi conventionné CPAM", href: "/taxi-conventionne-vidauban" },
       { label: "Aéroport Nice", href: "/taxi-aeroport-vidauban" },
       { label: "Gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
@@ -533,38 +533,52 @@ const rawCities = {
     title: "Taxi Trans-en-Provence | Draguignan, gare Les Arcs & CHD",
     description:
       "Taxi à Trans-en-Provence : liaison Draguignan, CHD, gare Les Arcs et communes voisines. Taxis La Dracénie — 04 22 46 04 62.",
-    keywords: ["taxi Trans-en-Provence", "taxi Trans en Provence Draguignan"],
+    keywords: [
+      "taxi Trans-en-Provence",
+      "taxi à Trans-en-Provence",
+      "taxi Trans en Provence Draguignan",
+    ],
     intro:
-      "Trans-en-Provence, entre plaine et collines, nécessite un taxi fiable pour rejoindre Draguignan ou la gare. Taxis La Dracénie couvrent le bourg et les hameaux avec des temps de réponse adaptés au calme du village.",
+      "À Trans-en-Provence, un taxi sert surtout à rejoindre Draguignan, la gare Les Arcs-Draguignan ou un village voisin sans dépendre d'une correspondance. Taxis La Dracénie organise la prise en charge au centre-bourg comme dans les hameaux, sur réservation.",
     localContext:
-      "Trajets fréquents vers Draguignan centre, le Centre Hospitalier de la Dracénie et la gare Les Arcs-Draguignan. Nous desservons aussi Flayosc et Figanières sur demande.",
-    landmarks: ["Centre Trans-en-Provence", "Draguignan", "CHD", "Gare Les Arcs"],
+      "Le village est proche de Draguignan, avec Flayosc et Figanières dans le même secteur du nord de la Dracénie. Les trajets portent souvent sur le centre, un rendez-vous, les commerces, le Centre Hospitalier de la Dracénie ou la gare. L'adresse exacte et l'heure d'arrivée souhaitée permettent de caler la course.",
+    landmarks: ["Centre-bourg Trans-en-Provence", "Draguignan", "CHD", "Gare Les Arcs"],
     realTransfersText:
-      "Depuis Trans-en-Provence, nous assurons des trajets réguliers vers Draguignan centre et le CHD pour les consultations, ainsi que des correspondances gare Les Arcs-Draguignan. Les liaisons vers Flayosc et Figanières complètent notre couverture du nord de la Dracénie.",
+      "Les demandes partent du centre ou d'un hameau vers Draguignan centre, vers le CHD pour une consultation, ou vers la gare Les Arcs-Draguignan lorsqu'un train est prévu. Des courses relient aussi Flayosc et Figanières. Un transfert vers Nice Côte d'Azur ou Marseille Provence se réserve à part, avec l'horaire du vol.",
+    longSeoText:
+      "Cette page concerne le taxi général depuis ou vers Trans-en-Provence. La proximité de Draguignan en fait la destination la plus naturelle pour l'administratif, les commerces et une grande partie des rendez-vous. Pour un TGV ou un TER, la gare utile est Les Arcs-Draguignan : le trajet jusqu'à la gare se planifie avec le numéro de train, puis le détail de la liaison ferroviaire se trouve sur la page gare. Un vol se prépare autrement : terminal, heure et bagages, via les pages aéroport Nice ou Marseille. Un rendez-vous médical peut aussi être organisé, mais la prise en charge CPAM dépend de la prescription et de l'éligibilité — elle n'est pas automatique.",
+    popularNeeds: [
+      "Trans-en-Provence → Draguignan : centre, commerces, administration ou rendez-vous",
+      "Rejoindre la gare Les Arcs-Draguignan pour un TGV ou un TER",
+      "Liaison vers Flayosc ou Figanières, sans changer de chauffeur",
+      "Transfert vers Nice Côte d'Azur ou Marseille Provence, sur réservation",
+      "Déplacement vers le CHD ou un cabinet, selon la situation médicale",
+      "Prise en charge au centre-bourg ou dans un hameau, adresse précise à l'appel",
+    ],
     whyChooseUs: [
       {
-        title: "Village & hameaux",
-        desc: "Intervention au bourg et dans les hameaux environnants avec itinéraires adaptés.",
+        title: "Centre et hameaux",
+        desc: "Prise en charge à l'adresse indiquée, au bourg comme dans le secteur alentour.",
       },
       {
-        title: "Liaison CHD",
-        desc: "Trajets médicaux vers Draguignan — taxi conventionné sous éligibilité CPAM.",
+        title: "Draguignan tout proche",
+        desc: "Courses vers le centre, les commerces, l'administration ou un rendez-vous.",
       },
       {
-        title: "Gare Les Arcs",
-        desc: "Correspondance train planifiée depuis Trans-en-Provence, créneaux matinaux fréquents.",
+        title: "Gare si un train est prévu",
+        desc: "Liaison vers Les Arcs-Draguignan, à réserver avec l'horaire du train.",
       },
       {
-        title: "Disponibilité 24h/24",
-        desc: "Réservation à l'avance ou course immédiate selon disponibilité locale.",
+        title: "Aéroports sur demande",
+        desc: "Nice ou Marseille : course distincte, horaire calé sur le vol.",
       },
       {
-        title: "Tarif transparent",
-        desc: "Prix annoncé au téléphone avant validation — pas de mauvaise surprise.",
+        title: "Tarif annoncé avant le départ",
+        desc: "Le prix d'une course définie est communiqué au téléphone, avant confirmation.",
       },
       {
-        title: "Proximité Dracénie",
-        desc: "Connaissance des axes Trans-en-Provence → Draguignan et villages voisins.",
+        title: "Villages voisins",
+        desc: "Flayosc, Figanières et Draguignan : le même interlocuteur pour le secteur.",
       },
     ],
     serviceAreas: [
@@ -576,9 +590,10 @@ const rawCities = {
       "Gare Les Arcs (correspondance)",
     ],
     frequentRoutes: [
-      { title: "Trans-en-Provence → Draguignan", desc: "Administration, commerces, CHD.", href: "/taxi-draguignan" },
-      { title: "Trans-en-Provence → gare Les Arcs", desc: "Correspondance train planifiée.", href: "/taxi-gare-les-arcs-draguignan" },
-      { title: "Trans-en-Provence → Flayosc", desc: "Villages du Var intérieur.", href: "/taxi-flayosc" },
+      { title: "Trans-en-Provence → Draguignan", desc: "Centre, commerces, administration ou rendez-vous.", href: "/taxi-draguignan" },
+      { title: "Trans-en-Provence → gare Les Arcs", desc: "Départ vers le train, à réserver avec l'horaire SNCF.", href: "/taxi-gare-les-arcs-draguignan" },
+      { title: "Trans-en-Provence → Flayosc", desc: "Liaison entre villages voisins.", href: "/taxi-flayosc" },
+      { title: "Trans-en-Provence → Figanières", desc: "Trajet court dans le nord de la Dracénie.", href: "/taxi-figanieres" },
     ],
     services: [
       { label: "Transport médical", href: "/transport-medical-conventionne-dracenie" },
@@ -586,7 +601,7 @@ const rawCities = {
       { label: "Gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
     ],
     showCpam: true,
-    showAirport: false,
+    showAirport: true,
     nearbyCities: [
       { label: "Draguignan", href: "/taxi-draguignan" },
       { label: "Flayosc", href: "/taxi-flayosc" },
@@ -595,9 +610,40 @@ const rawCities = {
     ],
     faq: [
       {
-        q: "Délai moyen pour un taxi à Trans-en-Provence ?",
-        a: "Variable selon la disponibilité locale ; appelez pour un créneau immédiat ou planifié.",
-        aText: "Appelez pour connaître le délai immédiat ou réserver un créneau planifié.",
+        q: "Comment réserver un taxi à Trans-en-Provence ?",
+        a: "Appelez le 04 22 46 04 62 avec l'adresse exacte, la destination, l'heure à laquelle vous devez arriver, le nombre de passagers et les bagages. Le tarif d'une course définie est annoncé avant confirmation.",
+        aText:
+          "Appelez avec l'adresse, la destination, l'heure d'arrivée, les passagers et les bagages. Le tarif est annoncé avant confirmation.",
+      },
+      {
+        q: "Peut-on rejoindre Draguignan depuis Trans-en-Provence ?",
+        a: "Oui. C'est la liaison la plus naturelle : centre, commerces, administration ou rendez-vous. Indiquez l'adresse de prise en charge et le lieu précis à Draguignan. La durée dépend de la circulation et n'est pas garantie.",
+        aText:
+          "Oui, vers le centre, les commerces, l'administration ou un rendez-vous. La durée dépend de la circulation.",
+      },
+      {
+        q: "Quelle gare utiliser depuis Trans-en-Provence ?",
+        a: "Les TGV et les TER du secteur partent de la gare Les Arcs-Draguignan. Réservez le taxi jusqu'à la gare avec l'heure et, si vous l'avez, le numéro de train. Le train lui-même se planifie à part.",
+        aText:
+          "La gare utile est Les Arcs-Draguignan. Le taxi se réserve avec l'horaire du train.",
+      },
+      {
+        q: "Peut-on réserver un départ tôt le matin ?",
+        a: "Oui, sur réservation, notamment pour un train ou un vol. Plus l'horaire est connu tôt, plus la prise en charge peut être organisée avec une marge.",
+        aText:
+          "Oui, sur réservation, surtout pour un train ou un vol matinaux.",
+      },
+      {
+        q: "Peut-on rejoindre l'aéroport de Nice ou Marseille Provence ?",
+        a: "Oui, en course longue distance distincte d'un trajet local. Communiquez le terminal, l'heure du vol et les bagages. Le montant est annoncé avant confirmation.",
+        aText:
+          "Oui, vers Nice ou Marseille, avec le terminal, l'heure du vol et les bagages.",
+      },
+      {
+        q: "Un rendez-vous médical peut-il être organisé depuis Trans-en-Provence ?",
+        a: "Un transport assis vers le CHD ou un cabinet peut être étudié. Une éventuelle prise en charge CPAM dépend de la prescription et de l'éligibilité : elle n'est pas automatique et n'est pas garantie par le taxi. Les pages transport médical et taxi conventionné Dracénie précisent le cadre.",
+        aText:
+          "Oui, un transport assis peut être étudié. La prise en charge CPAM dépend de la prescription et n'est pas garantie.",
       },
     ],
   },

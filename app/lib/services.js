@@ -184,7 +184,7 @@ const rawServices = {
       "Pour vos rendez-vous au Centre Hospitalier de la Dracénie (CHD), en radiothérapie, dialyse ou consultation spécialisée, Taxis La Dracénie organisent un transport médical assis dans le respect des conditions CPAM. Chaque dossier est unique : appelez avant de monter en voiture pour vérifier votre éligibilité. Pour réserver un taxi conventionné, le hub [taxi conventionné Dracénie](/taxi-conventionne-dracenie) centralise la prise de contact.",
     realTransfersTitle: "Trajets médicaux réels en Dracénie",
     realTransfersText:
-      "Nous effectuons quotidiennement des trajets Vidauban → CHD Draguignan, Draguignan → imagerie ou cardiologie, Les Arcs → consultations hospitalières, et des transferts vers Toulon (Hôpital Sainte-Musse) ou Nice pour la radiothérapie et l'oncologie lorsque la prescription le prévoit. Les retours d'hospitalisation et les rendez-vous récurrents (dialyse, kinésithérapie) sont planifiés avec ponctualité. Pour un départ depuis Vidauban, la page [taxi conventionné Vidauban](/taxi-conventionne-vidauban) détaille l'organisation locale.",
+      "Nous effectuons quotidiennement des trajets Vidauban → CHD Draguignan, Draguignan → imagerie ou cardiologie, Les Arcs → consultations hospitalières, et des transferts vers Toulon (Hôpital Sainte-Musse) ou [Nice pour la radiothérapie et l'oncologie](/blog/taxi-draguignan-centre-antoine-lacassagne-nice) lorsque la prescription le prévoit. Les retours d'hospitalisation et les rendez-vous récurrents (dialyse, kinésithérapie) sont planifiés avec ponctualité. Pour un départ depuis Vidauban, la page [taxi conventionné Vidauban](/taxi-conventionne-vidauban) détaille l'organisation locale.",
     sections: [
       {
         title: "CHD Draguignan — notre destination principale",
@@ -226,7 +226,7 @@ const rawServices = {
       {
         title: "Dracénie → Toulon Sainte-Musse",
         desc: "Spécialistes et examens hors secteur, selon prescription.",
-        href: "/transport-medical-conventionne-dracenie",
+        href: "/taxi-conventionne-draguignan",
       },
       {
         title: "Retour d'hospitalisation CHD",
@@ -873,7 +873,7 @@ const rawServices = {
       {
         title: "Retour hospitalisation CHD",
         desc: "Sortie de service — horaire coordonné avec l'établissement.",
-        href: "/taxi-conventionne-draguignan",
+        href: "/blog/comment-aller-chd-draguignan-taxi-conventionne",
       },
     ],
     whyChooseTitle: "Pourquoi choisir notre taxi conventionné à Draguignan ?",
@@ -1261,7 +1261,7 @@ const rawServices = {
       "Depuis Draguignan (centre, Les Selves, Malpassé, Saint-Hermentaire ou périphérie), Taxis La Dracénie calcule l'heure de départ selon le trafic A8 et votre terminal à Nice Côte d'Azur. Marseille Provence reste possible lorsque le vol n'existe pas à Nice. Tarif communiqué avant confirmation.",
     realTransfersTitle: "Transferts aéroport depuis Draguignan",
     realTransfersText:
-      "Nous organisons régulièrement des départs matinaux Draguignan → Nice Côte d'Azur, des retours vers les quartiers dracénois, et des correspondances vers la gare Les Arcs-Draguignan si vous enchaînez un train. Ce n'est pas un trajet médical : pour le CHD ou le Centre Antoine Lacassagne, d'autres pages s'appliquent.",
+      "Nous organisons régulièrement des départs matinaux Draguignan → Nice Côte d'Azur, des retours vers les quartiers dracénois, et des correspondances vers la gare Les Arcs-Draguignan si vous enchaînez un train. Ce n'est pas un trajet médical : pour le CHD ou le [Centre Antoine Lacassagne](/blog/taxi-draguignan-centre-antoine-lacassagne-nice), d'autres pages s'appliquent.",
     sections: [
       {
         title: "Combien de temps entre Draguignan et Nice Airport ?",

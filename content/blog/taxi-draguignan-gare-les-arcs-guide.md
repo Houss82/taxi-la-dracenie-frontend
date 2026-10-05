@@ -166,6 +166,10 @@ Le véhicule est adapté **selon les informations communiquées** — aucune cap
         <td><a href="/blog/taxi-vidauban-gare-les-arcs-guide">Guide Vidauban → gare</a></td>
         <td>Même type de guide, mais depuis Vidauban</td>
       </tr>
+      <tr>
+        <td><a href="/blog/taxi-le-muy-gare-les-arcs-guide">Guide Le Muy → gare</a></td>
+        <td>Même type de guide, mais depuis Le Muy</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -192,9 +196,9 @@ En communiquant le **numéro de train**, l'horaire de reprise à la gare peut ê
 
 **Non.** Le tarif est **communiqué lors de la réservation**, selon adresse, horaire (jour/nuit) et bagages.
 
-### Quelle différence avec le guide Vidauban → gare ?
+### Quelle différence avec les guides Vidauban ou Le Muy → gare ?
 
-Même type d'intention (taxi ↔ gare), mais **commune de départ différente**. Vidauban a son [propre guide](/blog/taxi-vidauban-gare-les-arcs-guide) ; ici, le focus est **Draguignan** et ses quartiers.
+Même type d'intention (taxi ↔ gare), mais **commune de départ différente**. Vidauban et Le Muy ont leurs [guides respectifs](/blog/taxi-vidauban-gare-les-arcs-guide) ([Le Muy](/blog/taxi-le-muy-gare-les-arcs-guide)) ; ici, le focus est **Draguignan** et ses quartiers.
 
 ---
 
