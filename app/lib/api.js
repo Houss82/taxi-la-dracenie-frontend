@@ -1,3 +1,5 @@
+import { SITE_PHONE_DISPLAY } from "./contact";
+
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL ||
   (process.env.NODE_ENV === "production"
@@ -15,7 +17,7 @@ export async function createReservation(reservationData) {
     });
   } catch {
     throw new Error(
-      "Impossible de joindre le serveur de réservation. Réessayez dans un instant ou appelez le 04 22 46 04 62."
+      `Impossible de joindre le serveur de réservation. Réessayez dans un instant ou appelez le ${SITE_PHONE_DISPLAY}.`
     );
   }
 

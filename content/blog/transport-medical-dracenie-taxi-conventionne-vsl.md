@@ -163,7 +163,7 @@ En cas d'urgence vitale, appelez immédiatement le **15**. Pour une situation no
 
 ## 8. Comment réserver sans confondre transport médical et course classique ?
 
-La réservation se fait au **04 22 46 04 62**. Indiquez :
+La réservation se fait au **04 22 56 07 07**. Indiquez :
 
 - « transport médical assis » ou « taxi conventionné » ;
 - l'adresse complète de prise en charge ;
@@ -206,6 +206,6 @@ Signalez-le au médecin et au moment de la réservation. Une ambulance ou un aut
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver un transport médical assis</a>
+  <a href="tel:+33422560707" class="cta-button">Réserver un transport médical assis</a>
   <p class="cta-sub">Taxis La Dracénie — CHD, Dracénie, vérification CPAM avant le départ</p>
 </div>

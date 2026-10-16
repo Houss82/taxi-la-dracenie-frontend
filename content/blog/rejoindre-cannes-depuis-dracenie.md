@@ -16,7 +16,7 @@ keywords:
 
 Cannes peut être une destination depuis plusieurs communes de la Dracénie : séjour, rendez-vous, hôtel, gare, événement au Palais des Festivals et des Congrès, ou déplacement professionnel. Le point de départ, l'adresse d'arrivée et l'horaire changent la façon de préparer la course.
 
-Ce guide aide à organiser un trajet **Dracénie → Cannes** sans remplacer une réservation personnalisée. Pour réserver, appelez le **04 22 46 04 62** ou utilisez le [formulaire de réservation](/reservation).
+Ce guide aide à organiser un trajet **Dracénie → Cannes** sans remplacer une réservation personnalisée. Pour réserver, appelez le **04 22 56 07 07** ou utilisez le [formulaire de réservation](/reservation).
 
 ## Rejoindre Cannes depuis la Dracénie
 
@@ -122,9 +122,9 @@ La durée varie selon le départ en Dracénie, la destination à Cannes et la ci
 
 ---
 
-Pour transmettre ces informations par écrit, utilisez le **[formulaire de réservation](/reservation)**. Pour un départ matinal ou un horaire d'événement serré, l'appel au **04 22 46 04 62** permet souvent de caler plus rapidement les détails.
+Pour transmettre ces informations par écrit, utilisez le **[formulaire de réservation](/reservation)**. Pour un départ matinal ou un horaire d'événement serré, l'appel au **04 22 56 07 07** permet souvent de caler plus rapidement les détails.
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Organiser votre trajet Dracénie → Cannes</a>
-  <p class="cta-sub">04 22 46 04 62 — tarif annoncé avant confirmation</p>
+  <a href="tel:+33422560707" class="cta-button">Organiser votre trajet Dracénie → Cannes</a>
+  <p class="cta-sub">04 22 56 07 07 — tarif annoncé avant confirmation</p>
 </div>

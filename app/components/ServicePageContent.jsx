@@ -426,6 +426,9 @@ export default function ServicePageContent({ service }) {
           <p className="mt-3 text-accent-foreground/90">
             Devis clair au téléphone — réservation rapide 24h/24.
           </p>
+          <p className="mt-2 text-sm text-accent-foreground/80">
+            Réservation auprès des chauffeurs partenaires du Collectif Taxis 83.
+          </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Button
               href={SITE_PHONE_TEL}

@@ -107,7 +107,7 @@ Communiquez votre **numéro de vol** pour ajuster en cas de retard. Guide géné
   </table>
 </div>
 
-**Forfait annoncé au téléphone** avant validation — pas de plateforme intermédiaire. Appelez le **04 22 46 04 62** ou consultez **[taxi aéroport Nice Dracénie](/taxi-aeroport-nice-dracenie)**.
+**Forfait annoncé au téléphone** avant validation — pas de plateforme intermédiaire. Appelez le **04 22 56 07 07** ou consultez **[taxi aéroport Nice Dracénie](/taxi-aeroport-nice-dracenie)**.
 
 ![Transfert taxi Lorgues vers l'aéroport Nice Côte d'Azur — Taxis La Dracénie](/heroes/taxi-aeroport-nice-dracenie.jpg)
 
@@ -190,6 +190,6 @@ Possible sous **éligibilité CPAM** uniquement — voir **[taxi conventionné D
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Devis Lorgues → Nice Airport</a>
+  <a href="tel:+33422560707" class="cta-button">Devis Lorgues → Nice Airport</a>
   <p class="cta-sub">Taxis La Dracénie — forfait fixe, domaines viticoles, 24h/24</p>
 </div>

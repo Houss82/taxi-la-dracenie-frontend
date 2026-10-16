@@ -17,7 +17,7 @@ export default function PhoneLinkedText({ children, className = "" }) {
           {index < parts.length - 1 && (
             <a
               href={SITE_PHONE_TEL}
-              className="font-bold text-gray-900 tabular-nums hover:underline whitespace-nowrap"
+              className="font-bold tabular-nums text-inherit underline decoration-current/40 underline-offset-2 hover:decoration-current whitespace-nowrap"
             >
               {SITE_PHONE_DISPLAY}
             </a>

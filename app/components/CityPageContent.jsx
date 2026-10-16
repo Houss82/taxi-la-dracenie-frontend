@@ -601,6 +601,9 @@ export default function CityPageContent({ city }) {
           <p className="mt-3 text-accent-foreground/90">
             Disponibilité 24h/24 — prix annoncé quand le trajet est défini.
           </p>
+          <p className="mt-2 text-sm text-accent-foreground/80">
+            Réservation auprès des chauffeurs partenaires du Collectif Taxis 83.
+          </p>
           <div className="mt-8 max-w-sm mx-auto">
             <PhoneBanner />
           </div>

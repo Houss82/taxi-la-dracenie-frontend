@@ -149,7 +149,7 @@ Nous prenons régulièrement en charge des voyageurs avec **valises, sacs à rou
 - **déplacements professionnels** avec bagage cabine ou mallette
 - **correspondances gare ↔ [aéroport Nice](/taxi-aeroport-vidauban)** le même jour
 
-Indiquez simplement le **nombre de bagages** et le type de véhicule souhaité lors de votre réservation au **04 22 46 04 62** — nous adaptons la prise en charge à domicile à Vidauban.
+Indiquez simplement le **nombre de bagages** et le type de véhicule souhaité lors de votre réservation au **04 22 56 07 07** — nous adaptons la prise en charge à domicile à Vidauban.
 
 ---
 
@@ -159,7 +159,7 @@ Le **tarif est annoncé au téléphone** avant confirmation — pas de surprise 
 
 **Comment réserver ?**
 
-1. Appelez le **04 22 46 04 62**
+1. Appelez le **04 22 56 07 07**
 2. Indiquez adresse à Vidauban, date, heure d'arrivée souhaitée à la gare et numéro de train si connu
 3. Confirmez le **prix fixe** annoncé
 
@@ -209,6 +209,6 @@ Oui, **forfait communiqué au téléphone** avant validation, selon adresse exac
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver Vidauban → gare Les Arcs</a>
+  <a href="tel:+33422560707" class="cta-button">Réserver Vidauban → gare Les Arcs</a>
   <p class="cta-sub">Taxis La Dracénie — TGV & TER, prise en charge à domicile 24h/24</p>
 </div>

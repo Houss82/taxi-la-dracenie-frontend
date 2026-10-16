@@ -90,7 +90,7 @@ Le retour mérite la même anticipation que l'aller :
 - passagers et bagages ;
 - créneau soirée ou nuit si le TGV arrive tard.
 
-À l'arrivée, le point de rendez-vous (sortie principale ou parking selon l'accès) est **confirmé par appel**. En cas de retard SNCF annoncé, la reprise peut être ajustée — prévenez le **04 22 46 04 62** si le glissement est important.
+À l'arrivée, le point de rendez-vous (sortie principale ou parking selon l'accès) est **confirmé par appel**. En cas de retard SNCF annoncé, la reprise peut être ajustée — prévenez le **04 22 56 07 07** si le glissement est important.
 
 Sans réservation, trouver un véhicule au dernier moment reste aléatoire, surtout hors heures de pointe.
 
@@ -139,7 +139,7 @@ Une correspondance **train puis aéroport Nice** n'est **pas** une seule course 
 
 ### Faut-il réserver la veille pour un TGV matinal ?
 
-**Oui, c'est recommandé.** Dès que l'horaire est connu, un appel au **04 22 46 04 62** permet de caler la prise en charge au Muy.
+**Oui, c'est recommandé.** Dès que l'horaire est connu, un appel au **04 22 56 07 07** permet de caler la prise en charge au Muy.
 
 ### Le taxi attend-il si mon train a du retard ?
 
@@ -164,6 +164,6 @@ En pratique, ce sont **deux courses** à planifier séparément (horaires et bag
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver Le Muy ↔ gare Les Arcs</a>
-  <p class="cta-sub">04 22 46 04 62 — tarif annoncé avant confirmation</p>
+  <a href="tel:+33422560707" class="cta-button">Réserver Le Muy ↔ gare Les Arcs</a>
+  <p class="cta-sub">04 22 56 07 07 — tarif annoncé avant confirmation</p>
 </div>

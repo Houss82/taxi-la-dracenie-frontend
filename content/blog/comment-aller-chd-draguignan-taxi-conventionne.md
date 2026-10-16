@@ -132,7 +132,7 @@ En général **oui** pour la prise en charge CPAM — une **prescription médica
 
 ### Quel délai de réservation ?
 
-**24 à 48 h** recommandé pour un rendez-vous programmé (consultation, radiothérapie, hospitalisation de jour). En urgence non vitale, appelez immédiatement le **04 22 46 04 62**.
+**24 à 48 h** recommandé pour un rendez-vous programmé (consultation, radiothérapie, hospitalisation de jour). En urgence non vitale, appelez immédiatement le **04 22 56 07 07**.
 
 ### Différence taxi conventionné et ambulance ?
 
@@ -141,6 +141,6 @@ Le **transport assis professionnalisé** en taxi convient aux patients **autonom
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver un taxi conventionné pour le CHD Draguignan</a>
-  <p class="cta-sub">04 22 46 04 62 — transport médical CPAM, 24h/24</p>
+  <a href="tel:+33422560707" class="cta-button">Réserver un taxi conventionné pour le CHD Draguignan</a>
+  <p class="cta-sub">04 22 56 07 07 — transport médical CPAM, 24h/24</p>
 </div>

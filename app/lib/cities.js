@@ -1,5 +1,6 @@
 /** Données SEO uniques par ville — pas de copier-coller entre pages. */
 
+import { SITE_PHONE_DISPLAY } from "./contact";
 import { hydrateContactStrings } from "./hydrate-contact";
 
 const rawCities = {
@@ -10,7 +11,7 @@ const rawCities = {
     title:
       "Taxi Vidauban 24h/24 | Dracénie, gare Les Arcs, Draguignan & aéroports",
     description:
-      "Taxi à Vidauban : courses locales, transferts gare Les Arcs-Draguignan, trajets médicaux et aéroports Nice/Marseille. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Vidauban : courses locales, transferts gare Les Arcs-Draguignan, trajets médicaux et aéroports Nice/Marseille. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi Vidauban",
       "taxi à Vidauban",
@@ -124,7 +125,7 @@ const rawCities = {
       },
       {
         q: "Proposez-vous un taxi conventionné à Vidauban ?",
-        a: "Oui, sous conditions d'éligibilité CPAM. Indiquez votre situation au 04 22 46 04 62 avant la course.",
+        a: `Oui, sous conditions d'éligibilité CPAM. Indiquez votre situation au ${SITE_PHONE_DISPLAY} avant la course.`,
         aText:
           "Oui, sous conditions d'éligibilité CPAM. Indiquez votre situation au téléphone avant la course.",
       },
@@ -136,7 +137,7 @@ const rawCities = {
       },
       {
         q: "Combien coûte un taxi Vidauban → aéroport Nice ?",
-        a: "Le tarif dépend de l'heure, du trafic et du point de départ exact à Vidauban. Appelez le 04 22 46 04 62 pour un prix annoncé avant confirmation — pas de surprise sur le trajet défini.",
+        a: `Le tarif dépend de l'heure, du trafic et du point de départ exact à Vidauban. Appelez le ${SITE_PHONE_DISPLAY} pour un prix annoncé avant confirmation — pas de surprise sur le trajet défini.`,
         aText:
           "Tarif annoncé au téléphone selon heure, trafic et point de départ à Vidauban.",
       },
@@ -156,7 +157,7 @@ const rawCities = {
     title:
       "Taxi Draguignan 24h/24 | CHD, gare Les Arcs, conventionné CPAM & aéroports",
     description:
-      "Taxi à Draguignan : Centre Hospitalier de la Dracénie, gare Les Arcs-Draguignan, Trans-en-Provence, Figanières. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Draguignan : Centre Hospitalier de la Dracénie, gare Les Arcs-Draguignan, Trans-en-Provence, Figanières. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi Draguignan",
       "taxi conventionné Draguignan",
@@ -265,7 +266,7 @@ const rawCities = {
     faq: [
       {
         q: "Comment rejoindre le CHD en taxi depuis Draguignan ?",
-        a: "Appelez le 04 22 46 04 62 en précisant votre adresse et l'horaire du rendez-vous. Nous connaissons les accès du Centre Hospitalier de la Dracénie.",
+        a: `Appelez le ${SITE_PHONE_DISPLAY} en précisant votre adresse et l'horaire du rendez-vous. Nous connaissons les accès du Centre Hospitalier de la Dracénie.`,
         aText:
           "Appelez-nous en précisant votre adresse et l'horaire du rendez-vous. Nous connaissons les accès du CHD.",
       },
@@ -288,7 +289,7 @@ const rawCities = {
       },
       {
         q: "Proposez-vous un taxi Draguignan → aéroport Nice ?",
-        a: "Oui, transfert direct avec horaire calé sur votre vol. Comptez environ 1h15 selon le trafic sur l'A8. Tarif annoncé au 04 22 46 04 62 avant confirmation.",
+        a: `Oui, transfert direct avec horaire calé sur votre vol. Comptez environ 1h15 selon le trafic sur l'A8. Tarif annoncé au ${SITE_PHONE_DISPLAY} avant confirmation.`,
         aText:
           "Oui, transfert direct vers Nice — environ 1h15, tarif annoncé au téléphone.",
       },
@@ -301,7 +302,7 @@ const rawCities = {
     h1: "Taxi au Muy — liaison Dracénie & Provence",
     title: "Taxi Le Muy 24h/24 | Draguignan, Les Arcs, Fréjus & aéroports",
     description:
-      "Taxi au Muy : courses locales, transferts gare Les Arcs-Draguignan, Draguignan et aéroports. Service Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi au Muy : courses locales, transferts gare Les Arcs-Draguignan, Draguignan et aéroports. Service Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: ["taxi Le Muy", "taxi au Muy", "taxi Le Muy Draguignan", "taxi Le Muy gare"],
     intro:
       "Le Muy, porte est de la Dracénie, mérite un taxi réactif pour les trajets vers Draguignan, Les Arcs ou la côte. Taxis La Dracénie interviennent au centre, en zone commerciale et dans les hameaux environnants.",
@@ -391,7 +392,7 @@ const rawCities = {
       },
       {
         q: "Proposez-vous un taxi Le Muy → aéroport Nice ?",
-        a: "Oui, transfert planifié avec horaire adapté à votre vol. Tarif annoncé au 04 22 46 04 62 avant confirmation — comptez environ 1h à 1h20 selon l'heure et le trafic sur l'A8.",
+        a: `Oui, transfert planifié avec horaire adapté à votre vol. Tarif annoncé au ${SITE_PHONE_DISPLAY} avant confirmation — comptez environ 1h à 1h20 selon l'heure et le trafic sur l'A8.`,
         aText:
           "Oui, transfert planifié vers Nice — tarif annoncé au téléphone avant confirmation.",
       },
@@ -410,7 +411,7 @@ const rawCities = {
     h1: "Taxi aux Arcs — gare TGV & centre-ville",
     title: "Taxi Les Arcs 24h/24 | Gare TGV, Draguignan & transferts aéroport",
     description:
-      "Taxi aux Arcs : prise en charge gare Les Arcs-Draguignan, centre-ville, Draguignan et aéroports. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi aux Arcs : prise en charge gare Les Arcs-Draguignan, centre-ville, Draguignan et aéroports. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi Les Arcs",
       "taxi gare Les Arcs Draguignan",
@@ -513,7 +514,7 @@ const rawCities = {
       },
       {
         q: "Peut-on prendre un taxi Les Arcs → aéroport Nice ?",
-        a: "Oui, départ depuis la gare, votre hébergement ou le centre-ville. Horaire adapté à votre vol, tarif annoncé au 04 22 46 04 62.",
+        a: `Oui, départ depuis la gare, votre hébergement ou le centre-ville. Horaire adapté à votre vol, tarif annoncé au ${SITE_PHONE_DISPLAY}.`,
         aText:
           "Oui, départ gare ou domicile — horaire adapté au vol, tarif annoncé au téléphone.",
       },
@@ -532,7 +533,7 @@ const rawCities = {
     h1: "Taxi à Trans-en-Provence — village & Dracénie",
     title: "Taxi Trans-en-Provence | Draguignan, gare Les Arcs & CHD",
     description:
-      "Taxi à Trans-en-Provence : liaison Draguignan, CHD, gare Les Arcs et communes voisines. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Trans-en-Provence : liaison Draguignan, CHD, gare Les Arcs et communes voisines. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi Trans-en-Provence",
       "taxi à Trans-en-Provence",
@@ -611,7 +612,7 @@ const rawCities = {
     faq: [
       {
         q: "Comment réserver un taxi à Trans-en-Provence ?",
-        a: "Appelez le 04 22 46 04 62 avec l'adresse exacte, la destination, l'heure à laquelle vous devez arriver, le nombre de passagers et les bagages. Le tarif d'une course définie est annoncé avant confirmation.",
+        a: `Appelez le ${SITE_PHONE_DISPLAY} avec l'adresse exacte, la destination, l'heure à laquelle vous devez arriver, le nombre de passagers et les bagages. Le tarif d'une course définie est annoncé avant confirmation.`,
         aText:
           "Appelez avec l'adresse, la destination, l'heure d'arrivée, les passagers et les bagages. Le tarif est annoncé avant confirmation.",
       },
@@ -654,7 +655,7 @@ const rawCities = {
     h1: "Taxi à Lorgues — cœur du Var & Dracénie",
     title: "Taxi Lorgues 24h/24 | Draguignan, gare Les Arcs & aéroports",
     description:
-      "Taxi à Lorgues : centre viticole, transferts Draguignan, gare Les Arcs, aéroports Nice et Marseille. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Lorgues : centre viticole, transferts Draguignan, gare Les Arcs, aéroports Nice et Marseille. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: ["taxi Lorgues", "taxi à Lorgues", "taxi Lorgues Draguignan"],
     intro:
       "Lorgues, capitale des coteaux varois, accueille résidents et touristes. Taxis La Dracénie relient le centre de Lorgues à Draguignan, Taradeau, Les Arcs et les aéroports régionaux.",
@@ -739,7 +740,7 @@ const rawCities = {
       },
       {
         q: "Proposez-vous un taxi Lorgues → aéroport Nice ?",
-        a: "Oui, transfert direct pour les séjours estivaux ou les départs professionnels. Horaire calé sur votre vol, tarif annoncé au 04 22 46 04 62 avant confirmation.",
+        a: `Oui, transfert direct pour les séjours estivaux ou les départs professionnels. Horaire calé sur votre vol, tarif annoncé au ${SITE_PHONE_DISPLAY} avant confirmation.`,
         aText:
           "Oui, transfert direct vers Nice — horaire adapté au vol, tarif annoncé au téléphone.",
       },
@@ -764,7 +765,7 @@ const rawCities = {
     h1: "Taxi à Taradeau — village provençal & Dracénie",
     title: "Taxi Taradeau | Lorgues, Draguignan & gare Les Arcs",
     description:
-      "Taxi à Taradeau : courses locales, Lorgues, Draguignan et transferts gare ou aéroport. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Taradeau : courses locales, Lorgues, Draguignan et transferts gare ou aéroport. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: ["taxi Taradeau", "taxi Taradeau Lorgues"],
     intro:
       "Taradeau, entre vignes et collines, compte sur un taxi de proximité. Taxis La Dracénie desservent le village pour les courses quotidiennes et les liaisons vers Lorgues ou Draguignan.",
@@ -839,7 +840,7 @@ const rawCities = {
     h1: "Taxi à Flayosc — Var intérieur & Dracénie",
     title: "Taxi Flayosc | Draguignan, Les Arcs, aéroport Nice",
     description:
-      "Taxi à Flayosc : centre village, Draguignan, gare Les Arcs et transferts longue distance. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Flayosc : centre village, Draguignan, gare Les Arcs et transferts longue distance. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: ["taxi Flayosc", "taxi Flayosc Draguignan"],
     intro:
       "Flayosc, perché au-dessus de la plaine, mérite un taxi ponctuel pour descendre vers Draguignan ou la gare. Taxis La Dracénie interviennent au centre et dans les hameaux.",
@@ -902,7 +903,7 @@ const rawCities = {
     faq: [
       {
         q: "Taxi Flayosc nuit : possible ?",
-        a: "Oui, service 24h/24 — appelez le 04 22 46 04 62.",
+        a: `Oui, service 24h/24 — appelez le ${SITE_PHONE_DISPLAY}.`,
         aText: "Oui, service 24h/24 sur appel direct.",
       },
     ],
@@ -914,7 +915,7 @@ const rawCities = {
     h1: "Taxi à Figanières — calme provençal & accès Dracénie",
     title: "Taxi Figanières | Draguignan, CHD & gare Les Arcs",
     description:
-      "Taxi à Figanières : village tranquille, liaisons Draguignan, Flayosc et gare TGV. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi à Figanières : village tranquille, liaisons Draguignan, Flayosc et gare TGV. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: ["taxi Figanières", "taxi Figanières Draguignan"],
     intro:
       "Figanières offre un cadre de vie paisible ; pour vos rendez-vous à Draguignan ou votre train aux Arcs, Taxis La Dracénie assurent la liaison sans changement.",
@@ -942,7 +943,7 @@ const rawCities = {
       },
       {
         title: "Appel unique",
-        desc: "04 22 46 04 62 — réservation et devis en une conversation.",
+        desc: `${SITE_PHONE_DISPLAY} — réservation et devis en une conversation.`,
       },
       {
         title: "Dracénie nord",

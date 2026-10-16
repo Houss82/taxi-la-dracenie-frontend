@@ -130,7 +130,7 @@ L'aéroport **Nice Côte d'Azur** dispose de **deux terminaux**. Beaucoup de voy
 - **Terminal 1** — vols Air France, legacy carriers, certaines compagnies internationales
 - **Terminal 2** — vols low-cost, easyJet, Ryanair et nombreux vols Europe
 
-**Conseil** : vérifiez toujours votre terminal sur la **confirmation de réservation** ou le site de la compagnie. En cas de doute, communiquez simplement votre **numéro de vol** au **04 22 46 04 62** : nous vérifions le terminal avant le départ.
+**Conseil** : vérifiez toujours votre terminal sur la **confirmation de réservation** ou le site de la compagnie. En cas de doute, communiquez simplement votre **numéro de vol** au **04 22 56 07 07** : nous vérifions le terminal avant le départ.
 
 ![Taxi Taxis La Dracénie — Tesla devant l'aéroport Nice Côte d'Azur](/heroes/blog-transfert-aeroport-nice-dracenie.jpg)
 
@@ -291,7 +291,7 @@ Pour les trajets médicaux vers Nice (radiothérapie, oncologie), consultez **[t
 
 ## 15. Comment réserver avec Taxis La Dracénie ?
 
-1. Appelez le **04 22 46 04 62**
+1. Appelez le **04 22 56 07 07**
 2. Indiquez : adresse de départ, date, heure du vol, terminal, passagers et bagages
 3. Recevez un **forfait confirmé** avant validation
 
@@ -328,6 +328,6 @@ Sous éligibilité CPAM uniquement — voir **[transport médical conventionné]
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Devis transfert Nice Airport Dracénie</a>
-  <p class="cta-sub">04 22 46 04 62 — forfait fixe, suivi de vol, 24h/24</p>
+  <a href="tel:+33422560707" class="cta-button">Devis transfert Nice Airport Dracénie</a>
+  <p class="cta-sub">04 22 56 07 07 — forfait fixe, suivi de vol, 24h/24</p>
 </div>

@@ -1,4 +1,5 @@
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   SITE_EMAIL,
@@ -11,6 +12,11 @@ import {
   getAllCityNavLinks,
   getAllServiceNavLinks,
 } from "@/app/lib/navigation";
+import {
+  COLLECTIF_LOGO_FOOTER,
+  COLLECTIF_NAME,
+  COLLECTIF_URL,
+} from "@/app/lib/site";
 
 export default function Footer() {
   return (
@@ -26,8 +32,26 @@ export default function Footer() {
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Marque locale de taxi en Dracénie : transport privé, conventionné
-              CPAM et transferts gare/aéroport. Basés à Vidauban.
+              CPAM et transferts gare/aéroport. Réservations assurées par les
+              chauffeurs partenaires du {COLLECTIF_NAME}.
             </p>
+            <a
+              href={COLLECTIF_URL}
+              className="mt-4 inline-flex items-center gap-2.5 text-sm text-primary-foreground/80 hover:text-accent transition-colors"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-white p-1">
+                <Image
+                  src={COLLECTIF_LOGO_FOOTER}
+                  alt={COLLECTIF_NAME}
+                  width={40}
+                  height={40}
+                  className="h-7 w-7 object-contain"
+                />
+              </span>
+              <span>{COLLECTIF_NAME}</span>
+            </a>
           </div>
 
           <div>

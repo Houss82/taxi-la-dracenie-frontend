@@ -139,7 +139,7 @@ Pour une séance de **radiothérapie** à heure fixe, une marge trop juste augme
   </table>
 </div>
 
-En cas de doute : appelez le **04 22 46 04 62** — nous cadrons ce que nous pouvons organiser côté **[transport médical conventionné](/transport-medical-conventionne-dracenie)**.
+En cas de doute : appelez le **04 22 56 07 07** — nous cadrons ce que nous pouvons organiser côté **[transport médical conventionné](/transport-medical-conventionne-dracenie)**.
 
 ![Taxi Draguignan vers le Centre Antoine Lacassagne à Nice — transfert médical Taxis La Dracénie](/heroes/blog-taxi-draguignan-centre-antoine-lacassagne-nice.jpg)
 
@@ -225,7 +225,7 @@ Chaque trajet vers Nice peut être combiné, si besoin, avec d'autres services :
 
 ## 12. Comment réserver ?
 
-1. Appelez le **04 22 46 04 62**
+1. Appelez le **04 22 56 07 07**
 2. Indiquez : adresse à Draguignan (ou commune), date, heure d'arrivée au centre, type de rendez-vous (radiothérapie, chimiothérapie, consultation), retour éventuel
 3. Précisez si vous disposez d'une **prescription** pour un **[taxi conventionné](/taxi-conventionne-draguignan)**
 4. Recevez un **forfait** ou un cadre d'organisation clarifié avant confirmation
@@ -263,6 +263,6 @@ Non : l'**aéroport Nice Côte d'Azur** et le **Centre Antoine Lacassagne** sont
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver Draguignan → Centre Antoine Lacassagne</a>
+  <a href="tel:+33422560707" class="cta-button">Réserver Draguignan → Centre Antoine Lacassagne</a>
   <p class="cta-sub">Taxis La Dracénie — radiothérapie, oncologie, CPAM selon éligibilité, 24h/24</p>
 </div>

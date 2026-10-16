@@ -97,7 +97,7 @@ Réservez dès que l'horaire SNCF est connu — surtout en vacances scolaires. L
 
 À Les Arcs-Draguignan, le point de rendez-vous (sortie principale ou parking) est **confirmé par appel** à l'arrivée. Ce n'est pas une file d'« accueillir sans réservation » : la course est **planifiée**.
 
-Indiquez le **numéro de train** : si la SNCF annonce un retard, la reprise peut être ajustée. En cas de glissement important, prévenez le **04 22 46 04 62**.
+Indiquez le **numéro de train** : si la SNCF annonce un retard, la reprise peut être ajustée. En cas de glissement important, prévenez le **04 22 56 07 07**.
 
 Pour le détail commercial de la liaison (deux sens, quartiers, FAQ), voir **[taxi Draguignan ↔ gare Les Arcs](/taxi-draguignan-gare-les-arcs)**. Pour une autre commune de la Dracénie, le hub **[taxi gare Les Arcs-Draguignan](/taxi-gare-les-arcs-draguignan)** reste le point d'entrée régional.
 
@@ -182,7 +182,7 @@ Une correspondance **train puis aéroport Nice** n'est **pas** une seule course 
 
 ### Faut-il réserver la veille pour un TGV matinal ?
 
-**Oui, c'est recommandé.** Dès que l'horaire est connu, un appel au **04 22 46 04 62** permet de caler la prise en charge à Draguignan.
+**Oui, c'est recommandé.** Dès que l'horaire est connu, un appel au **04 22 56 07 07** permet de caler la prise en charge à Draguignan.
 
 ### Le taxi attend-il si mon train a du retard ?
 
@@ -203,6 +203,6 @@ Même type d'intention (taxi ↔ gare), mais **commune de départ différente**.
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver Draguignan ↔ gare Les Arcs</a>
-  <p class="cta-sub">04 22 46 04 62 — tarif annoncé avant confirmation</p>
+  <a href="tel:+33422560707" class="cta-button">Réserver Draguignan ↔ gare Les Arcs</a>
+  <p class="cta-sub">04 22 56 07 07 — tarif annoncé avant confirmation</p>
 </div>

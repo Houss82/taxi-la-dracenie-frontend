@@ -7,6 +7,10 @@ import {
 } from "@/app/lib/seo";
 import {
   ALL_CITY_SLUGS,
+  COLLECTIF_LOGO,
+  COLLECTIF_NAME,
+  COLLECTIF_PARTNERSHIP_LINE,
+  COLLECTIF_URL,
   SITE_NAME,
   SITE_TAGLINE,
   SITE_URL,
@@ -213,14 +217,20 @@ export default function HomePage() {
             <p className="text-sm font-semibold uppercase tracking-wider text-warm/95 mb-3">
               {SITE_NAME} · {SITE_TAGLINE}
             </p>
+            <p className="text-sm sm:text-base text-white/90 mb-3">
+              {COLLECTIF_PARTNERSHIP_LINE}
+            </p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-balance leading-tight">
               Taxi Dracénie – Vidauban, Draguignan, Le Muy & Taxi Conventionné
               CPAM
             </h1>
             <p className="mt-5 text-lg text-white/90 max-w-xl leading-relaxed">
-              Taxi local disponible 24h/24 en Dracénie. Transferts gare,
-              aéroport et transport médical conventionné CPAM — tarif annoncé
-              quand le trajet est défini.
+              Pour vos déplacements en Dracénie, Taxis La Dracénie vous met en
+              relation avec les chauffeurs indépendants du {COLLECTIF_NAME}.
+              Réservez votre taxi à Draguignan, Vidauban, Les Arcs-sur-Argens,
+              Le Muy et dans les communes desservies, selon les disponibilités
+              des chauffeurs. Transferts gare, aéroport et transport médical
+              conventionné CPAM — tarif annoncé quand le trajet est défini.
             </p>
             <div className="mt-8">
               <HeroCTAs />
@@ -260,6 +270,50 @@ export default function HomePage() {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-14 bg-gray-50 border-b border-gray-200">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+          <div className="flex justify-center mb-5">
+            <span className="inline-flex h-14 w-14 items-center justify-center rounded-xl border border-gray-200 bg-white p-2 shadow-sm">
+              <Image
+                src={COLLECTIF_LOGO}
+                alt={COLLECTIF_NAME}
+                width={56}
+                height={56}
+                className="h-10 w-10 object-contain"
+              />
+            </span>
+          </div>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            Un réseau de chauffeurs de taxi en Dracénie
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Taxis La Dracénie travaille en partenariat avec{" "}
+            <a
+              href={COLLECTIF_URL}
+              className="text-accent font-medium hover:underline"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {COLLECTIF_NAME}
+            </a>
+            , un réseau de neuf chauffeurs de taxi indépendants intervenant dans
+            différentes communes du Var. Cette organisation permet de
+            centraliser les demandes de réservation et de rechercher un
+            chauffeur disponible selon le trajet demandé.
+          </p>
+          <Button
+            href={SITE_PHONE_TEL}
+            variant="call"
+            size="lg"
+            className="font-bold"
+            aria-label={`Réserver auprès du collectif au ${SITE_PHONE_DISPLAY}`}
+          >
+            <Phone className="w-5 h-5 shrink-0" aria-hidden />
+            Réserver auprès du collectif
+          </Button>
         </div>
       </section>
 

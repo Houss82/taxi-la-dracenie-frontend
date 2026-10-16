@@ -1,5 +1,6 @@
 /** Données SEO uniques par page service / combo ville+service. */
 
+import { SITE_PHONE_DISPLAY } from "./contact";
 import { hydrateContactStrings } from "./hydrate-contact";
 
 const rawServices = {
@@ -10,7 +11,7 @@ const rawServices = {
     title:
       "Taxi conventionné Dracénie | CPAM Vidauban, Draguignan & transport médical",
     description:
-      "Taxi conventionné CPAM en Dracénie : Vidauban, Draguignan, CHD, transport médical assis selon éligibilité. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi conventionné CPAM en Dracénie : Vidauban, Draguignan, CHD, transport médical assis selon éligibilité. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi conventionné Dracénie",
       "taxi conventionné Vidauban",
@@ -19,7 +20,7 @@ const rawServices = {
       "transport médical conventionné Dracénie",
     ],
     intro:
-      "Vous cherchez un taxi conventionné CPAM en Dracénie ? Cette page est le point d'entrée commercial pour trouver et réserver un transport médical assis depuis Vidauban, Draguignan, Les Arcs, Le Muy ou les villages alentour. L'éligibilité se vérifie toujours au 04 22 46 04 62 avant le départ — sans promesse de remboursement que seule votre caisse peut confirmer. Pour comprendre l'organisation du transport médical (types de rendez-vous, démarches CPAM), consultez la page [transport médical conventionné Dracénie](/transport-medical-conventionne-dracenie).",
+      `Vous cherchez un taxi conventionné CPAM en Dracénie ? Cette page est le point d'entrée commercial pour trouver et réserver un transport médical assis depuis Vidauban, Draguignan, Les Arcs, Le Muy ou les villages alentour. L'éligibilité se vérifie toujours au ${SITE_PHONE_DISPLAY} avant le départ — sans promesse de remboursement que seule votre caisse peut confirmer. Pour comprendre l'organisation du transport médical (types de rendez-vous, démarches CPAM), consultez la page [transport médical conventionné Dracénie](/transport-medical-conventionne-dracenie).`,
     realTransfersTitle: "Où réserver un taxi conventionné en Dracénie ?",
     realTransfersText:
       "Les réservations partent le plus souvent de Vidauban, Draguignan centre, Les Arcs, Le Muy, Lorgues ou des villages du nord (Trans-en-Provence, Flayosc, Figanières, Taradeau) vers le Centre Hospitalier de la Dracénie ou des cabinets à Draguignan. Selon votre commune de départ, une landing locale peut être plus pertinente : [taxi conventionné Vidauban](/taxi-conventionne-vidauban) pour un trajet depuis Vidauban, [taxi conventionné Draguignan](/taxi-conventionne-draguignan) pour un départ dracénois. Cette page hub reste utile si vous ne savez pas quelle URL choisir ou si votre commune n'a pas encore de page dédiée.",
@@ -30,7 +31,7 @@ const rawServices = {
       },
       {
         title: "Comment réserver un taxi conventionné en Dracénie",
-        body: "Appelez le 04 22 46 04 62 avec votre adresse complète, la destination médicale (CHD, cabinet, service hospitalier), l'heure du rendez-vous et, si vous l'avez, votre prescription ou numéro de sécurité sociale. Pour un rendez-vous programmé, réservez de préférence 24 à 48 h à l'avance. Les séances récurrentes (dialyse, imagerie, kiné) se planifient dès le premier appel pour caler des créneaux réguliers.",
+        body: `Appelez le ${SITE_PHONE_DISPLAY} avec votre adresse complète, la destination médicale (CHD, cabinet, service hospitalier), l'heure du rendez-vous et, si vous l'avez, votre prescription ou numéro de sécurité sociale. Pour un rendez-vous programmé, réservez de préférence 24 à 48 h à l'avance. Les séances récurrentes (dialyse, imagerie, kiné) se planifient dès le premier appel pour caler des créneaux réguliers.`,
       },
       {
         title: "Zone couverte : Dracénie et communes voisines",
@@ -53,7 +54,7 @@ const rawServices = {
     whyChooseUs: [
       {
         title: "Un numéro, toute la Dracénie",
-        desc: "04 22 46 04 62 — réservation depuis Vidauban, Draguignan, Les Arcs, Le Muy et villages voisins.",
+        desc: `${SITE_PHONE_DISPLAY} — réservation depuis Vidauban, Draguignan, Les Arcs, Le Muy et villages voisins.`,
       },
       {
         title: "Landings locales",
@@ -122,7 +123,7 @@ const rawServices = {
     faq: [
       {
         q: "Comment réserver un taxi conventionné en Dracénie ?",
-        a: "Appelez le 04 22 46 04 62 en indiquant votre adresse, la destination médicale, l'heure du rendez-vous et votre numéro de sécurité sociale si pertinent. Réservez 24 à 48 h à l'avance si possible.",
+        a: `Appelez le ${SITE_PHONE_DISPLAY} en indiquant votre adresse, la destination médicale, l'heure du rendez-vous et votre numéro de sécurité sociale si pertinent. Réservez 24 à 48 h à l'avance si possible.`,
         aText:
           "Appelez avec adresse, destination, horaire et informations CPAM — 24 à 48 h à l'avance recommandé.",
       },
@@ -171,7 +172,7 @@ const rawServices = {
     title:
       "Transport médical conventionné Dracénie | CHD Draguignan & CPAM",
     description:
-      "Transport médical conventionné en Dracénie vers CHD, cliniques et spécialistes. Taxi assis CPAM selon éligibilité — 04 22 46 04 62.",
+      `Transport médical conventionné en Dracénie vers CHD, cliniques et spécialistes. Taxi assis CPAM selon éligibilité — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "transport médical conventionné Dracénie",
       "transport médical Draguignan",
@@ -284,7 +285,7 @@ const rawServices = {
       },
       {
         q: "Transport médical CHD Draguignan : comment réserver ?",
-        a: "Appelez le 04 22 46 04 62 avec votre adresse, l'heure du rendez-vous et le service hospitalier visé. Réservez 24 à 48 h à l'avance si possible.",
+        a: `Appelez le ${SITE_PHONE_DISPLAY} avec votre adresse, l'heure du rendez-vous et le service hospitalier visé. Réservez 24 à 48 h à l'avance si possible.`,
         aText:
           "Appelez avec adresse, horaire et service hospitalier. Réservez 24 à 48 h à l'avance si possible.",
       },
@@ -310,7 +311,7 @@ const rawServices = {
     title:
       "Taxi Aéroport Nice Dracénie | Vidauban, Draguignan, Les Arcs & Le Muy",
     description:
-      "Taxi vers l'aéroport Nice Côte d'Azur depuis Vidauban, Draguignan, Les Arcs, Le Muy et toute la Dracénie. Départ 24h/24, tarif communiqué à l'avance, suivi de vol — 04 22 46 04 62.",
+      `Taxi vers l'aéroport Nice Côte d'Azur depuis Vidauban, Draguignan, Les Arcs, Le Muy et toute la Dracénie. Départ 24h/24, tarif communiqué à l'avance, suivi de vol — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi aéroport Nice Dracénie",
       "taxi Nice Vidauban",
@@ -352,7 +353,7 @@ const rawServices = {
       },
       {
         title: "Tarif communiqué avant le transfert",
-        body: "Pour un trajet défini entre la Dracénie et l'aéroport de Nice, le tarif est communiqué avant confirmation de la réservation. Le montant dépend notamment du lieu exact de prise en charge, de l'horaire et des caractéristiques de la course. Appelez le 04 22 46 04 62 avec votre adresse et les informations de vol pour obtenir le tarif correspondant.",
+        body: `Pour un trajet défini entre la Dracénie et l'aéroport de Nice, le tarif est communiqué avant confirmation de la réservation. Le montant dépend notamment du lieu exact de prise en charge, de l'horaire et des caractéristiques de la course. Appelez le ${SITE_PHONE_DISPLAY} avec votre adresse et les informations de vol pour obtenir le tarif correspondant.`,
       },
     ],
     whyChooseTitle: "Pourquoi réserver avec Taxis La Dracénie ?",
@@ -434,7 +435,7 @@ const rawServices = {
     faq: [
       {
         q: "Quel prix pour un taxi Draguignan → aéroport Nice ?",
-        a: "Le tarif dépend de l'adresse exacte, de l'horaire et des caractéristiques du trajet. Nous communiquons le prix avant confirmation au 04 22 46 04 62.",
+        a: `Le tarif dépend de l'adresse exacte, de l'horaire et des caractéristiques du trajet. Nous communiquons le prix avant confirmation au ${SITE_PHONE_DISPLAY}.`,
         aText:
           "Le tarif est communiqué avant confirmation selon l'adresse, l'horaire et le trajet.",
       },
@@ -477,7 +478,7 @@ const rawServices = {
     title:
       "Taxi aéroport Marseille Dracénie | Transfert Vidauban & Draguignan",
     description:
-      "Taxi aéroport Marseille Provence depuis la Dracénie : Vidauban, Draguignan, Les Arcs. Longue distance confortable — 04 22 46 04 62.",
+      `Taxi aéroport Marseille Provence depuis la Dracénie : Vidauban, Draguignan, Les Arcs. Longue distance confortable — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi aéroport Marseille Dracénie",
       "taxi Marseille Vidauban",
@@ -503,7 +504,7 @@ const rawServices = {
       },
       {
         title: "Retour Marseille Provence → Dracénie",
-        body: "Le retour se réserve aussi à l'avance. Indiquez le numéro de vol, le terminal d'arrivée, la destination en Dracénie, les passagers et les bagages. Le point de rendez-vous (terminal, sortie) est convenu à la réservation — distinct de la file de taxis officielle de l'aéroport. Si l'horaire d'arrivée change de façon importante, prévenez le 04 22 46 04 62.",
+        body: `Le retour se réserve aussi à l'avance. Indiquez le numéro de vol, le terminal d'arrivée, la destination en Dracénie, les passagers et les bagages. Le point de rendez-vous (terminal, sortie) est convenu à la réservation — distinct de la file de taxis officielle de l'aéroport. Si l'horaire d'arrivée change de façon importante, prévenez le ${SITE_PHONE_DISPLAY}.`,
       },
       {
         title: "Bagages, familles et professionnels",
@@ -515,7 +516,7 @@ const rawServices = {
       },
       {
         title: "Tarif et réservation",
-        body: "Le tarif est communiqué lors de la réservation, avant validation. Pour un devis utile, indiquez l'adresse de départ ou de destination en Dracénie, la date, l'heure du vol, le terminal si connu, le numéro de vol, le nombre de passagers et de bagages, et s'il s'agit d'un aller, d'un retour ou des deux. Appelez le 04 22 46 04 62 ou utilisez le formulaire de réservation.",
+        body: `Le tarif est communiqué lors de la réservation, avant validation. Pour un devis utile, indiquez l'adresse de départ ou de destination en Dracénie, la date, l'heure du vol, le terminal si connu, le numéro de vol, le nombre de passagers et de bagages, et s'il s'agit d'un aller, d'un retour ou des deux. Appelez le ${SITE_PHONE_DISPLAY} ou utilisez le formulaire de réservation.`,
       },
     ],
     whyChooseTitle: "Pourquoi réserver ce transfert Marseille ?",
@@ -615,7 +616,7 @@ const rawServices = {
       },
       {
         q: "Comment connaître le tarif ?",
-        a: "Le tarif est communiqué lors de la réservation, avant validation. Appelez le 04 22 46 04 62 avec adresse, date, heure de vol, passagers et bagages.",
+        a: `Le tarif est communiqué lors de la réservation, avant validation. Appelez le ${SITE_PHONE_DISPLAY} avec adresse, date, heure de vol, passagers et bagages.`,
         aText:
           "Tarif communiqué au téléphone avant validation, selon trajet défini.",
       },
@@ -641,7 +642,7 @@ const rawServices = {
     title:
       "Taxi gare Les Arcs Draguignan 24h/24 | Prise en charge TGV & correspondances",
     description:
-      "Taxi gare Les Arcs-Draguignan : accueil TGV/TER, transferts Dracénie, aéroports Nice et Marseille. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi gare Les Arcs-Draguignan : accueil TGV/TER, transferts Dracénie, aéroports Nice et Marseille. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi gare Les Arcs Draguignan",
       "taxi gare TGV Les Arcs",
@@ -671,7 +672,7 @@ const rawServices = {
       },
       {
         title: "Numéro de train et retards SNCF",
-        body: "Le numéro de train (et le wagon si vous l'avez) aide à caler la reprise. Si un retard est annoncé, la prise en charge à la gare peut être décalée. Aucun horaire SNCF n'est garanti sur cette page : seuls votre billet et les informations communiquées au 04 22 46 04 62 font foi.",
+        body: `Le numéro de train (et le wagon si vous l'avez) aide à caler la reprise. Si un retard est annoncé, la prise en charge à la gare peut être décalée. Aucun horaire SNCF n'est garanti sur cette page : seuls votre billet et les informations communiquées au ${SITE_PHONE_DISPLAY} font foi.`,
       },
       {
         title: "Bagages, familles et voyageurs professionnels",
@@ -776,7 +777,7 @@ const rawServices = {
       },
       {
         q: "Que faire si mon train est retardé ?",
-        a: "Indiquez le numéro de train à la réservation. Si un retard est annoncé, la reprise à la gare peut être ajustée. Appelez le 04 22 46 04 62 si l'horaire change fortement.",
+        a: `Indiquez le numéro de train à la réservation. Si un retard est annoncé, la reprise à la gare peut être ajustée. Appelez le ${SITE_PHONE_DISPLAY} si l'horaire change fortement.`,
         aText:
           "Communiquez le numéro de train : la reprise peut être ajustée en cas de retard annoncé.",
       },
@@ -788,7 +789,7 @@ const rawServices = {
       },
       {
         q: "Peut-on réserver avec plusieurs bagages ?",
-        a: "Oui. Précisez le nombre de passagers et de valises au 04 22 46 04 62 pour adapter le véhicule. Aide aux bagages selon la course convenue.",
+        a: `Oui. Précisez le nombre de passagers et de valises au ${SITE_PHONE_DISPLAY} pour adapter le véhicule. Aide aux bagages selon la course convenue.`,
         aText:
           "Oui — indiquez passagers et valises pour adapter le véhicule.",
       },
@@ -814,7 +815,7 @@ const rawServices = {
     h1: "Taxi conventionné CPAM à Draguignan",
     title: "Taxi conventionné Draguignan | CHD & transport médical CPAM",
     description:
-      "Taxi conventionné à Draguignan : trajets CHD, consultations, radiothérapie, transport médical assis CPAM. Taxis La Dracénie — 04 22 46 04 62.",
+      `Taxi conventionné à Draguignan : trajets CHD, consultations, radiothérapie, transport médical assis CPAM. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi conventionné Draguignan",
       "taxi CPAM Draguignan",
@@ -823,7 +824,7 @@ const rawServices = {
       "transport assis CPAM Draguignan",
     ],
     intro:
-      "À Draguignan, capitale hospitalière de la Dracénie, Taxis La Dracénie accompagnent vos trajets conventionnés CPAM vers le CHD, les cabinets du centre-ville et les communes limitrophes. Vérifiez votre éligibilité au 04 22 46 04 62 — transparence totale sur les formalités avant chaque course.",
+      `À Draguignan, capitale hospitalière de la Dracénie, Taxis La Dracénie accompagnent vos trajets conventionnés CPAM vers le CHD, les cabinets du centre-ville et les communes limitrophes. Vérifiez votre éligibilité au ${SITE_PHONE_DISPLAY} — transparence totale sur les formalités avant chaque course.`,
     realTransfersTitle: "Trajets conventionnés fréquents à Draguignan",
     realTransfersText:
       "Nous effectuons chaque semaine des trajets Les Selves → CHD, Saint-Hermentaire → imagerie, centre Draguignan → dialyse, et des transferts depuis les villages voisins (Trans-en-Provence, Flayosc, Figanières) vers les consultations dracénoises. Les départs matinaux vers Toulon ou Nice pour la radiothérapie sont organisés sur prescription.",
@@ -924,7 +925,7 @@ const rawServices = {
       },
       {
         q: "Comment aller au CHD en taxi conventionné ?",
-        a: "Appelez le 04 22 46 04 62 avec votre adresse, l'heure du rendez-vous et votre situation CPAM. Nous confirmons l'éligibilité et le tarif.",
+        a: `Appelez le ${SITE_PHONE_DISPLAY} avec votre adresse, l'heure du rendez-vous et votre situation CPAM. Nous confirmons l'éligibilité et le tarif.`,
         aText:
           "Appelez avec adresse, horaire et situation CPAM pour confirmer éligibilité et tarif.",
       },
@@ -950,7 +951,7 @@ const rawServices = {
     h1: "Taxi conventionné CPAM à Vidauban",
     title: "Taxi conventionné Vidauban | Transport médical Dracénie & CPAM",
     description:
-      "Taxi conventionné à Vidauban : trajets médicaux vers Draguignan, CHD et spécialistes. CPAM selon éligibilité — 04 22 46 04 62.",
+      `Taxi conventionné à Vidauban : trajets médicaux vers Draguignan, CHD et spécialistes. CPAM selon éligibilité — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi conventionné Vidauban",
       "taxi CPAM Vidauban",
@@ -982,7 +983,7 @@ const rawServices = {
       },
       {
         title: "Départ depuis une autre commune de la Dracénie",
-        body: "Cette page concerne un trajet médical conventionné avec prise en charge à Vidauban. Pour un départ depuis Draguignan, Les Arcs, Le Muy ou un village voisin, utilisez la landing correspondante ou le hub [taxi conventionné Dracénie](/taxi-conventionne-dracenie). L'éligibilité CPAM reste à vérifier au 04 22 46 04 62.",
+        body: `Cette page concerne un trajet médical conventionné avec prise en charge à Vidauban. Pour un départ depuis Draguignan, Les Arcs, Le Muy ou un village voisin, utilisez la landing correspondante ou le hub [taxi conventionné Dracénie](/taxi-conventionne-dracenie). L'éligibilité CPAM reste à vérifier au ${SITE_PHONE_DISPLAY}.`,
       },
       {
         title: "Formalités CPAM et transparence avant le départ",
@@ -1061,7 +1062,7 @@ const rawServices = {
       },
       {
         q: "Faut-il une prescription pour un taxi conventionné à Vidauban ?",
-        a: "En général oui pour une prise en charge CPAM. Vérifiez avec votre médecin traitant et appelez le 04 22 46 04 62 pour confirmer les documents à préparer.",
+        a: `En général oui pour une prise en charge CPAM. Vérifiez avec votre médecin traitant et appelez le ${SITE_PHONE_DISPLAY} pour confirmer les documents à préparer.`,
         aText:
           "Une prescription est généralement requise — confirmation des documents au téléphone.",
       },
@@ -1091,7 +1092,7 @@ const rawServices = {
       },
       {
         q: "Peut-on combiner trajet médical et gare Les Arcs ?",
-        a: "Oui, en courses distinctes : Vidauban → gare puis train, ou l'inverse. Chaque tronçon se réserve avec son horaire. La prise en charge CPAM du trajet taxi vers la gare n'est pas automatique : elle dépend de votre prescription et des règles applicables — à vérifier au 04 22 46 04 62.",
+        a: `Oui, en courses distinctes : Vidauban → gare puis train, ou l'inverse. Chaque tronçon se réserve avec son horaire. La prise en charge CPAM du trajet taxi vers la gare n'est pas automatique : elle dépend de votre prescription et des règles applicables — à vérifier au ${SITE_PHONE_DISPLAY}.`,
         aText:
           "Oui en courses séparées — éligibilité CPAM du trajet taxi à vérifier selon prescription.",
       },
@@ -1105,7 +1106,7 @@ const rawServices = {
     h1: "Taxi aéroport depuis Vidauban — Nice & Marseille",
     title: "Taxi aéroport Vidauban | Transfert Nice & Marseille Provence",
     description:
-      "Taxi aéroport depuis Vidauban vers Nice Côte d'Azur ou Marseille Provence. Prise en charge à domicile, horaire calé sur votre vol, tarif annoncé — 04 22 46 04 62.",
+      `Taxi aéroport depuis Vidauban vers Nice Côte d'Azur ou Marseille Provence. Prise en charge à domicile, horaire calé sur votre vol, tarif annoncé — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi aéroport Vidauban",
       "transfert Nice Vidauban",
@@ -1141,7 +1142,7 @@ const rawServices = {
       },
       {
         title: "Tarif annoncé avant confirmation",
-        body: "Pour un trajet défini Vidauban → aéroport, le tarif est communiqué au 04 22 46 04 62 avant validation. Il dépend de l'adresse, de l'horaire et des caractéristiques de la course — aucun montant n'est inventé sur cette page.",
+        body: `Pour un trajet défini Vidauban → aéroport, le tarif est communiqué au ${SITE_PHONE_DISPLAY} avant validation. Il dépend de l'adresse, de l'horaire et des caractéristiques de la course — aucun montant n'est inventé sur cette page.`,
       },
     ],
     whyChooseTitle: "Pourquoi un taxi aéroport depuis Vidauban ?",
@@ -1220,7 +1221,7 @@ const rawServices = {
       },
       {
         q: "Le prix Vidauban → Nice est-il annoncé à l'avance ?",
-        a: "Oui, pour un trajet défini. Appelez le 04 22 46 04 62 : le tarif est communiqué avant confirmation.",
+        a: `Oui, pour un trajet défini. Appelez le ${SITE_PHONE_DISPLAY} : le tarif est communiqué avant confirmation.`,
         aText: "Oui, tarif communiqué au téléphone avant confirmation.",
       },
       {
@@ -1249,7 +1250,7 @@ const rawServices = {
     h1: "Taxi aéroport depuis Draguignan — Nice & Marseille",
     title: "Taxi aéroport Draguignan | Nice Côte d'Azur & Marseille Provence",
     description:
-      "Taxi aéroport depuis Draguignan vers Nice Côte d'Azur ou Marseille. Les Selves, Malpassé, centre-ville : horaire A8, terminal T1/T2, tarif annoncé — 04 22 46 04 62.",
+      `Taxi aéroport depuis Draguignan vers Nice Côte d'Azur ou Marseille. Les Selves, Malpassé, centre-ville : horaire A8, terminal T1/T2, tarif annoncé — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi aéroport Draguignan",
       "transfert Nice Draguignan",
@@ -1273,7 +1274,7 @@ const rawServices = {
       },
       {
         title: "Terminal 1 ou 2 depuis Draguignan",
-        body: "Vérifiez le terminal sur votre billet. En cas de doute, communiquez le numéro de vol au 04 22 46 04 62. Une erreur de terminal allonge l'arrivée à Nice.",
+        body: `Vérifiez le terminal sur votre billet. En cas de doute, communiquez le numéro de vol au ${SITE_PHONE_DISPLAY}. Une erreur de terminal allonge l'arrivée à Nice.`,
       },
       {
         title: "Retour Nice Airport → Draguignan",
@@ -1355,7 +1356,7 @@ const rawServices = {
     faq: [
       {
         q: "Combien coûte un taxi Draguignan → Nice ?",
-        a: "Forfait annoncé au téléphone selon destination exacte et horaire (jour/nuit). Appelez le 04 22 46 04 62.",
+        a: `Forfait annoncé au téléphone selon destination exacte et horaire (jour/nuit). Appelez le ${SITE_PHONE_DISPLAY}.`,
         aText: "Forfait annoncé par téléphone selon destination et horaire.",
       },
       {
@@ -1394,7 +1395,7 @@ const rawServices = {
     title:
       "Taxi Draguignan gare Les Arcs | Liaison TGV & TER sur réservation",
     description:
-      "Taxi Draguignan ↔ gare Les Arcs-Draguignan : centre-ville, Les Selves, Malpassé, Saint-Hermentaire. TGV, TER, départs matinaux et retours tardifs sur réservation — 04 22 46 04 62.",
+      `Taxi Draguignan ↔ gare Les Arcs-Draguignan : centre-ville, Les Selves, Malpassé, Saint-Hermentaire. TGV, TER, départs matinaux et retours tardifs sur réservation — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi Draguignan gare Les Arcs",
       "taxi Draguignan gare TGV",
@@ -1430,7 +1431,7 @@ const rawServices = {
       },
       {
         title: "Réserver à l'avance — tarif annoncé",
-        body: "Pour un TGV, réservez dès que l'horaire est connu, surtout en vacances scolaires. Le tarif de la liaison Draguignan ↔ gare est communiqué au 04 22 46 04 62 avant confirmation, selon l'adresse, l'horaire (jour/nuit) et les bagages. Aucun montant n'est affiché ici en dur.",
+        body: `Pour un TGV, réservez dès que l'horaire est connu, surtout en vacances scolaires. Le tarif de la liaison Draguignan ↔ gare est communiqué au ${SITE_PHONE_DISPLAY} avant confirmation, selon l'adresse, l'horaire (jour/nuit) et les bagages. Aucun montant n'est affiché ici en dur.`,
       },
     ],
     whyChooseTitle: "Pourquoi réserver cette liaison ?",
@@ -1505,7 +1506,7 @@ const rawServices = {
       },
       {
         q: "Faut-il réserver à l'avance un taxi Draguignan → gare ?",
-        a: "Oui, surtout pour un TGV matinal, un dernier train ou les vacances scolaires. Appelez le 04 22 46 04 62 dès que vous connaissez l'horaire. La prise en charge à Draguignan se fait sur réservation.",
+        a: `Oui, surtout pour un TGV matinal, un dernier train ou les vacances scolaires. Appelez le ${SITE_PHONE_DISPLAY} dès que vous connaissez l'horaire. La prise en charge à Draguignan se fait sur réservation.`,
         aText:
           "Oui, surtout TGV matinaux et derniers trains — prise en charge sur réservation.",
       },
@@ -1549,7 +1550,7 @@ const rawServices = {
     title:
       "Taxi Le Muy gare Les Arcs | Liaison TGV & TER sur réservation",
     description:
-      "Taxi Le Muy ↔ gare Les Arcs-Draguignan : centre-bourg, zone commerciale, Les Ferrières, La Bouverie. TGV, TER, départs matinaux et retours sur réservation — 04 22 46 04 62.",
+      `Taxi Le Muy ↔ gare Les Arcs-Draguignan : centre-bourg, zone commerciale, Les Ferrières, La Bouverie. TGV, TER, départs matinaux et retours sur réservation — ${SITE_PHONE_DISPLAY}.`,
     keywords: [
       "taxi Le Muy gare Les Arcs",
       "taxi Le Muy gare TGV",
@@ -1585,7 +1586,7 @@ const rawServices = {
       },
       {
         title: "Réserver à l'avance — tarif annoncé",
-        body: "Pour un TGV, réservez dès que l'horaire est connu, surtout en vacances scolaires. Le tarif de la liaison Le Muy ↔ gare est communiqué au 04 22 46 04 62 avant confirmation, selon l'adresse, l'horaire (jour/nuit) et les bagages. Aucun montant n'est affiché ici en dur.",
+        body: `Pour un TGV, réservez dès que l'horaire est connu, surtout en vacances scolaires. Le tarif de la liaison Le Muy ↔ gare est communiqué au ${SITE_PHONE_DISPLAY} avant confirmation, selon l'adresse, l'horaire (jour/nuit) et les bagages. Aucun montant n'est affiché ici en dur.`,
       },
     ],
     whyChooseTitle: "Pourquoi réserver cette liaison depuis Le Muy ?",
@@ -1660,7 +1661,7 @@ const rawServices = {
       },
       {
         q: "Faut-il réserver à l'avance un taxi Le Muy → gare ?",
-        a: "Oui, surtout pour un TGV matinal ou un dernier train. Appelez le 04 22 46 04 62 dès que vous connaissez l'horaire. La prise en charge au Muy se fait sur réservation.",
+        a: `Oui, surtout pour un TGV matinal ou un dernier train. Appelez le ${SITE_PHONE_DISPLAY} dès que vous connaissez l'horaire. La prise en charge au Muy se fait sur réservation.`,
         aText:
           "Oui, surtout TGV matinaux — prise en charge sur réservation.",
       },
@@ -1672,7 +1673,7 @@ const rawServices = {
       },
       {
         q: "Que faire si mon train est retardé au retour ?",
-        a: "Communiquez le numéro de train : la reprise à la gare peut être ajustée. Prévenez le 04 22 46 04 62 si le retard est important.",
+        a: `Communiquez le numéro de train : la reprise à la gare peut être ajustée. Prévenez le ${SITE_PHONE_DISPLAY} si le retard est important.`,
         aText:
           "Oui, avec le numéro de train — la reprise peut être ajustée.",
       },

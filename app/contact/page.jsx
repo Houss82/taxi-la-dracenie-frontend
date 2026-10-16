@@ -24,8 +24,9 @@ export default function ContactPage() {
           Contact — Taxis La Dracénie
         </h1>
         <p className="text-gray-700 mb-8 leading-relaxed">
-          Pour une course immédiate, privilégiez l&apos;appel ou WhatsApp. Réponse
-          directe, devis clair selon votre trajet en Dracénie.
+          Pour une course immédiate, privilégiez l&apos;appel ou WhatsApp. Les
+          réservations sont centralisées auprès des chauffeurs partenaires du
+          Collectif Taxis 83. Devis clair selon votre trajet en Dracénie.
         </p>
         <HeroCTAs className="mb-10" />
         <ul className="site-card space-y-4 bg-white rounded-2xl border p-6">

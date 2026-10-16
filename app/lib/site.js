@@ -6,6 +6,15 @@ export const SITE_TAGLINE = "Transport privé et conventionné CPAM";
 export const SITE_REGION = "Dracénie, Var";
 export const SITE_LOCALITY = "Vidauban";
 
+/** Partenaire opérationnel — réservations centralisées */
+export const COLLECTIF_NAME = "Collectif Taxis 83";
+export const COLLECTIF_URL = "https://www.collectiftaxis83.fr/";
+export const COLLECTIF_LOGO = "/logos_collectif_taxi_83/favicon.png";
+export const COLLECTIF_LOGO_FOOTER = "/logos_collectif_taxi_83/favicon.png";
+export const COLLECTIF_PARTNERSHIP_LINE =
+  "Taxis La Dracénie – En partenariat avec Collectif Taxis 83";
+
+
 export const ALL_CITY_SLUGS = [
   "taxi-vidauban",
   "taxi-draguignan",

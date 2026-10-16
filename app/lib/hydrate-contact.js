@@ -1,12 +1,21 @@
 import { SITE_PHONE_DISPLAY } from "./contact";
 
-/** Remplace d'anciens numéros en dur par la constante unique. */
-const LEGACY_PHONES = ["04 94 73 00 00", "04 22 46 04 62", "0422460462"];
+/**
+ * Filet de sécurité : remplace d'anciens numéros encore éventuels
+ * (hors source déjà centralisée via SITE_PHONE_DISPLAY).
+ * Les données cities/services doivent utiliser SITE_PHONE_DISPLAY à la source.
+ */
+const LEGACY_PHONES = [
+  "04 94 73 00 00",
+  "04 22 46 04 62",
+  "0422460462",
+];
 
 export function hydrateContactStrings(value) {
   if (typeof value === "string") {
     let result = value;
     for (const legacy of LEGACY_PHONES) {
+      if (legacy === SITE_PHONE_DISPLAY) continue;
       result = result.split(legacy).join(SITE_PHONE_DISPLAY);
     }
     return result;

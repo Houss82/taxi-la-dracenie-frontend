@@ -33,7 +33,7 @@ La prise en charge par la **CPAM** (Caisse primaire d'assurance maladie) dépend
 
 En cas d'**ALD** (affection longue durée), les règles de prise en charge par la **sécurité sociale** peuvent différer — renseignez-vous auprès de votre caisse avant de réserver.
 
-**Nous ne remplaçons pas votre caisse** : au **04 22 46 04 62**, nous vérifions ce que nous pouvons organiser côté **[transport médical conventionné](/transport-medical-conventionne-dracenie)**, sans promettre un remboursement que seule la CPAM confirme.
+**Nous ne remplaçons pas votre caisse** : au **04 22 56 07 07**, nous vérifions ce que nous pouvons organiser côté **[transport médical conventionné](/transport-medical-conventionne-dracenie)**, sans promettre un remboursement que seule la CPAM confirme.
 
 ---
 
@@ -217,7 +217,7 @@ Oui, sous conditions d'éligibilité et selon la prescription. Nous couvrons tou
 
 ### Comment réserver rapidement ?
 
-Appelez le **04 22 46 04 62** — c'est le canal le plus fiable pour cadrer éligibilité, horaire, accès CHD et type de rendez-vous (consultation, hospitalisation, imagerie).
+Appelez le **04 22 56 07 07** — c'est le canal le plus fiable pour cadrer éligibilité, horaire, accès CHD et type de rendez-vous (consultation, hospitalisation, imagerie).
 
 ### Peut-on réserver plusieurs trajets à l'avance ?
 
@@ -226,6 +226,6 @@ Appelez le **04 22 46 04 62** — c'est le canal le plus fiable pour cadrer éli
 ---
 
 <div class="cta">
-  <a href="tel:+33422460462" class="cta-button">Réserver taxi conventionné Draguignan</a>
+  <a href="tel:+33422560707" class="cta-button">Réserver taxi conventionné Draguignan</a>
   <p class="cta-sub">Taxis La Dracénie — CHD, CPAM, transport assis 24h/24</p>
 </div>
