@@ -16,6 +16,8 @@ Ce guide détaille les durées, les terminaux, les bagages, les retours de vol e
 
 > **Services** : [taxi aéroport Nice Dracénie](/taxi-aeroport-nice-dracenie) · [taxi aéroport Vidauban](/taxi-aeroport-vidauban) · [taxi aéroport Draguignan](/taxi-aeroport-draguignan)
 
+Les demandes de transfert sont organisées avec les chauffeurs partenaires du Collectif Taxis 83. Pour comprendre ce fonctionnement, voir [Collectif Taxis 83 et les transferts en Dracénie](/blog/collectif-taxis-83-transferts-dracenie).
+
 ---
 
 ## 1. Pourquoi un taxi local plutôt qu'une application ?

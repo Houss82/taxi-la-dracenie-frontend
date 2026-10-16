@@ -163,7 +163,7 @@ En cas d'urgence vitale, appelez immédiatement le **15**. Pour une situation no
 
 ## 8. Comment réserver sans confondre transport médical et course classique ?
 
-La réservation se fait au **04 22 56 07 07**. Indiquez :
+La réservation se fait au **04 22 56 07 07**, auprès des chauffeurs partenaires du Collectif Taxis 83 (selon habilitations et éligibilité). Organisation détaillée : [Collectif Taxis 83 et les transferts en Dracénie](/blog/collectif-taxis-83-transferts-dracenie). Indiquez :
 
 - « transport médical assis » ou « taxi conventionné » ;
 - l'adresse complète de prise en charge ;

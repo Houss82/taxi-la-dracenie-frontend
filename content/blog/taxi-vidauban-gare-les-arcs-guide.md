@@ -159,6 +159,8 @@ Le **tarif est annoncé au téléphone** avant confirmation — pas de surprise 
 
 **Comment réserver ?**
 
+Les appels sont centralisés auprès des chauffeurs partenaires du Collectif Taxis 83 — voir aussi [comment sont organisés les transferts en Dracénie](/blog/collectif-taxis-83-transferts-dracenie).
+
 1. Appelez le **04 22 56 07 07**
 2. Indiquez adresse à Vidauban, date, heure d'arrivée souhaitée à la gare et numéro de train si connu
 3. Confirmez le **prix fixe** annoncé

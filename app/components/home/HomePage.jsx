@@ -302,7 +302,14 @@ export default function HomePage() {
             , un réseau de neuf chauffeurs de taxi indépendants intervenant dans
             différentes communes du Var. Cette organisation permet de
             centraliser les demandes de réservation et de rechercher un
-            chauffeur disponible selon le trajet demandé.
+            chauffeur disponible selon le trajet demandé.{" "}
+            <Link
+              href="/blog/collectif-taxis-83-transferts-dracenie"
+              className="text-accent font-medium hover:underline"
+            >
+              Comment fonctionne le partenariat
+            </Link>
+            .
           </p>
           <Button
             href={SITE_PHONE_TEL}
