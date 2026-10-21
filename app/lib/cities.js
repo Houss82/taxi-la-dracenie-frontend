@@ -918,36 +918,46 @@ const rawCities = {
       `Taxi à Figanières : village tranquille, liaisons Draguignan, Flayosc et gare TGV. Taxis La Dracénie — ${SITE_PHONE_DISPLAY}.`,
     keywords: ["taxi Figanières", "taxi Figanières Draguignan"],
     intro:
-      "Figanières offre un cadre de vie paisible ; pour vos rendez-vous à Draguignan ou votre train aux Arcs, Taxis La Dracénie assurent la liaison sans changement.",
+      "À Figanières, un taxi sert surtout à rejoindre Draguignan, Flayosc, Trans-en-Provence ou la gare Les Arcs-Draguignan sans enchaîner plusieurs correspondances. La prise en charge se fait au centre ou dans un hameau, sur réservation, avec l'adresse exacte.",
     localContext:
-      "Proximité de Flayosc et Trans-en-Provence : nous enchaînons souvent Figanières → CHD ou gare Les Arcs-Draguignan pour les habitants du secteur.",
+      "Le village est dans le nord de la Dracénie, à côté de Flayosc et de Trans-en-Provence, avec Draguignan comme destination la plus fréquente pour les rendez-vous, les commerces et le Centre Hospitalier de la Dracénie. L'heure d'arrivée souhaitée et le point de départ précis permettent de caler la course.",
     landmarks: ["Centre Figanières", "Draguignan", "Flayosc", "CHD"],
     realTransfersText:
-      "Figanières, village calme du Var intérieur, génère surtout des trajets vers Draguignan CHD, Flayosc voisin et la gare Les Arcs-Draguignan. Nous accompagnons aussi les habitants vers des consultations spécialisées hors Dracénie, en taxi conventionné lorsque le dossier CPAM le permet.",
+      "Les demandes partent du centre ou d'un hameau vers Draguignan (CHD, cabinet, centre), vers Flayosc ou Trans-en-Provence, ou vers la gare Les Arcs-Draguignan lorsqu'un train est prévu. Un vol vers Nice ou Marseille se réserve à part, avec le terminal et l'heure. Un trajet médical peut être étudié, mais une prise en charge CPAM n'est pas automatique.",
+    longSeoText:
+      "Cette page concerne le taxi général depuis ou vers Figanières. Elle ne remplace pas la page de Flayosc, ni celle de Trans-en-Provence, ni les pages dédiées à la gare, à l'aéroport ou au taxi conventionné. Pour un TGV ou un TER, la gare utile est Les Arcs-Draguignan : indiquez l'heure et, si vous l'avez, le numéro de train. Pour un rendez-vous au CHD, donnez l'heure à laquelle vous devez être sur place plutôt qu'une durée théorique. Le tarif d'une course définie est annoncé au téléphone avant confirmation.",
+    popularNeeds: [
+      "Figanières → Draguignan : CHD, cabinet, commerces ou rendez-vous",
+      "Liaison courte vers Flayosc ou Trans-en-Provence",
+      "Rejoindre la gare Les Arcs-Draguignan pour un TGV ou un TER",
+      "Transfert vers Nice ou Marseille, en course distincte d'un trajet local",
+      "Prise en charge au centre ou dans un hameau, adresse précise à l'appel",
+      "Retour depuis Draguignan ou la gare, à réserver avec l'horaire connu",
+    ],
     whyChooseUs: [
       {
-        title: "Calme & ponctualité",
-        desc: "Service adapté aux habitants de Figanières qui planifient leurs rendez-vous à l'avance.",
+        title: "Départ à l'adresse",
+        desc: "Centre ou hameau : la course est organisée depuis le point indiqué, pas depuis une station.",
       },
       {
-        title: "CHD & médical",
-        desc: "Trajets hospitaliers vers Draguignan — transport assis sous éligibilité.",
+        title: "Draguignan proche",
+        desc: "Rendez-vous, commerces, administration ou CHD : précisez le lieu exact à l'arrivée.",
       },
       {
-        title: "Voisinage Flayosc",
-        desc: "Liaisons courtes entre villages sans changement de chauffeur.",
+        title: "Villages voisins",
+        desc: "Flayosc et Trans-en-Provence restent des liaisons courtes, distinctes d'un trajet vers la gare.",
       },
       {
-        title: "Gare TGV",
-        desc: "Correspondance Les Arcs-Draguignan depuis Figanières, bagages pris en charge.",
+        title: "Gare si un train est prévu",
+        desc: "Les Arcs-Draguignan, à réserver avec l'horaire du TGV ou du TER.",
       },
       {
-        title: "Appel unique",
-        desc: `${SITE_PHONE_DISPLAY} — réservation et devis en une conversation.`,
+        title: "Tarif annoncé avant le départ",
+        desc: `Le prix d'une course définie est communiqué au ${SITE_PHONE_DISPLAY}, avant confirmation.`,
       },
       {
-        title: "Dracénie nord",
-        desc: "Couverture Figanières, Flayosc, Trans-en-Provence et Draguignan.",
+        title: "Médical à part",
+        desc: "Un transport assis vers le CHD peut être étudié. La prise en charge CPAM dépend de la prescription et n'est pas garantie.",
       },
     ],
     serviceAreas: [
@@ -959,9 +969,10 @@ const rawCities = {
       "Gare Les Arcs (correspondance)",
     ],
     frequentRoutes: [
-      { title: "Figanières → Draguignan", desc: "Consultations et courses.", href: "/taxi-draguignan" },
-      { title: "Figanières → Flayosc", desc: "Voisinage immédiat.", href: "/taxi-flayosc" },
-      { title: "Figanières → gare Les Arcs", desc: "Train TGV ou TER.", href: "/taxi-gare-les-arcs-draguignan" },
+      { title: "Figanières → Draguignan", desc: "CHD, commerces, administration ou rendez-vous.", href: "/taxi-draguignan" },
+      { title: "Figanières → Flayosc", desc: "Liaison entre villages voisins.", href: "/taxi-flayosc" },
+      { title: "Figanières → Trans-en-Provence", desc: "Trajet court dans le nord de la Dracénie.", href: "/taxi-trans-en-provence" },
+      { title: "Figanières → gare Les Arcs", desc: "Départ vers le train, à réserver avec l'horaire SNCF.", href: "/taxi-gare-les-arcs-draguignan" },
     ],
     services: [
       { label: "Transport médical CHD", href: "/transport-medical-conventionne-dracenie" },
@@ -969,7 +980,7 @@ const rawCities = {
       { label: "Gare Les Arcs", href: "/taxi-gare-les-arcs-draguignan" },
     ],
     showCpam: true,
-    showAirport: false,
+    showAirport: true,
     nearbyCities: [
       { label: "Draguignan", href: "/taxi-draguignan" },
       { label: "Flayosc", href: "/taxi-flayosc" },
@@ -977,9 +988,46 @@ const rawCities = {
     ],
     faq: [
       {
-        q: "Combien de temps Figanières → CHD ?",
-        a: "Environ 20 à 30 minutes selon l'itinéraire et le trafic vers Draguignan.",
-        aText: "Environ 20 à 30 minutes selon l'itinéraire et le trafic vers Draguignan.",
+        q: "Comment réserver un taxi à Figanières ?",
+        a: `Appelez le ${SITE_PHONE_DISPLAY} avec l'adresse exacte, la destination, l'heure à laquelle vous devez arriver, le nombre de passagers et les bagages. Le tarif d'une course définie est annoncé avant confirmation.`,
+        aText:
+          "Appelez avec l'adresse, la destination, l'heure d'arrivée, les passagers et les bagages. Le tarif est annoncé avant confirmation.",
+      },
+      {
+        q: "Peut-on rejoindre Draguignan depuis Figanières ?",
+        a: "Oui. C'est la liaison la plus fréquente : centre, commerces, administration, cabinet ou Centre Hospitalier de la Dracénie. Indiquez le lieu précis à Draguignan. La durée dépend de la circulation et n'est pas garantie.",
+        aText:
+          "Oui, vers le centre, un rendez-vous ou le CHD. La durée dépend de la circulation.",
+      },
+      {
+        q: "Combien de temps prévoir entre Figanières et le CHD ?",
+        a: "À titre indicatif, comptez souvent environ 20 à 30 minutes selon l'itinéraire et le trafic vers Draguignan. Ce n'est pas un temps garanti : donnez plutôt l'heure à laquelle vous devez être sur place.",
+        aText:
+          "Souvent environ 20 à 30 minutes, selon circulation — sans garantie.",
+      },
+      {
+        q: "Quelle gare utiliser depuis Figanières ?",
+        a: "Les TGV et les TER du secteur partent de la gare Les Arcs-Draguignan. Réservez le taxi jusqu'à la gare avec l'heure et, si vous l'avez, le numéro de train. Le train se planifie à part.",
+        aText:
+          "La gare utile est Les Arcs-Draguignan. Le taxi se réserve avec l'horaire du train.",
+      },
+      {
+        q: "Figanières, Flayosc et Trans-en-Provence : est-ce la même course ?",
+        a: "Non. Ce sont trois communes voisines, chacune avec sa page. Une liaison entre villages se réserve avec les deux adresses. Un trajet vers Draguignan ou la gare est une autre course.",
+        aText:
+          "Non : trois communes distinctes. Indiquez les deux adresses pour une liaison entre villages.",
+      },
+      {
+        q: "Un rendez-vous médical peut-il être organisé depuis Figanières ?",
+        a: "Un transport assis vers le CHD ou un cabinet peut être étudié. Une éventuelle prise en charge CPAM dépend de la prescription et de l'éligibilité : elle n'est pas automatique et n'est pas garantie par le taxi.",
+        aText:
+          "Oui, un transport assis peut être étudié. La prise en charge CPAM dépend de la prescription et n'est pas garantie.",
+      },
+      {
+        q: "Peut-on rejoindre l'aéroport de Nice ou Marseille depuis Figanières ?",
+        a: "Oui, en course longue distance distincte d'un trajet local. Communiquez le terminal, l'heure du vol et les bagages. Le montant est annoncé avant confirmation.",
+        aText:
+          "Oui, vers Nice ou Marseille, avec le terminal, l'heure du vol et les bagages.",
       },
     ],
   },

@@ -131,7 +131,7 @@ Nous effectuons quotidiennement des courses en **[transport assis professionnali
 - **Dialyse**, **kinésithérapie** et **suivi médical** régulier
 - Trajets vers le **centre anticancéreux** du CHD : **chimiothérapie**, **radiothérapie** et rendez-vous récurrents
 
-Les quartiers les plus demandés à Draguignan : **Les Selves**, **Malpassé**, **Saint-Hermentaire** et le **centre-ville**. Depuis les communes voisines, le **[taxi conventionné Dracénie](/taxi-conventionne-dracenie)** couvre l'ensemble du secteur sous prescription médicale.
+Les quartiers les plus demandés à Draguignan : **Les Selves**, **Malpassé**, **Saint-Hermentaire** et le **centre-ville**. Depuis les communes voisines, le **[taxi conventionné Dracénie](/taxi-conventionne-dracenie)** couvre l'ensemble du secteur sous prescription médicale. Un rendez-vous hors de la Dracénie, par exemple à l'Hôpital Privé Arnault Tzanck de Mougins, se prépare autrement : voir [taxi conventionné de Draguignan vers Mougins](/blog/taxi-conventionne-draguignan-arnault-tzanck-mougins).
 
 ![Transport médical conventionné CPAM — démarches et trajets depuis la Dracénie](/heroes/taxi-conventionne-vidauban.jpg)
 
